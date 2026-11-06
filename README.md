@@ -26,6 +26,7 @@ from the authors upon request.
 | `runs/additional/sv/out/` | Singular values at the truncations (A2) |
 | `runs/additional/analysis/` | Analyses of Secs. IV–VI and the appendices (one script per data set; see the docstring of each script) |
 | `external/` | Data from separate runs by individual authors used in Secs. V C and VI (see below) |
+| `earlier/` | Earlier runs and their analysis for Appendices D and E |
 
 ## Reproducing the figures and tables
 
@@ -51,7 +52,11 @@ which runs, in this order,
 | `runs/additional/analysis/jj.py`, `wide_tube.py`, ... | Numbers quoted in the text (marginal injection, wider tube, branches, single-step replacements, singular values, ...) |
 | `runs/additional/analysis/xxz_alpha_check.py` | Exact-diagonalization check of the amplitude-ratio coefficients (Sec. IV C) |
 
-The two figures of Appendices D and E are based on earlier runs that are not included here.
+The two figures of Appendices D and E are based on earlier runs, included in `earlier/` with their own scripts
+(`earlier/B_1_u1_tube_charge_checks`, Appendix D; `earlier/3_2_growth_rate`, Appendix E).  Run `python3 scripts/reproduce.py`
+inside each folder (Python 3.10 or later; `pip install -r requirements.txt`); it re-analyzes the stored spectra and
+compares the results with the stored reference values.  In these folders, local paths and links to the authors'
+shared drive were redacted for publication and the input hashes in `provenance.json` were recomputed accordingly.
 
 New RG runs are started with, e.g.,
 

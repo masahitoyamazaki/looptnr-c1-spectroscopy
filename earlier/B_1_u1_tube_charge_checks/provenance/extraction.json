@@ -1,0 +1,1686 @@
+{
+  "archive": "local_tensor_data/Six_vertex/_provenance/chi40_dual_flow_20261020/results/measurements_original.jsonl",
+  "archive_sha256": "c2d5962f50622ea525ba3ef458e224639d9b65a744880ce3e67e1558fbb918f6",
+  "records": [
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_015.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_015.toml",
+      "sha256": "bdfde4ac445c9fe0bf6bddeea9579ff84363f9361babc8c80a4b40ce851f0dc8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_016.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_016.toml",
+      "sha256": "0a7117b270b7919e89029d8b80553d495c77bfb6fff6310c8d903a4be836a4ea"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_017.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_017.toml",
+      "sha256": "ac11297fceb67318f2086273f71cb965b9528990416cfd5c2f8c27662f327cca"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_018.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_018.toml",
+      "sha256": "593ead6325f884b33d68f4daae85f593b9f4ce405974a7dbc3aa485818b59254"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_019.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_019.toml",
+      "sha256": "8742ac333cf6cf525f0cbc16f4b2f6a028721526d0bae3227e0d8ac67782cd8f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_020.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_020.toml",
+      "sha256": "293e25de2b1e0fb02457f0d456a8b093476968b6d6ed85fccfc1a796118a4d6c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_021.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_021.toml",
+      "sha256": "6e0fabd9b96f38f792b4efc6b94b56ac9959cca0e07c87e4855a9b369ee72835"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_022.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_022.toml",
+      "sha256": "8aadaf897b9860bf29465640aaa9a23bf85e291b2cfab9033ac640fbd47aebf2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_023.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_023.toml",
+      "sha256": "3c3a54b7cc19df51896e59c36161fa14175817c42c2bac4b41d217444d5b2f2d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_024.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_024.toml",
+      "sha256": "f2e675f5b4126a87ee7ba92e73e5869bce75d39622122eedb652bcc9992ba51e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_025.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_025.toml",
+      "sha256": "ab1719572f6d48eb3879375705211007410cedb5c079cc1cea980d3abc8c8d9d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_026.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_026.toml",
+      "sha256": "2ae35ccda7ea5ab81295edb37e065904314ad6c83ccf4ae525ad05b3c61b669f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_027.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_027.toml",
+      "sha256": "67d0c7850a143d5eb9809c7dce3ca85054f23a902f3d3236392a5b16daeeaeb5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_028.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_028.toml",
+      "sha256": "13469a9653549a152e4d5f12eab7ff993c53308ebc6025f5304ca6f57cb2f2b7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_029.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_029.toml",
+      "sha256": "bde6932ceeaf2e4b83d001c2e50f2021a2c765f790b3164bd77c71acf786ea76"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_030.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_030.toml",
+      "sha256": "b003b94b5da6a5e6adb7e6045d8f931dedf52607e01b36645a488ae5025adf4f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_031.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_031.toml",
+      "sha256": "ea678ebc1dce780ce53ca47b87c9c7260564ee670ed1e5520fe5deef15e3efb2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_032.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_032.toml",
+      "sha256": "405886b9f320bed4cfe75378a7cc266093be662b33c6a662664398c806f95f8e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_033.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_033.toml",
+      "sha256": "8c0ee726d2f9018f02e8658a9f694803adeed07edff1a3297790e61757cf63e0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_034.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_034.toml",
+      "sha256": "da114ed72ddcbe2e40600bf291cda8156277e7547a7702a282e7fbd1aadfd65a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_035.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_035.toml",
+      "sha256": "23eb619f67717a62bad1386d3f889b47958fc83352d3fadd0048edf2a76272de"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_036.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_036.toml",
+      "sha256": "2c45a5bfcc2ccc8c834d69ef040fcf7b0bde3bdbb9005432ebc4de7bc597e4ec"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_037.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_037.toml",
+      "sha256": "f594bf4f126459dc4c7a649959128b624d4dd72d12b91bd797767d414e957704"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_038.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_038.toml",
+      "sha256": "d119db73e6cb6044fe987ed4eb7f518c417ef19af2ee399745ef0035ae3af222"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_039.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_039.toml",
+      "sha256": "fc12373ecce914e6d4d218fb4b06ca79dc4aea531c7ae778a1fda2c7f18b40cd"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_040.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_040.toml",
+      "sha256": "f466ff1b2af43a06d49348268cffa0e7f869ec01bee1cb469811e752bd625976"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_041.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_041.toml",
+      "sha256": "efe3df1f013d35c25e306250d96e18c7782c2f37ab22b4b27ea065259c4fa0e2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_042.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_042.toml",
+      "sha256": "82cae1eccb47cc54f2e1c50411e07b625fce2a51dd9003d063c58c037a9aa814"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_043.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_043.toml",
+      "sha256": "744ef5ee297e20f1406f12f2989b67ed84a044c0994cec9e1961b6594b592a9d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_044.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_044.toml",
+      "sha256": "d49ccdea2adfa4af2f5c1377ff9e38df82b6480c764d3eb6426dc91c5142e5d6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_045.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_045.toml",
+      "sha256": "7c340db629abd9e43e8de403a8142e3bc37fd359bbb95e2301a9a36415835d41"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_046.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_046.toml",
+      "sha256": "586a2079adb539ad96c00071a5076eec62b51abe8e9c903e7288afe9217a9b24"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_047.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_047.toml",
+      "sha256": "a5f33b2e30b09b045591b4faa3a3ad31889146609c8132fc332c6193ef00f873"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_048.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_048.toml",
+      "sha256": "98a9a00c93e12ab6b21e49dddc981b113fc0b26314cd303bf96ca447f14a2a51"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_049.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_049.toml",
+      "sha256": "20ee41904190d78f1fdf50e23f84ba3f0222694aafda94fc98c28bd4a1e05a65"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_050.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_050.toml",
+      "sha256": "c6cdfcaac63b9eeab732c8fb4a6da3aa07874cb9ac0f240b8bcbdb641e54f6b9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_051.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_051.toml",
+      "sha256": "0f9bd256ffe6da5b65c3e4ec02e5b887403edbeadb812ef3620c50796b0dd481"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_052.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_052.toml",
+      "sha256": "862bd086e9fe6ba9d5a9b7649c8b2e00ae1b960f4e93a89e199396a7ae81bcd9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_053.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_053.toml",
+      "sha256": "5887083679d642eb4fb33081fdc05886cbc1d2dbae6b3d3100e33f3c4b9ee41e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_054.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_054.toml",
+      "sha256": "135dc0e7a8de8e4cf1d67745c50d9dee19aac5b2ab1dd371f7c2fed2d3556735"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_055.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_055.toml",
+      "sha256": "0685c2fdd895c13dd581a545ec3641015f269805b894106a163022e35914678c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_056.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_056.toml",
+      "sha256": "b6f3c00634eaf187a5c0d42aaa052c955485cde60e4c79cf0dff16b2796f35dc"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_057.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_057.toml",
+      "sha256": "e92a486d04a740158bcb4f3e2fe99aaf149bcb9d66bd2a0d193643a96056dd25"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_058.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_058.toml",
+      "sha256": "87f0467419a111be0c97faf7c82c73c7383c1570be603b2d61ce268e4e51db12"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_059.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_059.toml",
+      "sha256": "e3677dcf06d14fed06a46df33d009677940416143b8b756d0f05cc5d274a5d04"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_060.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_060.toml",
+      "sha256": "419aa7f345eed041861393202bf998523cc6698e6d26459eaee0d2183d92bbd5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_061.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_061.toml",
+      "sha256": "cfcbf4e44ccf5237a4cf00d3228219f8c9e07a22d56d177645e8150515282e53"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_062.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_062.toml",
+      "sha256": "9cae59fd806fac9f7d540f810d95bd1b6fdb7e31953d87a9cb084d2b343b3d24"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_063.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_063.toml",
+      "sha256": "fbb836b9a59d09e9a876d9e40475eeb01a97cf44f20d4b0c01ca868a629a66fc"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_064.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_064.toml",
+      "sha256": "a4254121a678d2a7d9efcc3e6d5baca074e9e533539f96011bc4efffd88f3035"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_065.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_065.toml",
+      "sha256": "21143109ee0fd04563976d23e5ed88e0e3efce627f40812bd725b8bf801e8a71"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_066.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_066.toml",
+      "sha256": "0f8c4a4cff53dec16c2fdafb30c9facddd31c5f8cba9fab0325c09671d93db47"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_067.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_067.toml",
+      "sha256": "ac664e55c080082ad9f05689a4b25f6de7794c6a40a6632fc6d8bd3629380ec2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_068.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_068.toml",
+      "sha256": "fb4f60d3aeda2dedb078407b85f8b64be4103fbaa6fda9aaa194facc6591a4e1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_069.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_069.toml",
+      "sha256": "d2b182e18ef0a2a9386e84d5173134a6e5c2b3ea9f250f9db3664b542ebbceea"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_0.5/measurements/step_070.toml",
+      "archive_record": "U1Irrep/c_0.5/measurements/step_070.toml",
+      "sha256": "8d60df916b9c03b8554c46383bc6f01145be70625b5b7ad833536fb4ba06ad26"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_015.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_015.toml",
+      "sha256": "3c853a1e6d36dca6d9ef6ccc9891d68cc27bd996d62214ff795d2041471a4328"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_016.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_016.toml",
+      "sha256": "399a1d2125164be97fcdb27ce5696361352c33b9d21e773023b6168be06617ee"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_017.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_017.toml",
+      "sha256": "fecc1b8ff6b6d288c84ab4e2d189f1155c842e84eefa6bac4abce844fd432cb3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_018.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_018.toml",
+      "sha256": "c7a884440f3443e8b0157fcec6e5216391e317c7c8170ab35a5c3dc589cd5ec8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_019.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_019.toml",
+      "sha256": "7679d13289a40bde7e6923e3e12e20845ebe3645d32542a270baf1ed7ffe8789"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_020.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_020.toml",
+      "sha256": "11106cca218a1c455b4766403904f7b9f0c5aa9c2832629de6880cc6a121ffeb"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_021.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_021.toml",
+      "sha256": "db3d8bfff720ae59bde0d681bbf9364793fc03499b901e54ab109e985faad58f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_022.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_022.toml",
+      "sha256": "f88143f4a70efbae8ca880a302cf187a81507520d30e2435df0a114d3402c09d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_023.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_023.toml",
+      "sha256": "7e6e0af45c2730a76f707ce05e8c6b3ca01383d8721c1cf337db6a07fa3bdaf9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_024.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_024.toml",
+      "sha256": "4b0d3e230e767df75f887088cb2739f97941b647fd0a2f11f775ed494f292c45"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_025.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_025.toml",
+      "sha256": "a0e8c4cc5b7cc57c84b40695dfe9de600e02d71a84b4836c6150a08c75f4e8df"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_026.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_026.toml",
+      "sha256": "bf8175516d00a0d68e61cce87fa9c0740ab22b01d68684e1c51eae4fa63e5d48"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_027.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_027.toml",
+      "sha256": "858a96a2cc763ce3468f7496c489533a1e2fcb2b47e0f0804aa4192f2d555015"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_028.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_028.toml",
+      "sha256": "39aa3c9899c6863328a290fd36af0b7492f1836707e3a98f080949f00833a9e6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_029.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_029.toml",
+      "sha256": "2be7f19f77ac01838fdef40550683f290336fd79653716e3beeffe96fe72b3a6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_030.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_030.toml",
+      "sha256": "94bc189e18be30ae11f679553ee4cd912ac2ca849ce4748e065af1b7bbb3407a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_031.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_031.toml",
+      "sha256": "f359c16eb17a2b3d04d6a84ef9e6ed10072684303eb35d4f81af7955bae0ed90"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_032.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_032.toml",
+      "sha256": "e2b6b13bf90ce9877aa186188adb2c629f6fd60584cf8d0f52183c37069429d5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_033.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_033.toml",
+      "sha256": "b2e2600018a2e54f8faee3dd407d07a6349e548247f3e6fcae8a5523d9bad488"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_034.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_034.toml",
+      "sha256": "5ad8ad04cd21d6b41b2570faee829d3a66cf615430aa3b27cd908d9fff8eb1e3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_035.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_035.toml",
+      "sha256": "ed3179a79d5d30a8a27539c67273f7db47e3434b6b61a3b16918574632fd6ba8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_036.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_036.toml",
+      "sha256": "ee389ab417947c0c52a276a9bc4de4f6cdc3fa6cf4ed412e41a78c0960b693ea"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_037.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_037.toml",
+      "sha256": "dc01433dad2bee2afab66686dedc1b2f025e1fc29a945b8fa5b48b0c4938bc92"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_038.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_038.toml",
+      "sha256": "19cc86dd8e22a09c990b4b8127c4740651fc52eaf79d8209450bcc259a7daf16"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_039.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_039.toml",
+      "sha256": "512d2e5c8779a0d92b6803b6a7ca334f15e6529d899a5bed509ee6ad909c8478"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_040.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_040.toml",
+      "sha256": "ff88e4a3227551375ed6329006121e5392bd73a2c07e36f2ab8d0fcdc2b128a2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_041.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_041.toml",
+      "sha256": "64b2d8a61cd6437d24473d878027673d79794375e5ca06a2f6de9144c8f1d343"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_042.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_042.toml",
+      "sha256": "7e131ea4ca6d028c9a3441833732b7b3c51bfd219c7ca6e317f3515686774104"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_043.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_043.toml",
+      "sha256": "6625818feb95e4dfef3c45b18aca3781b8a8bc20afc2882719b1becc67ea71ca"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_044.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_044.toml",
+      "sha256": "369ce692e0988ca709ea15c42e1400199ec4bbf10a4ac162b98658f108cadfac"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_045.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_045.toml",
+      "sha256": "14352b078d12b61613efff30cfcf19be7a5a4609e3aa1baafabd7fea46571a14"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_046.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_046.toml",
+      "sha256": "e57bb96dc4bdb0692a5cd30b00e7c3afd6e69a2e75426a4d62320e6b3bc94293"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_047.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_047.toml",
+      "sha256": "86d2707217dbf9c7c3be5c4fcf18232fe2ebdfc772ceca832bdf7a244c6bb82b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_048.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_048.toml",
+      "sha256": "636e3a58b2f9a697da5af5ca56fe86752fc77f88d0e34d91265cdc4cd5e014bd"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_049.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_049.toml",
+      "sha256": "e4413d56b52822432c4bf745da97996a686ebbd1c69a669982914520fef0dc84"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_050.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_050.toml",
+      "sha256": "76593d9718cfa1b8c00155995a9dcf867f91cd6860359f9c8c45a11ccbf85134"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_051.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_051.toml",
+      "sha256": "285c034ca74698b8c6ab24c6251f27c8acf154e3cd56590093cd0def2280cec5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_052.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_052.toml",
+      "sha256": "9ac2ed1ef6ffba8bf1ef1393b1b090f0ea08e2627755a4cd0800fc42b4bead06"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_053.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_053.toml",
+      "sha256": "a6f5cd0740a2b366edaec5ef483564ed6af148eb3674580a348bd20c5117dd41"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_054.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_054.toml",
+      "sha256": "1d2c97205837d7917a9f0c3058a162d75ce3105c9196883a80a6927a887026d5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_055.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_055.toml",
+      "sha256": "24718b528d7ef3d0af7641d0fec8b1972f27951f00c658d97315c4a31a344fd6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_056.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_056.toml",
+      "sha256": "4a2856d444e98b1635f11cfeda5ba63a334d506c0493ca516ccb79ec8a9120ee"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_057.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_057.toml",
+      "sha256": "cbb0aa168bd4489153ba50034661922f1a308326dcc86c2a7561f69c8354491b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_058.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_058.toml",
+      "sha256": "9fc2a60969a6fb95d341d8c93e8ddc45d21e8114faa54845f8ab5d4eea660eb1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_059.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_059.toml",
+      "sha256": "51d87c7bab577ea3847dc78694ee9285858241a60e59160b1f97bb0dd0fdb168"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_060.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_060.toml",
+      "sha256": "3ad5eb07026707e73b81d8b1e10bf00963e1472604267b1af7dc6a872d126484"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_061.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_061.toml",
+      "sha256": "bd57690c9e9aee3612b943db296cbe85fe554a912ac4938e7de4cfe76b813fbc"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_062.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_062.toml",
+      "sha256": "7e49d04e5ea7241cd0e223d866bd76b03f747ebc5df15d61ac2b147aac957c87"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_063.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_063.toml",
+      "sha256": "543c0384f67bc44aa07c8679e6298188c2902ca6901832055d5cc521dfd2f22d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_064.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_064.toml",
+      "sha256": "0625c78823d79863b1680605f553a00f7f5bea4bbd602054f1717d07559febe7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_065.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_065.toml",
+      "sha256": "3db0081d2a16dfb654bc715ca27d693663c2127f1f0b2e52e518acee97895e2f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_066.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_066.toml",
+      "sha256": "3d5d76af99b92101d7243f00320d6f1c3b5e53194b1b5964ac7c4679faf52ad1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_067.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_067.toml",
+      "sha256": "3899a01f50e6325b49fabf2ab78cd9961a974a67d48e560b96dd2bad19bdd5e8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_068.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_068.toml",
+      "sha256": "112a9925604d0905a47db2c9b2e8e4745937ea8fde4dd30ccf1e76a38b0620e2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_069.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_069.toml",
+      "sha256": "607d406e322ddcb1a4fdcb9dfb0da36c7ecab41cdcb0dab5853be8a528fa000e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.0/measurements/step_070.toml",
+      "archive_record": "U1Irrep/c_1.0/measurements/step_070.toml",
+      "sha256": "9e2bef08ebd1e6db24faddc24a56563a4d0cc1008a402ac91a8a7401e0fa93c3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_015.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_015.toml",
+      "sha256": "0052ff9ee5fdf746ffd490cf21c57400dcfeeb2b1a35048e390199d527bd5448"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_016.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_016.toml",
+      "sha256": "27a2d010e72100a2efa555f36d377fcfcd1c6c9aadd319408e633ccb039bca19"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_017.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_017.toml",
+      "sha256": "0a71cc16b3391a25cc87f8fa683689c53c811bde8c1342334d67ea997cad5be7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_018.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_018.toml",
+      "sha256": "682c513d17434e8d8a743ddc4117b37baa4f55e79d3ebf5f401b471e3779fedf"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_019.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_019.toml",
+      "sha256": "3a7d9de998e45eb8ec83611d3cd8ac0a38bd0fd51fd292a917a49451cbdd0b43"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_020.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_020.toml",
+      "sha256": "811321b6f96d913da9da7c15549ac6af13f64c2e644e4bde3d8a2d49ba96f8e0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_021.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_021.toml",
+      "sha256": "663322fafd0e00e5c1ecc737fca9adb7c7aecb8fb9aa8355f5369ea64520fc0b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_022.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_022.toml",
+      "sha256": "13e46f1aefd10dad8042164ab645c03481f7b6b63ccd1d3dc1a0bdfd3e883376"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_023.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_023.toml",
+      "sha256": "fc5be177a63bec0fd66b32b524aa4fe2eab62f89689c96f16b72a59601e6522c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_024.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_024.toml",
+      "sha256": "0cfa100fb0be2f35362d9f85675fc7239e04c2c381942285304c208aeae89c37"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_025.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_025.toml",
+      "sha256": "fe25b7805732e41c1ca1d39f7fd982b2ef6f6ddc9be8ac9c6ce6b93dce68cc62"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_026.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_026.toml",
+      "sha256": "f5ecb9d86e9d01d4c576dd65062e65333551e4511f5a2aaece8ddc8b192d9b22"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_027.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_027.toml",
+      "sha256": "44950b6609df439a0bce6071b815dc9e2ade1e1e7bdae048f666e2353e095367"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_028.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_028.toml",
+      "sha256": "57be699c853301372024c00ade292c3c60bb5a8bb08f2c87b55c1c3b0492bdf5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_029.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_029.toml",
+      "sha256": "796912143d2104c6fec120c9ef6211d17378c9b3a90c24288c846949950b7a82"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_030.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_030.toml",
+      "sha256": "f7d002829f6dfc8c282af98180b73425a13d92a2dddce74add8b97f6db1a0d41"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_031.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_031.toml",
+      "sha256": "fbca6f9fb8824d46f7aa02a0c3820ccd65deca647e86604c45fa104f2a468a50"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_032.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_032.toml",
+      "sha256": "42f88b8b6735e91b40f3cb89e9382af39fa041fa0868fb82a030543ff6acb918"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_033.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_033.toml",
+      "sha256": "21c6271f3099744b6815a724b52bb2072b9f349c4f6debb4637f31794e199659"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_034.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_034.toml",
+      "sha256": "ef50e32d5ab129eb3a21262c5a5f426d6f79cce4f80c3fd02e31c4fccabc2d7e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_035.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_035.toml",
+      "sha256": "b52018382780a235d531972ff463b830e590f791120d1f582f10d607a5e2ac72"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_036.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_036.toml",
+      "sha256": "43fc2e2f1cf441e73136d622efcf743d0ac9170ee7388dd41024b2b4b8d0723d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_037.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_037.toml",
+      "sha256": "c3e6ff7747e27f0b637b75b81d47b25e64efb1e231e8303705373d99d9168127"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_038.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_038.toml",
+      "sha256": "61a1f904785b7eeafd2d099884b6556b9f333b6c614567408f6d918b3fa878ea"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_039.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_039.toml",
+      "sha256": "bf819991e3ecc6d9bc81d9bf79b0287e4a605fded88040c40e164ab51edfa001"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_040.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_040.toml",
+      "sha256": "0fb75a1a270912dc9cd3c69b0cd84be23a08c8b59292cd2b026645bf4443aeb9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_041.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_041.toml",
+      "sha256": "f86d87d3088c4ef4e909e6ff7c3314a53dc52d8df03b3a18525cff7af715548b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_042.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_042.toml",
+      "sha256": "fb2e616c1c1bdfa42330863441041735040aa81775e70c49aaa4067347f99b51"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_043.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_043.toml",
+      "sha256": "e3d2fbb3ba04cd400845f789e0f9956e7a88287e30c6973504d5020d414c77aa"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_044.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_044.toml",
+      "sha256": "4f790d200800cc2ff1a100e33b7f09dffa15bf7976503dc800fb0ee47fda663f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_045.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_045.toml",
+      "sha256": "357591ed408b963c30b5d64a6fa6546df95bec1b38e708b064c88fecc32e40c8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_046.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_046.toml",
+      "sha256": "6383562efab07e405a160bf25e0900d90dda68c926107e6e0089eb789f5e2ba6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_047.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_047.toml",
+      "sha256": "549aae6e1ad565f39e3193e7afd89fe98d1cdb590de3eb307a6ee6685fbf9e91"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_048.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_048.toml",
+      "sha256": "d03156ed1220d3b9bb5977a07b4f7e0fd624b28f3cc0d53ba9dd29f5f7a7ba9c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_049.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_049.toml",
+      "sha256": "49d5b63488d9973c8aedc2120ef56f708e92114e2ccb8950b23d534593fdeca4"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_050.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_050.toml",
+      "sha256": "a9c3cca2a2da1a4eab35b48e109cd3b4806e2dcafcf0c970ea53ddbbefdfd576"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_051.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_051.toml",
+      "sha256": "9a25759c26ba6bdbdcc6d3e70ed77d28a1fbf56905043629ab60f04696e11530"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_052.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_052.toml",
+      "sha256": "199b5c33296f3b5bfb8631846c07d9d739f37efda9dac5f1c393e5cd7d6a6b41"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_053.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_053.toml",
+      "sha256": "60c8a1bfd059d7d2ee682b3f27ca9fd1694960d61f40f0538c8d5a41b1bde8cc"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_054.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_054.toml",
+      "sha256": "7bcf431617224b0a7daf36764a9457faf3ca5dfede9ad314d70d789a0206c8bc"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_055.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_055.toml",
+      "sha256": "ff154267441e6777e9fce0bcafe94d4403ba83c3a44255d098fa53a82b120131"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_056.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_056.toml",
+      "sha256": "8a8f31f47cfc69101a352ecfb2b5c4271fba6d64cab4ec46ed364a59a7235f1e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_057.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_057.toml",
+      "sha256": "17461b968a410adb7b62a04ee4ad1a7e4d852ce5560fe09d232e297d60b84b2b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_058.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_058.toml",
+      "sha256": "b9132876facd7317788bb30fc97ec8338594f96c5f4fc5965ffe49fa19ab0123"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_059.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_059.toml",
+      "sha256": "87adac22de42ae6f97a0b8d7107cdfa5c804b28df5014c39cc85c1eea82685c8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_060.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_060.toml",
+      "sha256": "d3fa440b1fca3b90dc8c62c2092dab726b5082e08efee6c02f6beee71eae1d77"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_061.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_061.toml",
+      "sha256": "9615f7c885c1d69b2e5aa0ee8ddd7619ec93e3cdf8f1f5ee94a003ee1abce9df"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_062.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_062.toml",
+      "sha256": "247242969ac9856392b6808e9497e6005bd993704ce56bb2778c7ce8176e6b39"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_063.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_063.toml",
+      "sha256": "8e7c7b6543b9f65a76da14a60509393ff0b94225604c1805399ba7ad73840a92"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_064.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_064.toml",
+      "sha256": "5819d161329464a1303cfe6ae9fc6c7768723db66566bb02cfe69232a5931358"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_065.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_065.toml",
+      "sha256": "332ffb6a2c579036483bb6d71e876daa39624d8d5aec62943f1ada65aaa0976a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_066.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_066.toml",
+      "sha256": "c24a4e9c781dc7d9d90e23f281ddc4f0f9f033c2750929782302697dbad555a8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_067.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_067.toml",
+      "sha256": "69e850b98cb14e613574ccf522f6916aebe3005edaf20c659d3c347a666eeec6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_068.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_068.toml",
+      "sha256": "134a6b999f866fd6183032ddd3a576b092ca7985a122767ff7c4ccba545a82f2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_069.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_069.toml",
+      "sha256": "72fa8118181b739cd15093e20a6c7f8879e3ad835e8b26c3b7d5966c3d42b61f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.4/measurements/step_070.toml",
+      "archive_record": "U1Irrep/c_1.4/measurements/step_070.toml",
+      "sha256": "92d937b55327f728afe35a882dd72b86cedbad6d6d334abeb6765a59ee9b3d92"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_015.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_015.toml",
+      "sha256": "5881a9d14ebdf83c3405cfaf5063bfaafab4294a318c4fedc09a13f8082ab8c2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_016.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_016.toml",
+      "sha256": "f0d5eadd17e8e0660c7df7fc342c56ac9c262cf7a7c803e1f7752bfdfd4aa1f2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_017.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_017.toml",
+      "sha256": "1824471271809f3a39fa2a7e7b30369e4bbafa771e2eeedea18e25e33b724383"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_018.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_018.toml",
+      "sha256": "0ed0cf88b5c8fcca9187efc019a3d8c788ca100595d66d47163d737753474352"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_019.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_019.toml",
+      "sha256": "209a5cf90be20243908b352437a1060707c69c0c856cc80afeba2e21162130ea"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_020.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_020.toml",
+      "sha256": "6fe7e242792d7eec548ad72ee6fee8053f080391e9ea1dc3d2fcf73ba5219913"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_021.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_021.toml",
+      "sha256": "9015221f52e5d2ad913334de1e3a2ee8e1b41bc50caf51bfb565043ab1f2e7bb"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_022.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_022.toml",
+      "sha256": "6909c9accb762aa0625a741a0db38dd61e9b3ce8e42bb8bd644acbb5a2653f98"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_023.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_023.toml",
+      "sha256": "64e9cf3de26f3d61694a39e71dbda721b7bab2f4a6eb72d595dccbb0139be3fb"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_024.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_024.toml",
+      "sha256": "d8e496736851e36c98686d9ae72998f212cc58769a1c40d5a9d1ed4e0cb66b0d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_025.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_025.toml",
+      "sha256": "bee8fb62b882aaf2917d83b685f7eddadaf4dcf4f2fbcabcbf7630a2de4a9d01"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_026.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_026.toml",
+      "sha256": "6aec9c001379f54e7ec328902e7060d3f1ec4c7fe0f1755b39db32500b63d666"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_027.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_027.toml",
+      "sha256": "55c6572df880598e2c436958001343bda7e1f27bd369439036f05a5327870035"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_028.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_028.toml",
+      "sha256": "cb6b26d254fd004a539f66dbca55e4c59f4df5595ff074dd304463b7a035e7c5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_029.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_029.toml",
+      "sha256": "705bc56a315c314f83030cdc041771b6cd4bb1a7ee28632b6658417a3f025135"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_030.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_030.toml",
+      "sha256": "875fd863d3e4219c9580518995b19e795014450594ee7d0e51ba1810bd3057c9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_031.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_031.toml",
+      "sha256": "fb6fca421bef69b83093b2e8f9b3a5dee3cf9856e1b0fea517979a9582046cc8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_032.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_032.toml",
+      "sha256": "e2cb970dbf1a5688c7acddbd947be93946e1e98b3ffb2364c5f741722a08df85"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_033.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_033.toml",
+      "sha256": "e695fa9be7d1437aa7a0857fec28d9b1fbf9c9bfae63f67e451fa98aa6455caa"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_034.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_034.toml",
+      "sha256": "1905fbb39696c4eb60b183824e952f0c6912a561e64dce3a7e452c8bd9a3f7ec"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_035.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_035.toml",
+      "sha256": "fe85cd3de16aa36e4809b589282c0a1eaa35e0548f3fd221a575458a5e27803d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_036.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_036.toml",
+      "sha256": "a93c0197f4d2aa3082564ef03a9c6c2164ce5de2831e59c5af62bd038f929016"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_037.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_037.toml",
+      "sha256": "12dc32a8d91ad73e535a5ae0676eb9589d4e7774992dd40942662824f70fe65c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_038.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_038.toml",
+      "sha256": "7a7ff6dbba21fbb1d8ca871b4a2f0339b01c7b1133e51b47a222177fda06741c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_039.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_039.toml",
+      "sha256": "26dd8cf101e721a30bb479b9e82adba4eff6a31d0c030366bdb31de40e22602c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_040.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_040.toml",
+      "sha256": "fcae28d33f0a30ae487bd8586f8123ec324c97a0988d4aa2c65c3209624e8fb0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_041.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_041.toml",
+      "sha256": "e27bc61ba2c6e7c815ea3727616bbb36036c6a7c5c72092d05c5a6437520de0f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_042.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_042.toml",
+      "sha256": "4021f7c04aae00a75dae45ec508d9388ffc9fa840368bc146b44e24221f4de75"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_043.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_043.toml",
+      "sha256": "9a2c8bfb78f613b304eaba0632eb212395c4ceb0a07f7ba066d3a1ae290a673d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_044.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_044.toml",
+      "sha256": "fdb9f0af398c2a85bfb179e5505e0831a5c34ba3dae654633ee2d4da94db6227"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_045.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_045.toml",
+      "sha256": "b94d70bbaf202fc27673eeeecef2e01d5a64823be93005c3018e59a207e1aded"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_046.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_046.toml",
+      "sha256": "4f6978b0681168a2a4feb4615bfec082a0083ad04ebd0347ba21cfc981a016e8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_047.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_047.toml",
+      "sha256": "34ef6f22107ddf292ba1960b767c2936204f36a598ff633e97e70a2f58792e1b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_048.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_048.toml",
+      "sha256": "1296629a3108e278cde93f9e9ddd0c1b16da1db610d86880aa96dca92a03ca1e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_049.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_049.toml",
+      "sha256": "1300afae807fc9cbaa8ba14ac91f14418914c58b08f8c96c3df8371310edb594"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_050.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_050.toml",
+      "sha256": "19f6260c25784e1caa164a4155133cf19d91dc8fff07dbba1e6cbe335502030b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_051.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_051.toml",
+      "sha256": "b1dcc97fea549f1c22abbc3be68b9c8ea9c5d615b43af7e4bf173a95c278a21f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_052.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_052.toml",
+      "sha256": "487c99692c415e32b2b4e66bca385d44ad12591cf9ae1c1e0ea5e24e2ec55301"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_053.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_053.toml",
+      "sha256": "8abbd836fc4b1abce86dfa668ce68af6980a4fcbc2a200a7b411e7633e22e4ed"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_054.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_054.toml",
+      "sha256": "8d3048d485dbb3e6246f6717ee6662556cb13d42697281dedca42188409b626c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_055.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_055.toml",
+      "sha256": "ff65964bf8608d63a5dcf67ecd6259e5ab38bdf464f2cef3221c96024894246f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_056.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_056.toml",
+      "sha256": "91a44671435ff70ef06f29d63c3c25f601c98cc9ce34f8abcd4ed4ae15af3eb8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_057.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_057.toml",
+      "sha256": "3e1bb631941ccdf8a97df74bcd6d6d3595780921be9cdd011580bddb916f6e21"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_058.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_058.toml",
+      "sha256": "e5e18031cb3dd9ed38c41c3aede204f32e5aec84ae87d590fc30bb0682a9dc4a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_059.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_059.toml",
+      "sha256": "68d9abcff175ac71d6bd96f02c9c3fd14803ee40b665b4e48644619a6a2032ef"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_060.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_060.toml",
+      "sha256": "6eb727cfae4f33cff4b5f341343f379ab10cc5080c404911b9540ad293833b52"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_061.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_061.toml",
+      "sha256": "f44869b8d1fdd8da75d948786f15afc8364a0b012808c76391b35420f089c3a0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_062.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_062.toml",
+      "sha256": "940c26ae3d857506bd1a6d6a21fddebad57684002ac22e3bb746cc6b8b631220"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_063.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_063.toml",
+      "sha256": "f11c698c1324c120ce46876b07db6fd06e99c578a28e0e29257bd7c6b5c5cb34"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_064.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_064.toml",
+      "sha256": "e9fdd837b1d1892112124421556033ead705e3c98a7705560bf2984569659653"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_065.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_065.toml",
+      "sha256": "b06c91069430ab3cabebfc6a387c4e8b5fe0b02d48cb61e7db3a29a58b2335a6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_066.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_066.toml",
+      "sha256": "e570a3cfc96771138229e36cd66b745ed1ac8bdb571e476e2cfcfa6d0e87d4b2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_067.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_067.toml",
+      "sha256": "7b19d195b0fad4f48b606e2f7d22fa000f12efeea2865e94aca8c6f5113ae643"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_068.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_068.toml",
+      "sha256": "a50112ca904a081a66e3d5fb60c650a90207b910f8b83d97762e498177bd9ba3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_069.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_069.toml",
+      "sha256": "1633bbb1d27c668624b399d0c1abf92dda36a0124b25457cb08c9c97dec1cef1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.7/measurements/step_070.toml",
+      "archive_record": "U1Irrep/c_1.7/measurements/step_070.toml",
+      "sha256": "71adb5e9ba1867157cc07d0f86aec37e0dbf4b7ba548adfee6138abf9ce4ad4b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_015.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_015.toml",
+      "sha256": "e527b876f11a89d7904c6f046d40f5013beed1999ccea73118218ed9e67aaf34"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_016.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_016.toml",
+      "sha256": "a51c44e0988292bbc022c58895ef7e4c1eea3d9f85e49ad73d499c64b755d411"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_017.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_017.toml",
+      "sha256": "5ff6244f67d6eab8c3d5addc796cf457e3863d664990710795e45df6e7be742a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_018.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_018.toml",
+      "sha256": "dcae24c0e0aab6df0c189d7caa90c00d55cf7a5a7328895eaa1798f9a02a0447"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_019.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_019.toml",
+      "sha256": "3ccbbe276432358eb67d13bb6e5c65f4a56ce6fc8412f05fd9b78339c9be6e1e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_020.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_020.toml",
+      "sha256": "09cf15b9c0de12f7038db0a47a8928f42076b2a2a6b932496508f22fce24e759"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_021.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_021.toml",
+      "sha256": "80d850da59e7cc3a7176fde0ea54dbf8d80029504f2d0bbcaf066c944b9227c7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_022.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_022.toml",
+      "sha256": "2526058926d3a378c0c431ac9553d3f160c677ff339927a8479dcdbdba30d5b7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_023.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_023.toml",
+      "sha256": "f5ede522e056622b6f39b30ea3e8fbb62db7ef5b493f078c4a1bf21c3f7a5f7c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_024.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_024.toml",
+      "sha256": "1b04dbe0b7df09d06fda3c52f67ff34e6d810171cc0b2dab062244b9b717f1b2"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_025.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_025.toml",
+      "sha256": "39a7b761f893f979b96476bd9c0597c41ede568a88c06a9ccf26270e58aaaa44"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_026.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_026.toml",
+      "sha256": "94539d5fc1873fee54a06eaabb76af72dfffdfcf505cb85cbde5b42f839a00a1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_027.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_027.toml",
+      "sha256": "62adbcaadd8f6eb820436de26704df8809e5852731741c795942a9af3b5c68a0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_028.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_028.toml",
+      "sha256": "8b31769b1b9e43154878aa574bd8520a9f98320fc1bdae0bad01d61cff1ea20b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_029.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_029.toml",
+      "sha256": "59aae695885074e03b3ace2b1ce9c474d2bce8c8b0cdd82959ff0bb00d75089a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_030.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_030.toml",
+      "sha256": "2d0f89592c9a8dfcfaab0ff15f280d8b7f122a0a2442810d44780cbd2362239b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_031.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_031.toml",
+      "sha256": "a896c605cc95d07acbd309ba1e81c23a58a0c5d72fe5a58aa9e6bc3732865980"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_032.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_032.toml",
+      "sha256": "863d31553caf6df3c635035354e1e130b66fe9d7a73dadc09b1cdeab4298d9e1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_033.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_033.toml",
+      "sha256": "85bb55e0126b789168858f7e34e732fe5b2c6cd51f0983168416f7f5840de58b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_034.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_034.toml",
+      "sha256": "276aa0fac34434b4192cf8053bc977dd4234b985715187fa5acf09cf104c098b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_035.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_035.toml",
+      "sha256": "a276d7b1a86d60d6e2af9f2e25575808fa71987de49e7dbb3f80809696a2e2c3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_036.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_036.toml",
+      "sha256": "be21d77ed360baff5aafe986c7fec96d5492c33e576df433a6299d919c02e0b0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_037.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_037.toml",
+      "sha256": "18abcc7b6f632d24cc1195fbc547e806efcf6bd9552058d633bd28badae53715"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_038.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_038.toml",
+      "sha256": "16acba24279fee400a41a890d9722864120b91a2d260b2fb54b6420e4f1d2961"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_039.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_039.toml",
+      "sha256": "25998f79c63df4704d86b76f47183a993e301cc40125a0fc50f964a75fafead7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_040.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_040.toml",
+      "sha256": "eb112958bad879d44936a3be8883d6e099a4e75fc4c529709c50c0bc8dc9cff9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_041.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_041.toml",
+      "sha256": "45618bdd994ca41ab19d4046ffc2c97dec331a21992eaf18dd9bd55153aa4a50"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_042.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_042.toml",
+      "sha256": "7e8744ec4c366ec985c1a910030a7587b830486e7100bbf6a9e8cd7f264e40d3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_043.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_043.toml",
+      "sha256": "826f92d22ab666985f1862fb88e63aa1bc5c0d6b578760d3eeae8464d5da39f7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_044.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_044.toml",
+      "sha256": "72efa4735408067512eedccb2b3d7e1fe3dbbf4645fb0ef91aadb1d34323f536"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_045.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_045.toml",
+      "sha256": "43629880c097f34c7c1cc223a07c6ede5d8223d8f8daccae1dac0ba5e985295a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_046.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_046.toml",
+      "sha256": "989f67ac52a49a73974f806afff1522044b14a0b68d8d6989461518b69743b21"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_047.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_047.toml",
+      "sha256": "1f16daf762dc9f5718bc9abfb03b2710f82922809edc44d33e368d99ad14e069"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_048.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_048.toml",
+      "sha256": "c050dca2586bdea34b8118e695480654c50c2eced53d0232e0440cb183fbe80d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_049.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_049.toml",
+      "sha256": "436c72d209ab382b77b64cf21e5996e61a23fc7c24709cc11b17138d6f6a93b7"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_050.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_050.toml",
+      "sha256": "56dc2fae748763ca7215efa2ca090e98a5679250e8402f7a138e1343b1f01e92"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_051.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_051.toml",
+      "sha256": "b2eff352684c1df1a91f56bf4da39ad3ecfe2bdbecd63ed21a6ebd1f4870c67e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_052.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_052.toml",
+      "sha256": "0fd6034e3fd743ea961106c46ab5da7795a97963363cd54cf613a021c61ae3b3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_053.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_053.toml",
+      "sha256": "f60b87b68a4f0efe5ec2eac17b15782474ad08ff6f19231f805de29d7302473b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_054.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_054.toml",
+      "sha256": "02cae96ed638489849e161a6939f262b04d21ba56ac6421d4cc29fceeb5b34ba"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_055.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_055.toml",
+      "sha256": "99fb276e18431d8dcd2a82408ccff08709f0d3380627444f2a48adb0799307e6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_056.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_056.toml",
+      "sha256": "3c77baaa092229b99bb5e51262eeb439792b32a811453c59ffdf95adf08f5f79"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_057.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_057.toml",
+      "sha256": "3506d3d89715bea0a460a49ea00ea9b53f1b47fffe96cc8e8c5c7f883e74050b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_058.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_058.toml",
+      "sha256": "af6f918b6c410378cc70aa2633227d83587cf98e2c2ef6a869daceb44d8f5376"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_059.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_059.toml",
+      "sha256": "e2f0da7e2132a88d03bfb2188f982c8ae968331c65fed0a2f0b2e2af6588316e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_060.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_060.toml",
+      "sha256": "83fd82f2d241c676cce28ac35b0f6c338f534cc0c4d083d8436c35481381f02a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_061.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_061.toml",
+      "sha256": "2e09e9111397f371da95df58bdde66353b74105a9e9c6efc082e69481d5d30c9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_062.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_062.toml",
+      "sha256": "b410be61d42b0d17c7c02b5abda37d07549968f0354552061cbfc065a8920804"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_063.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_063.toml",
+      "sha256": "0884cacd6777497106715821212592e6d396d336d2ae2108ffeeaa5edd8e72fe"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_064.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_064.toml",
+      "sha256": "e4cfa4dd90b3cf47ca691199ed9a0c6c0c265a2f65efc7a79fe180808aaf7121"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_065.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_065.toml",
+      "sha256": "036ec74ed88e22e4481e8559b3f37b40b6279ed95a828a4a6b20320961784040"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_066.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_066.toml",
+      "sha256": "11a5f8fccced6cde096850c33b88ebe9765e2b7d7fc7883480ed6a6c75eb417c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_067.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_067.toml",
+      "sha256": "cc0885dd9bb23e6b11a5e5543c62c80b4b6b14950c9e12e9f877dd76265903bb"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_068.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_068.toml",
+      "sha256": "63ccd75e5325ede101dc7466f15cd62555426350d48c75d0b15ecf3197dbdc91"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_069.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_069.toml",
+      "sha256": "bbfa773a0ca88be0250c211a93e5823cc463b245a16c3a1160ce77bfcc7af62f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.9/measurements/step_070.toml",
+      "archive_record": "U1Irrep/c_1.9/measurements/step_070.toml",
+      "sha256": "921ced20a04d9c44f5a26d0a013be23879338cbccba048b5fdcef09559bf070a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_015.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_015.toml",
+      "sha256": "ea4939c92146d32dd92517d6d2270e7cfdc7de227f99ebbe3ac35f676658f6b3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_016.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_016.toml",
+      "sha256": "4c5299cde2bda6ae48094f1c811b03d6b01e4130868ee97469d0bb438678630c"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_017.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_017.toml",
+      "sha256": "5c407aa44d83431fe6da6fb265abf7b0d621586bbbe96671696196f54fcf349f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_018.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_018.toml",
+      "sha256": "f28a20a80c01c97eb38e6b157b72e5bcc3b4ff6ce29d391351a80fd0c01a70e8"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_019.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_019.toml",
+      "sha256": "21785caec392b9c2c59a2f0964b495b412abbf1569b12f60dce4c92847cc14c1"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_020.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_020.toml",
+      "sha256": "30e7309e56b478c720e00a26a59c0b4114b85f81b6342d4533def44503efee3d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_021.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_021.toml",
+      "sha256": "d8e0b8d5717e48bb8123a0df84e8941e25db8675dc2705513c0eab40f47ba83e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_022.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_022.toml",
+      "sha256": "361b7078ba9d1a8edc735dc18cd868b13768b4df3b43a8161d215492865463d6"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_023.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_023.toml",
+      "sha256": "bc5e8b8059727735f50dc56426bbde9787c7a1ee74d7043cf4fed27765d85462"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_024.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_024.toml",
+      "sha256": "e926974b82305f28c723260e1f9d09a18f262e4018c0a532c28bf5ddc89bbda4"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_025.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_025.toml",
+      "sha256": "048887acde219e64993b0c0f995ced5f4ab97178fe774c1d68eba45275a521f3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_026.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_026.toml",
+      "sha256": "ec74b190567888a78c8698dfe2592eb0ff2e972cbc8818161eea46de3a378f91"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_027.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_027.toml",
+      "sha256": "8e1b1bc7da9afbb85561f8befd19cf5d9ed8a4f9f0d082db3878051eee154ea5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_028.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_028.toml",
+      "sha256": "3438e2467c52c3f6549268ee7557b128655845c12d149a5a663dd1eb994fe196"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_029.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_029.toml",
+      "sha256": "1e8a6578c51e69ac80bfce8bd34cae57ec9352e8acf735f7d92c0e599b23665d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_030.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_030.toml",
+      "sha256": "4bde2cff1af61911e8e27a5be3a75f2c189e5b26b953798bf1328e5bbf36abc9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_031.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_031.toml",
+      "sha256": "1d643e6eac88ec34a7c744b655f759d38b17d24f0da25ecadf80a0331f073195"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_032.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_032.toml",
+      "sha256": "d835e2453a787a8ec26b352152be11adc045876223600dc5e47996471bae7176"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_033.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_033.toml",
+      "sha256": "8ad9f07f41eb7b54df5a5c4894fc98189bab6b3404d27649e3ba594e37f1f197"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_034.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_034.toml",
+      "sha256": "52073f99c524608c7de1dd9f1d2570e33b199088b7106297a51f12b3f73d53c4"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_035.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_035.toml",
+      "sha256": "9be30dac86479e158672c12618a457bfd51d907ae6d9f04a774862ccbb33b09a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_036.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_036.toml",
+      "sha256": "f5914706e2b46e0234939f7f9e27e52ffb0f25eb01d130929371555dc9c74b25"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_037.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_037.toml",
+      "sha256": "a48f2ab2059fc8e450b327eb1307ab255865bbbe362e018b1e1d1b99be71ac08"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_038.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_038.toml",
+      "sha256": "434655cf21573d7d16a508beaeb922dc0471bae78ae24a96eb10fca3efab5835"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_039.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_039.toml",
+      "sha256": "2b5fe6332b9a2adef0a87e8164f5d1624697e762625f0ee680ddd8400f3f4ca0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_040.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_040.toml",
+      "sha256": "783e31e1521d6f5ef925817a7caa79195804de79dec4f0ca87848c7e883475c9"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_041.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_041.toml",
+      "sha256": "357a6cc20343bc6bda3262cfd969060b50c2691aaee265554b21f1dd3badc1ad"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_042.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_042.toml",
+      "sha256": "6f4e14df9c0e7c56a77dfc981eeeef869380a880a74e69eeb87c58246fbc825d"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_043.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_043.toml",
+      "sha256": "105fef9a880261ce388e98f863c6b509132df5cfadf9f1f4fda2a222a77d3e3e"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_044.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_044.toml",
+      "sha256": "16ce55c0b3ce6af9961d70fbdf81c83314f632518ce0fac9592160b86bf71a14"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_045.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_045.toml",
+      "sha256": "a4abf695dc68d8cb761dfc4cb77e9f1a092885eed3df0bc503d64b75b3e98283"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_046.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_046.toml",
+      "sha256": "eeac9ea779e8c1c9c1cef6f06942264c4c4b01efdca5c1ba51a1554a454fcbc5"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_047.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_047.toml",
+      "sha256": "b212f6bf46ed69db546ce747743635f11b61f5fe565bbbfb17594160faff114b"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_048.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_048.toml",
+      "sha256": "281a8cb319c2a7f20845a1f755d648a32cdd12e82bc73d99339801f65ff93132"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_049.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_049.toml",
+      "sha256": "e6509285fbb48e916e6bc472a2f341eac8cfbecd5692d74b50eded81c450fbec"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_050.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_050.toml",
+      "sha256": "9f8eeea0918dda06201baa215117c8db3a232e71de120dc1ec9556de6f9953cf"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_051.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_051.toml",
+      "sha256": "852d5867e40f67f6538df046891ee250b95bc975fae5b4f10e71906299579e8f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_052.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_052.toml",
+      "sha256": "09d037477d9d6a42addf30ac0a03de4d27f9ca8c7784152baafce87d78cdd067"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_053.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_053.toml",
+      "sha256": "4ed62305c3df742a7a7b5633b6ebc12af6c9da68506513b7706227de0eda73c3"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_054.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_054.toml",
+      "sha256": "bf50645043fc0e16c531087b1a3526016da883a5c38841867c5df7f6f799f4a4"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_055.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_055.toml",
+      "sha256": "39f0c93450035b51e5471df278a3c7ad8e912b99e8862a62253e6fcac1f82416"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_056.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_056.toml",
+      "sha256": "7e9f8454cacfeff8353a97edda3bc97d2573f0c5d9456baf58a054760049e25f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_057.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_057.toml",
+      "sha256": "732be3db192dfcf72987f6e3e2d7dd20dcccfe2b1b6d8dd41a3aab834da7fada"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_058.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_058.toml",
+      "sha256": "6319c65e5639ddc33591f034f7a3d342a0c199d8bb9acd2076137dc8d5f0d05a"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_059.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_059.toml",
+      "sha256": "1429eb070b5e95ef0a6116dd48bd9e3f2660ed165356ca343c99556d757e9e34"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_060.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_060.toml",
+      "sha256": "59b1d731d36dd7605e7d95c9423fdb758da58aab604dddfcd4fdb8c0fa472515"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_061.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_061.toml",
+      "sha256": "3690ed0f42f01994c07f7e11c5bd592c97dd464f43bebc02f72a373739a80fec"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_062.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_062.toml",
+      "sha256": "29af54baf7c5f55cbc4b5a041125034a256d1b515dcdf0776ded5bd0c11e431f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_063.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_063.toml",
+      "sha256": "0be3741a50692d7ee43663e84aed8059481ffd51c0eae1c139bd325e3f2c6d8f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_064.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_064.toml",
+      "sha256": "b173820a66af6738a4db8c21b30dd0c40c2fd471844c787869192664151d46ce"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_065.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_065.toml",
+      "sha256": "45843aa6d75eb5ec754bbc18a8a481076c69aec867db7be8c3298599271e0132"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_066.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_066.toml",
+      "sha256": "0f534fe3244fd9554cf77c7cecb172e1bd522eb49405ba6d70f6f3dbbaeaebde"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_067.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_067.toml",
+      "sha256": "bda8482aacea888ba91a60d32e95635f363da4ac7adb64ab43d4730928cea80f"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_068.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_068.toml",
+      "sha256": "b208d96c3d06a6ff8da3adee6ed25c9da3dae3de5be3b0e7c065850465f427d0"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_069.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_069.toml",
+      "sha256": "f67a386078a545d01e3df24eafdd29649d586ac83d5a6173c097e132b9838e93"
+    },
+    {
+      "path": "data/cft/small/U1Irrep/c_1.98/measurements/step_070.toml",
+      "archive_record": "U1Irrep/c_1.98/measurements/step_070.toml",
+      "sha256": "659e97a18a2cd6e1377a3c87d0d22744f0a09b0ca5fe3ab0b5921474c0ea558e"
+    }
+  ]
+}

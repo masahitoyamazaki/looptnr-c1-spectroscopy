@@ -1,0 +1,32 @@
+warnings = ""
+spectra = []
+
+[observables]
+cft_seconds = 0.0
+central_charge = nan
+central_from_tau = nan
+x2_exact = 0.9872667555734601
+x3_exact = 2.2213502000402854
+vertex_c = 1.4
+xm1 = nan
+x1 = nan
+warning_count = 0
+neutral_third_or_odd = nan
+tau_real = nan
+x1_exact = 0.24681668889336503
+x3 = nan
+phase = "adaptive"
+tau_tm_real = nan
+rg_step = 59
+xm2 = nan
+symmetry = "U1Irrep"
+xm3 = nan
+K_exact = 1.0128974710782637
+error = """attempted_step = 54\nstatus = \"numerical_failure\"\nlast_saved_step = 53\ntime = \"2026-10-20T16:36:01.031\"\nerror = \"\"\"normalization=0.0; normTA=NaN; normTB=NaN; attempted step=54\\nStacktrace:\\n  [1] (::var\\\"#record!#rg##0\\\"{Float64, Base.RefValue{UInt64}, Base.RefValue{Int64}, Vector{Float64}, String})(current::LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}})\\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:109\\n  [2] macro expansion\\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/schemes/looptnr.jl:510 [inlined]\\n  [3] macro expansion\\n    @ ./timing.jl:463 [inlined]\\n  [4] (::TNRKit.var\\\"#155#156\\\"{TNRKit.MultipleCrit, Bool, Int64, LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, MatrixAlgebraKit.TruncationByOrder{typeof(abs)}, maxiter, LoopParameters{KrylovKit.GMRES{KrylovKit.ModifiedGramSchmidt2, Float64}}, Finalizer{Float64}, Vector{Float64}})()\\n    @ TNRKit ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/schemes/looptnr.jl:507\\n  [5] #30\\n    @ ~/.julia/packages/LoggingExtras/VLO3o/src/verbosity.jl:103 [inlined]\\n  [6] with_logstate(f::LoggingExtras.var\\\"#30#31\\\"{TNRKit.var\\\"#155#156\\\"{TNRKit.MultipleCrit, Bool, Int64, LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, MatrixAlgebraKit.TruncationByOrder{typeof(abs)}, maxiter, LoopParameters{KrylovKit.GMRES{KrylovKit.ModifiedGramSchmidt2, Float64}}, Finalizer{Float64}, Vector{Float64}}}, logstate::Base.CoreLogging.LogState)\\n    @ Base.CoreLogging ./logging/logging.jl:542\\n  [7] with_logger\\n    @ ./logging/logging.jl:653 [inlined]\\n  [8] withlevel(f::TNRKit.var\\\"#155#156\\\"{TNRKit.MultipleCrit, Bool, Int64, LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, MatrixAlgebraKit.TruncationByOrder{typeof(abs)}, maxiter, LoopParameters{KrylovKit.GMRES{KrylovKit.ModifiedGramSchmidt2, Float64}}, Finalizer{Float64}, Vector{Float64}}, level::LogLevel; verbosity::Int64)\\n    @ LoggingExtras ~/.julia/packages/LoggingExtras/VLO3o/src/verbosity.jl:99\\n  [9] withlevel\\n    @ ~/.julia/packages/LoggingExtras/VLO3o/src/verbosity.jl:98 [inlined]\\n [10] #run!#153\\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/schemes/looptnr.jl:498 [inlined]\\n [11] run!\\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/schemes/looptnr.jl:488 [inlined]\\n [12] run!(scheme::LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, trunc::MatrixAlgebraKit.TruncationByOrder{typeof(abs)}, criterion::maxiter, finalizer::Finalizer{Float64}; kwargs::@Kwargs{finalize_beginning::Bool, verbosity::Int64})\\n    @ TNRKit ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/schemes/looptnr.jl:528\\n [13] (::var\\\"#rg##3#rg##4\\\"{Int64, var\\\"#record!#rg##0\\\"{Float64, Base.RefValue{UInt64}, Base.RefValue{Int64}, Vector{Float64}, String}, Int64})()\\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:130\\n [14] with_logstate(f::var\\\"#rg##3#rg##4\\\"{Int64, var\\\"#record!#rg##0\\\"{Float64, Base.RefValue{UInt64}, Base.RefValue{Int64}, Vector{Float64}, String}, Int64}, logstate::Base.CoreLogging.LogState)\\n    @ Base.CoreLogging ./logging/logging.jl:542\\n [15] with_logger\\n    @ ./logging/logging.jl:653 [inlined]\\n [16] #rg##1\\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:129 [inlined]\\n [17] open(::var\\\"#rg##1#rg##2\\\"{Int64, var\\\"#record!#rg##0\\\"{Float64, Base.RefValue{UInt64}, Base.RefValue{Int64}, Vector{Float64}, String}, Int64}, ::String, ::Vararg{String}; kwargs::@Kwargs{})\\n    @ Base ./io.jl:429\\n [18] open\\n    @ ./io.jl:426 [inlined]\\n [19] rg()\\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:128\\n [20] top-level scope\\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:328\\n [21] include(mod::Module, _path::String)\\n    @ Base ./Base.jl:309\\n [22] exec_options(opts::Base.JLOptions)\\n    @ Base ./client.jl:344\\n [23] _start()\\n    @ Base ./client.jl:577\"\"\"\n"""
+area_term = nan
+tau_tm_imag = nan
+neutral_second = nan
+central_imag = nan
+status = "rg_unavailable"
+x2 = nan
+tau_imag = nan

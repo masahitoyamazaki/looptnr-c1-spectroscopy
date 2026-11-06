@@ -1,0 +1,20 @@
+sectors = []
+warnings = ""
+spectra = []
+
+[observables]
+source = "../chi40_dual_flow_20261020/results/U1Irrep/c_0.5/checkpoints/step_070.jls"
+seconds = 0.01893305778503418
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+rg_step = 70
+checkpoint_sha256 = "6f0ffe03514b011f830506809ff14dd36b221433eb1c407f3edc405daf245ee4"
+symmetry = "U1Irrep"
+chi = 40
+julia_version = "1.13.2"
+levels = 6
+utc = "2026-10-21T06:32:19.559"
+K_exact = 3.1082688394304085
+status = "exception"
+vertex_c = 0.5
+tube = "wide"
+error = """Irrep[U₁](0) is not allowed by the transfer matrix.\nStacktrace:\n  [1] error(s::String)\n    @ Base ./error.jl:44\n  [2] leading_eigenvalue(tm::TNRKit.CFTTransferMatrix{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}}, charge::U1Irrep; pbc::Bool, Nh::Int64)\n    @ TNRKit ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/utility/transfer_matrix.jl:383\n  [3] leading_eigenvalue\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/utility/transfer_matrix.jl:373 [inlined]\n  [4] area_term(TA::TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}, TB::TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}; is_real::Bool)\n    @ TNRKit ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/utility/cft.jl:95\n  [5] area_term\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/utility/cft.jl:90 [inlined]\n  [6] (::var\"#6#7\"{Int64, Vector{Dict{String, Any}}, Vector{Dict{String, Any}}, Dict{String, Any}, Type{U1Irrep}, Vector{Float64}, @NamedTuple{scheme::LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, normalization_history::Vector{Float64}, vertex_c::Float64, chi::Int64, rg_step::Int64, symmetry::String, weights::@NamedTuple{a::Float64, b::Float64, c::Float64}, config::@NamedTuple{a::Float64, b::Float64, c::Float64, chi::Int64, steps::Int64, shape::Vector{Float64}}, rng_state::Random.Xoshiro, rg_seconds::Float64, beta_f::Float64}})()\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_tube_comparison_20261021/measure.jl:33\n  [7] with_logstate(f::var\"#6#7\"{Int64, Vector{Dict{String, Any}}, Vector{Dict{String, Any}}, Dict{String, Any}, Type{U1Irrep}, Vector{Float64}, @NamedTuple{scheme::LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, normalization_history::Vector{Float64}, vertex_c::Float64, chi::Int64, rg_step::Int64, symmetry::String, weights::@NamedTuple{a::Float64, b::Float64, c::Float64}, config::@NamedTuple{a::Float64, b::Float64, c::Float64, chi::Int64, steps::Int64, shape::Vector{Float64}}, rng_state::Random.Xoshiro, rg_seconds::Float64, beta_f::Float64}}, logstate::Base.CoreLogging.LogState)\n    @ Base.CoreLogging ./logging/logging.jl:542\n  [8] with_logger(f::Function, logger::SimpleLogger)\n    @ Base.CoreLogging ./logging/logging.jl:653\n  [9] measure(sym::SubString{String}, cv::Float64, n::Int64, label::SubString{String}; nh::Int64, suffix::String)\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_tube_comparison_20261021/measure.jl:32\n [10] top-level scope\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_tube_comparison_20261021/measure.jl:106\n [11] include(mod::Module, _path::String)\n    @ Base ./Base.jl:309\n [12] exec_options(opts::Base.JLOptions)\n    @ Base ./client.jl:344\n [13] _start()\n    @ Base ./client.jl:577"""

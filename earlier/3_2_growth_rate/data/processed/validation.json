@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "analysis_completed": true,
+  "analysis_mode": "published_inputs",
+  "reference_comparisons": {
+    "input_points.csv": {
+      "matched": true
+    },
+    "predictions.csv": {
+      "matched": true
+    },
+    "sensitivity_fits.csv": {
+      "matched": true
+    },
+    "summary.json": {
+      "matched": true
+    }
+  },
+  "reference_rtol": 1e-10,
+  "reference_atol": 1e-12,
+  "conditions": 22,
+  "estimated_rates": 15,
+  "unresolved_rates": 7,
+  "synthetic": {
+    "recovered_growth": 1.7000000000000013,
+    "expected_growth": 1.7,
+    "control_max_error": 1.1492543028346347e-17
+  },
+  "rounded_log_input": true,
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  }
+}

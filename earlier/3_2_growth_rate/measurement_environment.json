@@ -1,0 +1,242 @@
+{
+  "environment_source": "Otsuki/tnr",
+  "runtime_julia": "1.13.2",
+  "sources": [
+    {
+      "original": "Otsuki/tnr/practice/sixvertex_rate_measure.jl",
+      "path": "provenance/measurement_source/1_sixvertex_rate_measure.jl",
+      "sha256": "24b3809d6b67e7f766b50d372ad24e3fa567f102027914a1fa8c48c7b96d4ade"
+    },
+    {
+      "original": "Otsuki/tnr/practice/sixvertex_rate_scan.jl",
+      "path": "provenance/measurement_source/2_sixvertex_rate_scan.jl",
+      "sha256": "eb3fe8700fe30ed7523f25d279a4a2e1f0e49dc00e32bdca09767193b50a4b5f"
+    }
+  ],
+  "files": [
+    {
+      "path": "environment/Manifest.toml",
+      "sha256": "91e5c92aadafa759a6c7bb4cf66bcc99f95c3cecc006229e2adfe301ebf34d55"
+    },
+    {
+      "path": "environment/Project.toml",
+      "sha256": "fb5f4e6a1cf3efeaaa9650ed26cb8976b88e23a9761a16090b0fdacddd5029f0"
+    },
+    {
+      "path": "environment/TNRKit/Project.toml",
+      "sha256": "b93f87069339ebe2ddc1efabe3325c7582b1c5785688cb881eb898eecdce3bda"
+    },
+    {
+      "path": "environment/TNRKit/src/TNRKit.jl",
+      "sha256": "4dddd2716282e0bc9cdd3f0c4e36a33785825bc246b2e2b6faf09b0c9c8a7ec2"
+    },
+    {
+      "path": "environment/TNRKit/src/models/XY.jl",
+      "sha256": "0d0acc8e35967e2a1a87ee1babd24fa7097c949fbd058510c420fbbe68c54725"
+    },
+    {
+      "path": "environment/TNRKit/src/models/clock.jl",
+      "sha256": "9728485e4169a9c8dbcc4816075e701f6c7ff49aa8c1dcb12ac4d3d21d5ffdc7"
+    },
+    {
+      "path": "environment/TNRKit/src/models/gross-neveu.jl",
+      "sha256": "483872cb7b81cd9547a24aab34335cfdd1b0d33e074158c37169ac602c5d2447"
+    },
+    {
+      "path": "environment/TNRKit/src/models/ising.jl",
+      "sha256": "8a221e26ea692545ee164b5aea5ee9d0e918753e5148b40e7e5aff20801427ae"
+    },
+    {
+      "path": "environment/TNRKit/src/models/ising_honeycomb.jl",
+      "sha256": "a27a21d357db3343778f7ef02288203e261edff871c12a9e326181fc29b00e04"
+    },
+    {
+      "path": "environment/TNRKit/src/models/ising_triangular.jl",
+      "sha256": "df8bf834da64fc68fe04ade7d70ccf6afea81f62631b9d5e89a7a4fc16b271fa"
+    },
+    {
+      "path": "environment/TNRKit/src/models/phi4_complex.jl",
+      "sha256": "62433ea9d4b18eeb6040721790e0271f0a4d6b2638155ca48b241703a43cae49"
+    },
+    {
+      "path": "environment/TNRKit/src/models/phi4_real.jl",
+      "sha256": "48d03f11b20878fb2a096b7de75480b9056e285c4fb3348f50dca8fb9a79cdaf"
+    },
+    {
+      "path": "environment/TNRKit/src/models/potts.jl",
+      "sha256": "cc89eb0fd153b42725e665da1d8e46b216e0b8e68b3412b7327c3d2594eb7dab"
+    },
+    {
+      "path": "environment/TNRKit/src/models/quantum_1D.jl",
+      "sha256": "9ddc68e4b52aa9b3d2850916d9294a6b926eeb253d1558997bb338e1c67fc28d"
+    },
+    {
+      "path": "environment/TNRKit/src/models/sixvertex.jl",
+      "sha256": "e12d1c5568e28b5227682f801ab919d4d87658231a52940c0dbe76dc5da5ecab"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/atrg.jl",
+      "sha256": "43be003c549ebbae76003af3808b91cb9f15fc3e02292d0ccbbe0a721363fc02"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/atrg3d.jl",
+      "sha256": "9964e618949bd3c170c6eca68f46e631b098a5311a1aef542b3d7d1af8fc3b37"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/btrg.jl",
+      "sha256": "1bc8d5f55442e952be36e278e0640ffa48ac332c16ede61b19769ab9f39ac472"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/correlationhotrg.jl",
+      "sha256": "989ac33bfa2c6339f787c5478acc8836b6378a37c1ca432d0e6715d39577ee7c"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/c3vctm_honeycomb.jl",
+      "sha256": "5f9c09719bb1665d70373451a92464a6560b7d4fea2cada54fdfe74a5c74ab32"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/c4vctm.jl",
+      "sha256": "1141559e69c70163f892409b6917d97ee4d1ef9e52fe7d3ef9ef6fe1041f5830"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/c6vctm_triangular.jl",
+      "sha256": "6d53d2443e590fb6863848f5e76d94d2ebca474d6d516248fdb3a44359ca8058"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/ctm_honeycomb.jl",
+      "sha256": "eab627e5f6696b48432812f76bfef934e78cd0856bfb85dc5587fced2d60e5b5"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/ctm_hotrg.jl",
+      "sha256": "4bd7263639ce2fe7f49f263bef0189abbbd6bf607385377c3235bdf79765f8bc"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/ctm_trg.jl",
+      "sha256": "ffea21c38041d670c3c1611384d91066b182f241adaabe3cb1bdd05724bd58b9"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/ctm_triangular.jl",
+      "sha256": "6df6655c8cb3b641b05cd726dbea862f88660a2fa0623798e92a44a0f2ff5d9b"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/honeycomb.jl",
+      "sha256": "294efee2bfff6e0b5899b330d8afa4a44b6209a4a8d5aeec30f9e2015fb7146a"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/onesite_ctm.jl",
+      "sha256": "ac00c70347b4bba9e72f0cca474b91de18eacc15cc289623a3cc81e65af33e81"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/rctm.jl",
+      "sha256": "2c2d919199c9f3753313ad9d57309f801ca53f58100398e522fa5dee8f210a23"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/sublattice_ctm.jl",
+      "sha256": "e92cc463fbbe55a3da6e2977b3c03f272b75481985d0f8d7e4cafb7356e49237"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/triangular.jl",
+      "sha256": "d34f63df801bfe22eebc1fca6438d709e60a448823aa88cb947cfa385f745fb5"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ctm/utility.jl",
+      "sha256": "7e5d2236f3ef1315389e2b749f2c3cdaf9c1c6c4fffae949dc72b94a1bd8a58b"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/hotrg.jl",
+      "sha256": "a4400c4149f0c13b9e698700fad6fc10c3ec33c34d44dc610b48168cfbbc511f"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/hotrg3d.jl",
+      "sha256": "cc7ef396de3fa217f4ea40cec997429acf06907e1fdbce73ce2240d64f8e975e"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/impurityhotrg.jl",
+      "sha256": "dd47325db1097f3dba07162e0a65dd47be9b16d6fc3520632a5434dd072fa541"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/impuritytrg.jl",
+      "sha256": "c854f8ebada6e4527f06f168f0e066bf7381484d1c4be754c06295c4368ea91e"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/looptnr.jl",
+      "sha256": "b0cca77925003049546b0ed19d760dd73c83e8f895e3e414425a70fe0f61962e"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/symmetric_looptnr.jl",
+      "sha256": "a7032c60192c4887d7dff5bc5187973b74203a478ea0f1bc5737d97a3f2d38e3"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/tnrscheme.jl",
+      "sha256": "2638e8b411d7277907c90ec8dad6ee57e227e40ae3a20464d76caf138391e941"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/trg.jl",
+      "sha256": "4970db560de5d680296ba311b3afe8bf3fe68ff02cb3e7452f6cd7bab38f1c83"
+    },
+    {
+      "path": "environment/TNRKit/src/schemes/ttnr.jl",
+      "sha256": "7906a6b34d6fdb9c216584142709939c4d6f5b5796702af971209252c4a2a615"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/blocking.jl",
+      "sha256": "5223a9cd090a4350222856af3367dbf8e6d073fa5326b8baf7e2bc61bd7cb251"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/cdl.jl",
+      "sha256": "017843903f6092d50eed2229b5c9cb1cee760770635984fc94f9c7b0a323eff1"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/cft.jl",
+      "sha256": "ca9823f525573ab76a7f97b2432e54d887d341f8a5a36846f72936920785e3b0"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/entropies.jl",
+      "sha256": "7849ac23b1b462bdb7c4bcfc8db4dc9fa453a4ee6bb099471c893d7db72ee5f3"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/finalize.jl",
+      "sha256": "20a216d8289e9582676ea6126654c9f7c87bf8f7ec77d35b06abda28736d0bd0"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/free_energy.jl",
+      "sha256": "89a61973e889be7f3cffef68f21ee871db6c8eeaaead27c516e04789566b9202"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/gs_degeneracy.jl",
+      "sha256": "4cc69e33523a37bafabcac34d59a49732307f154628c52becd03d30eaf452ee0"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/network_value.jl",
+      "sha256": "9d909cc87947dd308d4528557344d2ecd211f452c2fb049d5c1e15e7f1a3a546"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/projectors.jl",
+      "sha256": "de159036378c272c1c8f494ba05db000ea6397772ee12c312fea86cb66dc12c2"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/stopping.jl",
+      "sha256": "e9e601d1702270f586bfba7b4035723cb1d093254223830f7794f5c60e2f48f5"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/structuredvector.jl",
+      "sha256": "0f15c10841f46cff2d40821681e45e15997bf1b196369c4e677ac11d0bfc742a"
+    },
+    {
+      "path": "environment/TNRKit/src/utility/transfer_matrix.jl",
+      "sha256": "fd7112ee7291adc4b982f8483c1cccb2d53a27f7b87511783b508b94e73a5e8d"
+    },
+    {
+      "path": "scripts/measure_kernel.jl",
+      "sha256": "fd6a041937be061f275dac6e2011f64ac8e7fbd3eae72cbfa6e8581d048d14e8"
+    },
+    {
+      "path": "scripts/measure_cft.py",
+      "sha256": "5a2f8c27f266feae4bf80ae969b52e567955ee26c7b27afe86dda7da7a6ee5fa"
+    },
+    {
+      "path": "measurement_plan.csv",
+      "sha256": "314f82ea2cd2f727411efcecc7a8d39d8a8ef67882b0f3cc61150a70c427bbe5"
+    }
+  ]
+}

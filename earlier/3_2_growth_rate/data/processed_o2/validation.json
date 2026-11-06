@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "first_difference": null,
+  "reference": "data/reference_o2/rates.csv",
+  "reference_rtol": 1e-08,
+  "rows": 15,
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  }
+}

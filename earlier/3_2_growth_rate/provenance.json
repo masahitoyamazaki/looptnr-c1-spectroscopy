@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "assembled_date": "2026-11-01",
+  "figure_number": 3,
+  "label": "fig:flows",
+  "section": "第3.1節",
+  "title": "O(2) の成長率",
+  "self_contained_scope": "Bundled CFT -> analysis -> figure; saved tensors are external inputs, with a local Julia environment and CFT-only measurement entry.",
+  "inputs": [
+    {
+      "path": "data/cft/sixvertex_rate_cft_fushio_chi40_dense_run1.log",
+      "sha256": "5a54d9863c70e626f31dd85c97f5b53f8f1f147d911838bc694a9a384805b1a0",
+      "bytes": 30928
+    },
+    {
+      "path": "data/cft/sixvertex_rate_cft_fushio_chi40_dense_run2.log",
+      "sha256": "919d56534a4cc11e5ff25c68939ca78f1526712953ab1b8acf15507e12065b4d",
+      "bytes": 30665
+    },
+    {
+      "path": "data/cft/sixvertex_rate_cft_fushio_chi40_dense_run3.log",
+      "sha256": "4dd535ce61e26b1707f151007882d6c29a96cbeb30cdc6704dda8b518cb66623",
+      "bytes": 30248
+    },
+    {
+      "path": "data/cft/sixvertex_rate_cft_fushio_chi40_extra_run.log",
+      "sha256": "9a8ffe4c93863ce37e60a9cad593e302b5692fe5de7adc231b49846e8a801b62",
+      "bytes": 6865
+    },
+    {
+      "path": "data/cft/sixvertex_rate_cft_fushio_run.log",
+      "sha256": "350f2a519336ab6206abc7d876ec4707834a4819ca03ae8806809d3448c4709c",
+      "bytes": 60494
+    },
+    {
+      "path": "data/reference/input_points.csv",
+      "sha256": "c031c81716ecb28686987c24062cdf1dee9479dc3f218f114b1902fd501bc413",
+      "bytes": 331261
+    },
+    {
+      "path": "data/reference/predictions.csv",
+      "sha256": "e275c00dddc39fb8feb301c0bf55b80a6a004a0d1e57ded09f481a4b80ef5adc",
+      "bytes": 214415
+    },
+    {
+      "path": "data/reference/sensitivity_fits.csv",
+      "sha256": "618dbf91e0f4167697df8b9c2e8d4e20035e62a904f61dd8c015252865ef543d",
+      "bytes": 117764
+    },
+    {
+      "path": "data/reference/summary.json",
+      "sha256": "35286b4cae8fd64a0571785b046a8cc83f5a594fabf3f2024df53aa1208c4f9b",
+      "bytes": 70368
+    },
+    {
+      "path": "data/representative_calculations.csv",
+      "sha256": "5d73bf313aa344ee7f50819cd1f04464b9a385f24b826c5d773e0fe6fa125620",
+      "bytes": 84802
+    },
+    {
+      "path": "provenance/source/analyze.py",
+      "sha256": "9617310eec67e652a66afc3f5ff8469ca6c2cc96ef97958a994344b4b1de2ae3",
+      "bytes": 22001
+    },
+    {
+      "path": "environment/TNRKit/src/utility/cft.jl",
+      "sha256": "ca9823f525573ab76a7f97b2432e54d887d341f8a5a36846f72936920785e3b0",
+      "bytes": 10741
+    },
+    {
+      "path": "provenance/source/paper_chi40_x_rate_20261101.py",
+      "sha256": "c95153fbd6ed4345f0d51edee1dfa72cf9cfa2dca79e21c2ca635e6657a930e7",
+      "bytes": 9288
+    },
+    {
+      "path": "provenance/source/sixvertex_rate_measure.jl",
+      "sha256": "57a62d36a5d6c752f54914524af8c7011941da94ec058f2955bcdad3d412df0d",
+      "bytes": 14999
+    }
+  ],
+  "implementation": [
+    {
+      "path": "scripts/analyze.py",
+      "sha256": "604d314c3f0929408122653954a3eda2686bb7569ab12941d2b15aa86ef1a4a3"
+    },
+    {
+      "path": "scripts/bundle.py",
+      "sha256": "38f369332c8c5ef229cbe24299ec6905d901f76a289b3e8e390fff4eee2d0f41"
+    },
+    {
+      "path": "scripts/fit_method.py",
+      "sha256": "7da0a36add3f9ff48aa820ceaa1deb6f4e8aa55fe77d7e4dbbf78866303d52ce"
+    },
+    {
+      "path": "scripts/measure_cft.py",
+      "sha256": "5a2f8c27f266feae4bf80ae969b52e567955ee26c7b27afe86dda7da7a6ee5fa"
+    },
+    {
+      "path": "scripts/measure_kernel.jl",
+      "sha256": "fd6a041937be061f275dac6e2011f64ac8e7fbd3eae72cbfa6e8581d048d14e8"
+    },
+    {
+      "path": "scripts/plot.py",
+      "sha256": "a79af5236a8b2bd1a413e0a2ef271cdbd99c9c7397c9606c49b5946836ab52e4"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "sha256": "592b2f1eca8c07db83887516c6b0f3d6d128ce43230f6eb3cd62839399c54c3b"
+    },
+    {
+      "path": "scripts/run_bundle.py",
+      "sha256": "335da3af8dbd28f3cd0e2f875133a2b1b263d0910eda1af9070e9d118e3db69d"
+    }
+  ],
+  "source_copies": [
+    {
+      "local_path": "data/cft/sixvertex_rate_cft_fushio_chi40_dense_run1.log",
+      "source": "Otsuki/tnr/practice/data/sixvertex_rate_cft_fushio_chi40_dense_run1.log",
+      "sha256": "5a54d9863c70e626f31dd85c97f5b53f8f1f147d911838bc694a9a384805b1a0"
+    },
+    {
+      "local_path": "data/cft/sixvertex_rate_cft_fushio_chi40_dense_run2.log",
+      "source": "Otsuki/tnr/practice/data/sixvertex_rate_cft_fushio_chi40_dense_run2.log",
+      "sha256": "919d56534a4cc11e5ff25c68939ca78f1526712953ab1b8acf15507e12065b4d"
+    },
+    {
+      "local_path": "data/cft/sixvertex_rate_cft_fushio_chi40_dense_run3.log",
+      "source": "Otsuki/tnr/practice/data/sixvertex_rate_cft_fushio_chi40_dense_run3.log",
+      "sha256": "4dd535ce61e26b1707f151007882d6c29a96cbeb30cdc6704dda8b518cb66623"
+    },
+    {
+      "local_path": "data/cft/sixvertex_rate_cft_fushio_chi40_extra_run.log",
+      "source": "Otsuki/tnr/practice/data/sixvertex_rate_cft_fushio_chi40_extra_run.log",
+      "sha256": "9a8ffe4c93863ce37e60a9cad593e302b5692fe5de7adc231b49846e8a801b62"
+    },
+    {
+      "local_path": "data/cft/sixvertex_rate_cft_fushio_run.log",
+      "source": "Otsuki/tnr/practice/data/sixvertex_rate_cft_fushio_run.log",
+      "sha256": "350f2a519336ab6206abc7d876ec4707834a4819ca03ae8806809d3448c4709c"
+    },
+    {
+      "local_path": "data/reference/input_points.csv",
+      "source": "Fushio/code/six_vertex/results/paper_o2_wide_20261101/input_points.csv",
+      "sha256": "c031c81716ecb28686987c24062cdf1dee9479dc3f218f114b1902fd501bc413"
+    },
+    {
+      "local_path": "data/reference/predictions.csv",
+      "source": "Fushio/code/six_vertex/results/paper_o2_wide_20261101/predictions.csv",
+      "sha256": "e275c00dddc39fb8feb301c0bf55b80a6a004a0d1e57ded09f481a4b80ef5adc"
+    },
+    {
+      "local_path": "data/reference/sensitivity_fits.csv",
+      "source": "Fushio/code/six_vertex/results/paper_o2_wide_20261101/sensitivity_fits.csv",
+      "sha256": "618dbf91e0f4167697df8b9c2e8d4e20035e62a904f61dd8c015252865ef543d"
+    },
+    {
+      "local_path": "data/reference/summary.json",
+      "source": "Fushio/code/six_vertex/results/paper_o2_wide_20261101/summary.json",
+      "sha256": "35286b4cae8fd64a0571785b046a8cc83f5a594fabf3f2024df53aa1208c4f9b"
+    },
+    {
+      "local_path": "data/representative_calculations.csv",
+      "source": "research_note/calculation_table/support/representative_calculations.csv",
+      "sha256": "5d73bf313aa344ee7f50819cd1f04464b9a385f24b826c5d773e0fe6fa125620"
+    },
+    {
+      "local_path": "provenance/source/analyze.py",
+      "source": "Fushio/code/six_vertex/scripts/paper_o2_wide_20261101/analyze.py",
+      "sha256": "9617310eec67e652a66afc3f5ff8469ca6c2cc96ef97958a994344b4b1de2ae3"
+    },
+    {
+      "local_path": "environment/TNRKit/src/utility/cft.jl",
+      "source": "Otsuki/tnr/TNRKit/src/utility/cft.jl",
+      "sha256": "ca9823f525573ab76a7f97b2432e54d887d341f8a5a36846f72936920785e3b0"
+    },
+    {
+      "local_path": "provenance/source/paper_chi40_x_rate_20261101.py",
+      "source": "Fushio/code/six_vertex/scripts/paper_chi40_x_rate_20261101.py",
+      "sha256": "c95153fbd6ed4345f0d51edee1dfa72cf9cfa2dca79e21c2ca635e6657a930e7"
+    },
+    {
+      "local_path": "provenance/source/sixvertex_rate_measure.jl",
+      "source": "Otsuki/tnr/practice/sixvertex_rate_measure.jl",
+      "sha256": "57a62d36a5d6c752f54914524af8c7011941da94ec058f2955bcdad3d412df0d"
+    }
+  ],
+  "tensor_catalog": {
+    "source": "local_tensor_data/Six_vertex/_catalog/tensors.csv",
+    "sha256": "7b0903abab28f05ff693a4f9fe03dde077b55fff43c16d9b9fe155bfbb477e07",
+    "drive_root": "<team Drive>",
+    "verification": "local catalog lookup; no remote tensor content rehash",
+    "rows": 1146,
+    "sha256_matches": 0,
+    "parameter_candidates": 1146,
+    "unmatched": 0,
+    "rg_unavailable": 0
+  },
+  "precision": "Rounded CFT logs only; original high-precision CFT files not located. Printed intervals retained.",
+  "measurement_entry": "scripts/measure_cft.py",
+  "measurement_provenance": "measurement_environment.json",
+  "documentation_revision": "2026-11-01: self-contained explanation and configurable CFT measurement entry",
+  "o2_refit": {
+    "assembled_date": "2026-11-04",
+    "description": "Refit of the charged level from the full-precision levels: x = 1 - 4K Delta_01 with c + d n + A r^n [+ B s^n], rates fixed to the CFT values except r, B kept for K < 3/4.",
+    "inputs": [
+      {
+        "path": "data/cft/o2_runs.csv",
+        "sha256": "b46fb809d3e3ba6d5fa430c5e7f1ab9b86aa69b9431bf581828d00e62b30d290",
+        "bytes": 4581
+      },
+      {
+        "path": "data/cft/o2_levels.csv",
+        "sha256": "09ae501b6d250c6a2f74dc11bf1538b45cedcb4cd4c4b968cb1d43842ac8b8a2",
+        "bytes": 380368
+      },
+      {
+        "path": "data/reference_o2/rates.csv",
+        "sha256": "00eeabcc597039b37203f42ed13c1ccfe65e4bbafd0e01ecab9ab78610e3d652",
+        "bytes": 4246
+      }
+    ],
+    "implementation": [
+      {
+        "path": "scripts/o2_fit.py",
+        "sha256": "e748e6fcc823a1791281f53f5adafb1d0679b71f76ae81d77be0d59f71336083"
+      },
+      {
+        "path": "scripts/o2_figure.py",
+        "sha256": "c63c35f835d70bbbfb7a062fd239b541674a5a6afcf4f71e2452d250b457479e"
+      }
+    ],
+    "outputs": {
+      "processed": "data/processed_o2/",
+      "reference": "data/reference_o2/rates.csv",
+      "figures": "figures/"
+    },
+    "source": {
+      "export_script": "Otsuki/sixvertex/scripts/sixvertex_o2_export_levels.jl",
+      "cft_records": "Otsuki/sixvertex/data/sixvertex_rate_cft_*.jls (Julia serialization, not in git; one file per run, listed in data/cft/o2_runs.csv). Written by Otsuki/sixvertex/scripts/sixvertex_rate_measure.jl, the same measurement whose rounded printout is data/cft/*.log",
+      "levels_kept": "lowest (1,2) level (Delta_01) and the three lowest (0,1) levels (J, Jbar and the e = +-1 level)",
+      "fit_original": [
+        "Otsuki/sixvertex/scripts/sixvertex_rate_driftfit.jl",
+        "Otsuki/sixvertex/scripts/sixvertex_o2_coupling_figs.jl (main_fit, figure_rate)"
+      ],
+      "validated_against": [
+        "Otsuki/sixvertex/logs/sixvertex_o2_coupling_figs_report.log, section 1 (r, ratio, error range, window, B)"
+      ]
+    }
+  },
+  "public_copy_note": "Local paths and Drive links were redacted for publication; input hashes were recomputed accordingly."
+}

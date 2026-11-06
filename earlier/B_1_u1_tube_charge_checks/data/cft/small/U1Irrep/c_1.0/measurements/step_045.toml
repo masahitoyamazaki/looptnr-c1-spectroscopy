@@ -1,0 +1,32 @@
+warnings = ""
+spectra = []
+
+[observables]
+cft_seconds = 0.091560375
+central_charge = nan
+central_from_tau = nan
+x2_exact = 0.6666666666666667
+x3_exact = 1.5000000000000002
+vertex_c = 1.0
+xm1 = nan
+x1 = nan
+warning_count = 0
+neutral_third_or_odd = nan
+tau_real = nan
+x1_exact = 0.16666666666666669
+x3 = nan
+phase = "coarse"
+tau_tm_real = nan
+rg_step = 45
+xm2 = nan
+symmetry = "U1Irrep"
+xm3 = nan
+K_exact = 1.4999999999999998
+error = """BoundsError: attempt to access 0-element Vector{ComplexF64} at index [1]\nStacktrace:\n  [1] throw_boundserror(A::Vector{ComplexF64}, I::Tuple{Int64})\n    @ Base ./essentials.jl:14\n  [2] checkbounds\n    @ ./essentials.jl:389 [inlined]\n  [3] getindex\n    @ ./essentials.jl:974 [inlined]\n  [4] first(a::Vector{ComplexF64})\n    @ Base ./abstractarray.jl:455\n  [5] area_term(TA::TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}, TB::TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}; is_real::Bool)\n    @ TNRKit ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/utility/cft.jl:95\n  [6] area_term\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/source_environment/src/utility/cft.jl:90 [inlined]\n  [7] extract(scheme::LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, S::Type; nh::Int64)\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:152\n  [8] extract(scheme::LoopTNR{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, TensorMap{Float64, GradedSpace{U1Irrep, TensorKit.SortedVectorDict{U1Irrep, Int64}}, 2, 2, Vector{Float64}}}, S::Type)\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:151\n  [9] (::var\"#24#25\"{String, Float64, Int64})()\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:222\n [10] with_logstate(f::var\"#24#25\"{String, Float64, Int64}, logstate::Base.CoreLogging.LogState)\n    @ Base.CoreLogging ./logging/logging.jl:542\n [11] with_logger\n    @ ./logging/logging.jl:653 [inlined]\n [12] measure(s::String, c::Float64, n::Int64, phase::String; unavailable::Bool)\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:221\n [13] measure\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:204 [inlined]\n [14] (::var\"#batch#cft##0\"{Dict{Tuple{String, Float64, Int64}, Any}})(todo::Vector{Tuple{String, Float64, Int64}}, phase::String)\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:254\n [15] cft()\n    @ Main ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:275\n [16] top-level scope\n    @ ~/Downloads/00General/Research/TNR/TNR_practice/Fushio/folder4/chi40_dual_flow_20261020/results/driver_source/worker.jl:328\n [17] include(mod::Module, _path::String)\n    @ Base ./Base.jl:309\n [18] exec_options(opts::Base.JLOptions)\n    @ Base ./client.jl:344\n [19] _start()\n    @ Base ./client.jl:577"""
+area_term = nan
+tau_tm_imag = nan
+neutral_second = nan
+central_imag = nan
+status = "exception"
+x2 = nan
+tau_imag = nan

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "analysis_completed": true,
+  "analysis_mode": "published_inputs",
+  "reference_comparisons": {
+    "odd_current_fits.csv": {
+      "matched": true
+    },
+    "odd_fit_sensitivity.csv": {
+      "matched": true
+    }
+  },
+  "reference_rtol": 1e-10,
+  "reference_atol": 1e-12,
+  "primary_fits": 6,
+  "measurement_records": 473,
+  "omega_fixed_degrees": 135,
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4"
+  }
+}
