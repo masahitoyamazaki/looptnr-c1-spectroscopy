@@ -1,0 +1,16 @@
+include("measure.jl")
+source,n,path,hash=split(first(readlines(joinpath(HERE,"control/jobs.tsv"))),'\t')
+s=deserialize(joinpath(REPO,path)).scheme;c=TOML.parsefile(source)["config"]
+Q,_,geo=shifted_Q(s,parse(Int,n),c["delta"],c["dt"],c["beta_cell"])
+tm=TNRKit.CFTTransferMatrix(real(Q.TA),real(Q.TB),[1.,4.,1.]);parts=sliced_parts(tm)
+initial=randn(MersenneTwister(20261106),Float64,domain(tm)←Vect[CU1Irrep](CU1Irrep(1,2)=>1))
+action(x)=sliced_action(tm,parts,x)
+t=@elapsed vals,vs,info=TNRKit.eigsolve(action,initial,1,:LM;krylovdim=12,maxiter=80,tol=1e-11,eager=true,verbosity=0)
+j=argmax(abs.(vals));v=vs[j];mu=vals[j]
+fx=eltype(v)<:Real ? action(v) : action(real(v))+im*action(imag(v))
+res=norm(fx-mu*v)/(abs(mu)*norm(v))
+prior=TOML.parsefile(joinpath(HERE,"data/stack_K1.5_chi32/step_006.toml.progress"))
+old=only(s for s in prior["sectors"] if s["sector"]==string(CU1Irrep(1,2)))
+ref=complex(old["mu_real"],old["mu_imag"])
+out=Dict("seconds"=>t,"numops"=>info.numops,"converged"=>info.converged,"residual"=>res,"relative_difference"=>abs(mu-ref)/abs(ref))
+atomic_toml(joinpath(HERE,"control/eager_validation.toml"),out);println(out)

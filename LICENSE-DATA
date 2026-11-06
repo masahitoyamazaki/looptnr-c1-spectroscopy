@@ -1,0 +1,9 @@
+The data in this repository (transfer-matrix spectra, singular values, and derived tables in the folders
+runs/*/data, runs/additional/sv, external/, and the *.csv and *.json files produced by the analysis scripts)
+are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 Akira Otsuki, Rikuto Fushio, Kokin Cho, Yuta Yamamoto, and Masahito Yamazaki
+
+You are free to share and adapt the data for any purpose, provided that you give appropriate credit (cite the
+paper listed in README.md), provide a link to the license, and indicate if changes were made.
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
