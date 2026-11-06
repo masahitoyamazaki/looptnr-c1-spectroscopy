@@ -3,7 +3,7 @@
 Data and code for the paper
 
 > A. Otsuki, R. Fushio, K. Cho, Y. Yamamoto, and M. Yamazaki,
-> *Symmetry-resolved spectroscopy of truncation-induced perturbations in loop tensor network renormalization at c = 1*
+> *Symmetry-resolved spectroscopy of truncation-induced perturbations in loop tensor network renormalization of the six-vertex model*
 > (arXiv: to be added).
 
 The paper studies how finite-bond-dimension truncation errors of loop tensor network renormalization (LoopTNR) grow
