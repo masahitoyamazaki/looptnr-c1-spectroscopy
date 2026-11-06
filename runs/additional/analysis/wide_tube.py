@@ -23,6 +23,20 @@ def wide_levels(K, chi):
     return lev
 
 
+def fixed_rate_amplitude(K, chi, lr):
+    """Fit the wide-tube X(n) over its own window with the growth rate fixed to exp(lr) (standard tube);
+    returns the growth-term amplitude extrapolated to n = 0, i.e. A r^{-n_e}, which is step independent."""
+    lev = wide_levels(K, chi)
+    X = {n: 1 - 4 * K * min(float(r["x"]) for r in rows if "(1, 2)" in r["sector"]) for n, rows in lev.items()}
+    n_e = [m for m in sorted(X) if m >= 12 and abs(X[m]) > 0.1][0] - 1
+    n = np.arange(12, n_e + 1, dtype=float); t = (n - (12 + n_e) / 2) / 10
+    cols = [np.ones_like(t), t, np.exp(lr * n)]
+    if K < 0.75:
+        cols.append((2.0 ** (2 - 4 * K)) ** (n - 12))
+    c, *_ = np.linalg.lstsq(np.vstack(cols).T, np.array([X[int(m)] for m in n]), rcond=None)
+    return c[2]
+
+
 def fit_wide(K, chi, alpha):
     lev = wide_levels(K, chi)
     def x01(rows):
@@ -55,11 +69,13 @@ def main():
         wid = fit_wide(K, chi, a)
         nc = min(nar["n_e"], wid["n_e"])   # latest step inside both fit windows: no long extrapolation
         g_n = -nar["A"] * nar["r"] ** (nc - nar["n_e"]); g_w = -wid["A"] * wid["r"] ** (nc - wid["n_e"])
-        row = dict(K=K, chi=chi, ne_std=nar["n_e"], ne_wide=wid["n_e"], r_std=nar["r_over_pred"], r_wide=wid["r_over_pred"],
+        g_w_fix = fixed_rate_amplitude(K, chi, math.log(nar["r"])); g_n_fix = nar["A"] * nar["r"] ** (-nar["n_e"])
+        row_ratio_window = g_w_fix / g_n_fix
+        row = dict(K=K, chi=chi, ratio_window=row_ratio_window, ne_std=nar["n_e"], ne_wide=wid["n_e"], r_std=nar["r_over_pred"], r_wide=wid["r_over_pred"],
                    q_std=nar["ratio_over_pred"], q_wide=wid["ratio_over_pred"], g2_ratio_nc=g_w / g_n, pred=5 ** (2 - K))
         rows.append(row)
         print(f"K={K:<5} chi={chi:<3} n_e {row['ne_std']}/{row['ne_wide']}  r/2^(2-K) {row['r_std']:.4f}/{row['r_wide']:.4f}  "
-              f"ratio {row['q_std']:.4f}/{row['q_wide']:.4f}  g2 wide/std at n={nc}: {row['g2_ratio_nc']:.3f} (pred {row['pred']:.3f})")
+              f"ratio {row['q_std']:.4f}/{row['q_wide']:.4f}  g2 wide/std at n={nc}: {row['g2_ratio_nc']:.3f} (pred {row['pred']:.3f}); same-rate window fit: {row_ratio_window:.3f}")
     with open(os.path.join(HERE, "wide_tube.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 

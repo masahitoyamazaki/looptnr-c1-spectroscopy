@@ -1,11 +1,11 @@
-"""Residual bootstrap for the O(2) growth factor r and the normalized amplitude ratio (2026-11-06).
+"""Residual (moving-block) bootstrap for the O(2) growth factor r and the normalized amplitude ratio (2026-11-06).
 
 Same fit as analyze_o2 in analyze.py (window n = 12 .. n_e, linear background, growth term with free rate r,
 umklapp term for K < 0.75; the current level X_J fitted with the same rate and background).  The residuals of the
-two series are resampled in pairs (same steps), r is refitted on a fine grid around the best value, and the
+two series are resampled in pairs (same steps) as moving blocks of BLOCK consecutive steps (BLOCK=1: i.i.d.), r is refitted on a fine grid around the best value, and the
 amplitude ratio is recomputed.  Residuals are correlated between steps, so these are statistical errors in the
 narrow sense; the window variations quoted in the paper remain the dominant (systematic) uncertainty.
-Usage:  python3 bootstrap.py [NBOOT]      (reads ../data/CU1_K*_chi*)
+Usage:  python3 bootstrap.py [NBOOT] [BLOCK]      (reads ../data/CU1_K*_chi*; default BLOCK=4)
 """
 import csv, glob, math, os, sys
 import numpy as np
@@ -50,7 +50,7 @@ def refit(n, x, n_e, K, lr0):
     return best
 
 
-def main(nboot):
+def main(nboot, block):
     alpha = {round(float(r["K"]), 4): r for r in csv.DictReader(open(ALPHA))}
     rng = np.random.default_rng(20261106)
     rows = []
@@ -69,7 +69,8 @@ def main(nboot):
         res, resj = x - M @ c, xj - M @ cj
         rs, qs = [], []
         for _ in range(nboot):
-            idx = rng.integers(0, len(n), len(n))
+            starts = rng.integers(0, len(n) - block + 1, (len(n) + block - 1) // block)
+            idx = np.concatenate([np.arange(st, st + block) for st in starts])[:len(n)]
             xb, xjb = M @ c + res[idx], M @ cj + resj[idx]
             _, lrb, cb, Mb = refit(n, xb, n_e, K, lr)
             cjb, *_ = np.linalg.lstsq(Mb, xjb, rcond=None)
@@ -79,9 +80,9 @@ def main(nboot):
         rows.append(row)
         print(f"K={K:<5} chi={chi:<3} n_e={n_e:<3} r/2^(2-K)={row['r_over_pred']:.4f} +- {row['sd_r']:.4f}   "
               f"ratio={row['ratio_over_pred']:.4f} +- {row['sd_ratio']:.4f}", flush=True)
-    with open(os.path.join(HERE, "bootstrap.csv"), "w", newline="") as f:
+    with open(os.path.join(HERE, f"bootstrap_block{block}.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0])); w.writeheader(); w.writerows(rows)
 
 
 if __name__ == "__main__":
-    main(int(sys.argv[1]) if len(sys.argv) > 1 else 400)
+    main(int(sys.argv[1]) if len(sys.argv) > 1 else 400, int(sys.argv[2]) if len(sys.argv) > 2 else 4)
