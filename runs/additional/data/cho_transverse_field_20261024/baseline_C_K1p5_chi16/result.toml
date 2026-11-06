@@ -1,0 +1,6804 @@
+total_seconds = 92.92240118980408
+translation_symmetry_verified = false
+runner_sha256 = "6ce6d29c86355f8a09a486f81709dbc8d53c0315a6aa36929beff42bde160e94"
+status = "complete"
+config_sha256 = "779add4f5916ea7deee21dc003c9bb46a9b6b56e32d27ddccb8b88e950ae156d"
+blas_threads = 1
+rotation_symmetry_verified = false
+tnrkit = "0.7.0"
+last_saved_step = 40
+git_commit = "ec805b6747074c0073be5d0c5e0a22a5785420ae"
+julia = "1.11.9"
+julia_threads = 1
+tensorkit = "0.16.5"
+
+[tnrkit_source_sha256]
+"src/schemes/ctm/sublattice_ctm.jl" = "e92cc463fbbe55a3da6e2977b3c03f272b75481985d0f8d7e4cafb7356e49237"
+"src/schemes/hotrg.jl" = "a4400c4149f0c13b9e698700fad6fc10c3ec33c34d44dc610b48168cfbbc511f"
+"src/utility/stopping.jl" = "e9e601d1702270f586bfba7b4035723cb1d093254223830f7794f5c60e2f48f5"
+"src/schemes/ctm/ctm_triangular.jl" = "6df6655c8cb3b641b05cd726dbea862f88660a2fa0623798e92a44a0f2ff5d9b"
+"src/schemes/ctm/ctm_honeycomb.jl" = "eab627e5f6696b48432812f76bfef934e78cd0856bfb85dc5587fced2d60e5b5"
+"src/models/clock.jl" = "9728485e4169a9c8dbcc4816075e701f6c7ff49aa8c1dcb12ac4d3d21d5ffdc7"
+"src/schemes/looptnr.jl" = "2453a58d705035e50acb647b3971b8bd84c8129b3130e3b70eec5f883b4751cb"
+"src/schemes/hotrg3d.jl" = "cc7ef396de3fa217f4ea40cec997429acf06907e1fdbce73ce2240d64f8e975e"
+"src/utility/structuredvector.jl" = "c7d19e9b46353185416bd36b1b8de565324149a54257a8108b570e5763c2fd1c"
+"src/utility/cft.jl" = "8496e1cc2f1739cc7cb7bc0ac15e858e187111d1db7f66c5300d1fe9592ab9b1"
+"src/models/ising.jl" = "8a221e26ea692545ee164b5aea5ee9d0e918753e5148b40e7e5aff20801427ae"
+"src/models/phi4_complex.jl" = "62433ea9d4b18eeb6040721790e0271f0a4d6b2638155ca48b241703a43cae49"
+"src/schemes/atrg.jl" = "43be003c549ebbae76003af3808b91cb9f15fc3e02292d0ccbbe0a721363fc02"
+"src/schemes/atrg3d.jl" = "9964e618949bd3c170c6eca68f46e631b098a5311a1aef542b3d7d1af8fc3b37"
+"src/models/XY.jl" = "0d0acc8e35967e2a1a87ee1babd24fa7097c949fbd058510c420fbbe68c54725"
+"src/utility/gs_degeneracy.jl" = "f7f852d4c108dc4b17f2b2b12dbecce7a13e96a99048430dc948208aed2589de"
+"src/models/phi4_real.jl" = "48d03f11b20878fb2a096b7de75480b9056e285c4fb3348f50dca8fb9a79cdaf"
+"src/schemes/correlationhotrg.jl" = "989ac33bfa2c6339f787c5478acc8836b6378a37c1ca432d0e6715d39577ee7c"
+"src/schemes/symmetric_looptnr.jl" = "a7032c60192c4887d7dff5bc5187973b74203a478ea0f1bc5737d97a3f2d38e3"
+"src/schemes/ctm/utility.jl" = "7e5d2236f3ef1315389e2b749f2c3cdaf9c1c6c4fffae949dc72b94a1bd8a58b"
+"src/models/ising_triangular.jl" = "df8bf834da64fc68fe04ade7d70ccf6afea81f62631b9d5e89a7a4fc16b271fa"
+"src/schemes/ctm/triangular.jl" = "d34f63df801bfe22eebc1fca6438d709e60a448823aa88cb947cfa385f745fb5"
+"src/utility/free_energy.jl" = "89a61973e889be7f3cffef68f21ee871db6c8eeaaead27c516e04789566b9202"
+"src/utility/network_value.jl" = "9d909cc87947dd308d4528557344d2ecd211f452c2fb049d5c1e15e7f1a3a546"
+"src/models/ising_honeycomb.jl" = "a27a21d357db3343778f7ef02288203e261edff871c12a9e326181fc29b00e04"
+"src/schemes/ttnr.jl" = "7906a6b34d6fdb9c216584142709939c4d6f5b5796702af971209252c4a2a615"
+"src/utility/finalize.jl" = "20a216d8289e9582676ea6126654c9f7c87bf8f7ec77d35b06abda28736d0bd0"
+"src/schemes/ctm/c6vctm_triangular.jl" = "6d53d2443e590fb6863848f5e76d94d2ebca474d6d516248fdb3a44359ca8058"
+"src/utility/projectors.jl" = "de159036378c272c1c8f494ba05db000ea6397772ee12c312fea86cb66dc12c2"
+"src/models/gross-neveu.jl" = "483872cb7b81cd9547a24aab34335cfdd1b0d33e074158c37169ac602c5d2447"
+"src/schemes/ctm/honeycomb.jl" = "294efee2bfff6e0b5899b330d8afa4a44b6209a4a8d5aeec30f9e2015fb7146a"
+"src/schemes/ctm/ctm_trg.jl" = "ffea21c38041d670c3c1611384d91066b182f241adaabe3cb1bdd05724bd58b9"
+"src/schemes/btrg.jl" = "1bc8d5f55442e952be36e278e0640ffa48ac332c16ede61b19769ab9f39ac472"
+"src/utility/blocking.jl" = "5223a9cd090a4350222856af3367dbf8e6d073fa5326b8baf7e2bc61bd7cb251"
+"src/models/potts.jl" = "cc89eb0fd153b42725e665da1d8e46b216e0b8e68b3412b7327c3d2594eb7dab"
+"src/schemes/trg.jl" = "90a0b0d046e2587884d86f17cfed0b7da96077a926e7f562c844cb725bf0fa60"
+"src/schemes/tnrscheme.jl" = "2638e8b411d7277907c90ec8dad6ee57e227e40ae3a20464d76caf138391e941"
+"src/models/sixvertex.jl" = "e12d1c5568e28b5227682f801ab919d4d87658231a52940c0dbe76dc5da5ecab"
+"src/schemes/ctm/c3vctm_honeycomb.jl" = "5f9c09719bb1665d70373451a92464a6560b7d4fea2cada54fdfe74a5c74ab32"
+"src/schemes/ctm/rctm.jl" = "2c2d919199c9f3753313ad9d57309f801ca53f58100398e522fa5dee8f210a23"
+"src/TNRKit.jl" = "6bdfabfcd1583442116314f15317dce2ff81a2c28dfff0c78752bafa9b6fd687"
+"src/schemes/impurityhotrg.jl" = "dd47325db1097f3dba07162e0a65dd47be9b16d6fc3520632a5434dd072fa541"
+"src/schemes/impuritytrg.jl" = "bc1cc43b3a680ac4c3f146e0b70edf8bbb30cc2509861dbd097a268d5b270464"
+"src/schemes/ctm/onesite_ctm.jl" = "ac00c70347b4bba9e72f0cca474b91de18eacc15cc289623a3cc81e65af33e81"
+"src/utility/entropies.jl" = "7849ac23b1b462bdb7c4bcfc8db4dc9fa453a4ee6bb099471c893d7db72ee5f3"
+"src/utility/cdl.jl" = "017843903f6092d50eed2229b5c9cb1cee760770635984fc94f9c7b0a323eff1"
+"src/schemes/ctm/ctm_hotrg.jl" = "4bd7263639ce2fe7f49f263bef0189abbbd6bf607385377c3235bdf79765f8bc"
+"src/schemes/ctm/c4vctm.jl" = "1141559e69c70163f892409b6917d97ee4d1ef9e52fe7d3ef9ef6fe1041f5830"
+
+[source_sha256]
+"Cho/Manifest.toml" = "f6a868323a1b82b04338ad2a94781b896d6da9c87ca80d5e6799d3eb0c175354"
+"Cho/scripts/symmetry_validation/common.jl" = "559969334f0124110b9fed2b7da31b258d6c9c0a8ece1e2bf35e070f605816be"
+"Cho/Project.toml" = "f268515628d99cb707801f3933254bf9cc604c02b8512ccc420c151936b6bad0"
+
+[[measurements]]
+measurement_status = "partial_convergence"
+measurement_seconds = 17.762540792
+L = 1.0
+actual_dimensions_A = [2, 2, 2, 2]
+central_charge = -2.382781417515971
+step = 0
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 6.521083742145188e-16
+actual_dimensions_B = [2, 2, 2, 2]
+rg_seconds = 0.0
+tau_imag = 0.5
+elapsed_seconds = 6.762278079986572
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.8660254037844375
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 5
+    requested = 8
+    residual = 1.4724675222127978e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 1.0000000000000002
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1985651181263309
+    phase = 0.0
+    converged = 5
+    requested = 8
+    residual = 4.896817569853419e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.2499999999999998
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6398363184316345
+    phase = 0.0
+    converged = 5
+    requested = 8
+    residual = 1.4665873863809372e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.13397459621556146
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.8384014365579652
+    phase = 0.0
+    converged = 5
+    requested = 8
+    residual = 4.599055379740802e-15
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999999999999988
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.19856511812633135
+    phase = 0.0
+    converged = 3
+    requested = 8
+    residual = 6.521083742145188e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.24999999999999983
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6398363184316344
+    phase = 0.0
+    converged = 3
+    requested = 8
+    residual = 7.065416064076993e-16
+
+    [[measurements.sector_diagnostics]]
+    returned = 5
+    resolved_nonzero = 4
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 5
+    vector_dimension = 8
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 3
+    resolved_nonzero = 2
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 3
+    vector_dimension = 8
+    requested = 8
+[[measurements]]
+measurement_status = "partial_convergence"
+measurement_seconds = 0.0837725
+L = 1.4142135623730951
+actual_dimensions_A = [3, 3, 3, 3]
+central_charge = 1.2081581842062905
+step = 1
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.5732004618632282e-15
+actual_dimensions_B = [3, 3, 3, 3]
+rg_seconds = 22.729907125
+tau_imag = 0.5
+elapsed_seconds = 47.35896110534668
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7288443561517433
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 6
+    requested = 8
+    residual = 1.5732004618632282e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.44872981077806773
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.15439279072585874
+    phase = 0.0
+    converged = 6
+    requested = 8
+    residual = 2.67512944695675e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.07179676972449082
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.737721587874108
+    phase = 0.0
+    converged = 6
+    requested = 8
+    residual = 1.837014059448528e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.017949192431122682
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1789927881794116
+    phase = 0.0
+    converged = 6
+    requested = 8
+    residual = 3.850371063154328e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.007072533524288394
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.475443175748214
+    phase = 0.0
+    converged = 6
+    requested = 8
+    residual = 3.0542895276094095e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4487298107780672
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.15439279072585915
+    phase = 0.0
+    converged = 4
+    requested = 8
+    residual = 2.9592535523710724e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.07179676972449088
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.7377215878741077
+    phase = 0.0
+    converged = 4
+    requested = 8
+    residual = 9.814074823611541e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.017949192431122737
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1789927881794104
+    phase = 0.0
+    converged = 4
+    requested = 8
+    residual = 4.0125417076134244e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 6
+    resolved_nonzero = 5
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 6
+    vector_dimension = 41
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 4
+    resolved_nonzero = 3
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 4
+    vector_dimension = 40
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.00781525
+L = 2.0
+actual_dimensions_A = [4, 4, 4, 4]
+central_charge = 0.8956423888391905
+step = 2
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 7.349115115241461e-16
+actual_dimensions_B = [4, 4, 4, 4]
+rg_seconds = 0.026276208
+tau_imag = 0.5
+elapsed_seconds = 47.471304178237915
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7909831377441019
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 3.194911737253407e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.45587034490650474
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.17541045989148243
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 2.170757548647451e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09758381478730864
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6660841277228695
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 2.293243141186474e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.016627646741734208
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.2293795852568536
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 2.9874138626702274e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.0166276467417342
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.2293795852568536
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 3.8386693909670084e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.009703763862055447
+    lambda_imag = 1.5496095526673363e-17
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.4008063100116166
+    phase = 1.5969159747660002e-15
+    converged = 11
+    requested = 8
+    residual = 3.0439268900264537e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.009703763862055447
+    lambda_imag = -1.5496095526673363e-17
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.4008063100116166
+    phase = -1.5969159747660002e-15
+    converged = 11
+    requested = 8
+    residual = 3.0439268900264537e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.008447249698082027
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.444947274064255
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 8.556687181099499e-15
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4558703449065024
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1754104598914841
+    phase = 0.0
+    converged = 38
+    requested = 8
+    residual = 7.349115115241461e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09758381478730847
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6660841277228701
+    phase = 0.0
+    converged = 38
+    requested = 8
+    residual = 1.1396371533609758e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.02060264494827251
+    lambda_imag = 2.8004480115234416e-17
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1611490059438618
+    phase = 1.3592662585578625e-15
+    converged = 38
+    requested = 8
+    residual = 3.1293418646486557e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.02060264494827251
+    lambda_imag = -2.8004480115234416e-17
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1611490059438618
+    phase = -1.3592662585578625e-15
+    converged = 38
+    requested = 8
+    residual = 3.1293418646486557e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.016627646741734288
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.229379585256852
+    phase = 0.0
+    converged = 38
+    requested = 8
+    residual = 9.849059359386553e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.016627646741734243
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.229379585256853
+    phase = 0.0
+    converged = 38
+    requested = 8
+    residual = 1.0480027316081087e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.009703763862055433
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.4008063100116168
+    phase = 0.0
+    converged = 38
+    requested = 8
+    residual = 4.9035662246501055e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.009703763862055423
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.4008063100116173
+    phase = 0.0
+    converged = 38
+    requested = 8
+    residual = 2.366983196697665e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 11
+    resolved_nonzero = 11
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 11
+    vector_dimension = 128
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 38
+    resolved_nonzero = 34
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 38
+    vector_dimension = 128
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.055223209
+L = 2.8284271247461903
+actual_dimensions_A = [9, 9, 9, 9]
+central_charge = 1.0674888481408924
+step = 3
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.6587994715006867e-15
+actual_dimensions_B = [9, 9, 9, 9]
+rg_seconds = 0.111871125
+tau_imag = 0.5
+elapsed_seconds = 47.59205102920532
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.756185980635373
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 7.053388919790045e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.45280642472023325
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16323651502442932
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 8.106940754567677e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.088562109746737
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6826420474004267
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 2.168672875914474e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019741235665613175
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1604234300721077
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 4.073358388003901e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019741235665613126
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1604234300721084
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 3.500562941157629e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.003857234664518717
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6801467967042252
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 3.0202765219257654e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.003857234664518687
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6801467967042276
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 3.579127909840785e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.002376201882174745
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.8343511149783664
+    phase = 0.0
+    converged = 21
+    requested = 8
+    residual = 4.093368725160858e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4528064247202309
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1632365150244309
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 1.6587994715006867e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.08856210974673671
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6826420474004277
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 1.5287614800057995e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.041455723614322385
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9242641282298073
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 3.321564527535156e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.041455723614322385
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9242641282298073
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 1.6645054165837096e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01974123566561318
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1604234300721077
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 3.2300966257645742e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019741235665613158
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.160423430072108
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 2.2946963710948544e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0039047641178232948
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.6762485008165373
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 5.8158068719155325e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0039047641178232713
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.6762485008165393
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 1.3356454965290054e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 21
+    resolved_nonzero = 21
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 21
+    vector_dimension = 3281
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 25
+    resolved_nonzero = 25
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 25
+    vector_dimension = 3280
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.296181042
+L = 4.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9693940317524786
+step = 4
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.1282515066305024e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.064719458
+tau_imag = 0.5
+elapsed_seconds = 47.713196992874146
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7758572250620488
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 1.1282515066305024e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4568846218556219
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16855706098520404
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 1.0658912602214548e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0954396738117567
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.667010139741034
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 1.6483337012954228e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.01920592399928513
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1773486093535268
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 1.6619425540315852e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019205923999285095
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1773486093535275
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 5.58279640820188e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.007531112753932238
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.4753426745687106
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 4.338139440378278e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.007531112753932205
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.4753426745687122
+    phase = 0.0
+    converged = 12
+    requested = 8
+    residual = 2.7547781822300825e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0051385162390855735
+    lambda_imag = 4.0678688103448355e-17
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.59702568085801
+    phase = 7.916426884871993e-15
+    converged = 12
+    requested = 8
+    residual = 2.0875379717986837e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45688462185561646
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1685570609852078
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 5.735977942906718e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09543967381175662
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6670101397410343
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 1.0161331479838944e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.029851181567624206
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0369721512591614
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 1.913655514000176e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.029851181567624122
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0369721512591625
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 2.2511943002978642e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019205923999285168
+    lambda_imag = 2.024442578929494e-17
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1773486093535261
+    phase = 1.0540719514483356e-15
+    converged = 11
+    requested = 8
+    residual = 4.549556379580708e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019205923999285168
+    lambda_imag = -2.024442578929494e-17
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1773486093535261
+    phase = -1.0540719514483356e-15
+    converged = 11
+    requested = 8
+    residual = 4.549556379580708e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.007531112753932237
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.4753426745687106
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 5.2205288522757555e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.00753111275393222
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.4753426745687115
+    phase = 0.0
+    converged = 11
+    requested = 8
+    residual = 3.8495701908904535e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 12
+    resolved_nonzero = 12
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 12
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 11
+    resolved_nonzero = 11
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 11
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.275110458
+L = 5.656854249492381
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 1.0124318694574141
+step = 5
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 9.826827451167724e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.738222833
+tau_imag = 0.5
+elapsed_seconds = 48.74921011924744
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.767164488515315
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 8.434692662995392e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4558162794501588
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1657157564293313
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 6.859889466093445e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09318914403310995
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6710195220202306
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.4132918449769444e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019982539068917334
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1611442958808855
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 5.6559657249597455e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019755696998749656
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1647784208445442
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.9706986538448767e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006054241142968465
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5412380685395906
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.525039313595412e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.005963326544905194
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5460542789751226
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.914410285542266e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0034821559719164395
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.7172976245311873
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 5.841528100358441e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45582561712194913
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16570923572584872
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 9.826827451167724e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09300683301731802
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6716428589811155
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.3411343368436334e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.035812043366625065
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.975434223830616
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.029399426377545e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.035375954133599063
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9793341298656383
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.5854206438996776e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01999839577872583
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1608918081500073
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.6706184216225764e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01974963377227746
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.164876128414928
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.5969093436447334e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.005959886557843269
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5462379512639766
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 6.3943758739055994e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.005857484184566993
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5517546612653408
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 4.041493265211722e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.290571959
+L = 8.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9903495720576925
+step = 6
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.1529755182599131e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.288483708
+tau_imag = 0.5
+elapsed_seconds = 50.31558799743652
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7716124122724857
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.533949646070574e-17
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.1529755182599131e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.45646974251826883
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1670999422288864
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 7.458039233380974e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09486752760837967
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6671778063547502
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.581662133461664e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019666984856828364
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1680511885746006
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.234169870682748e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019406720266803696
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.172291688265793
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 7.988973372427525e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006907597695211725
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5011050019018481
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.1500167455234392e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006890587629294635
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5018898116085695
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.077469469203696e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004378257725898771
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6462450966145017
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.4932144360373805e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45648173963011585
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1670915763970071
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 6.253741915559906e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09445392070993855
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6685686194442713
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.479237577121507e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03248874010865044
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.008274829195622
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.850991598360457e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03246113490481654
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0085454073858875
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.891091778657087e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01968895927878094
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1676957313936749
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.3262810844298577e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019412642288323186
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1721945698235314
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.3374106608230645e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006907801647451707
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5010956036915335
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.2279283866043877e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006840466308253764
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5042136219915145
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 7.034796220235159e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.276110291
+L = 11.313708498984761
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 1.0007625723661866
+step = 7
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.3909729864130081e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.723113084
+tau_imag = 0.5
+elapsed_seconds = 51.33148002624512
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7695117710741515
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.533949646070574e-17
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 7.568057994719459e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4561635045833823
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16644581266061212
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 7.654973275138127e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09426251436550638
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6683465636060213
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 1.4398233683519325e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019878367045399848
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1637804757231587
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 3.3050292599956105e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01948408725781133
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1701574841777491
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 1.1214846881852272e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006533981496079181
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5179370131020087
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 8.239094159710862e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006472915836088005
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.520925880562344
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 3.3970606668096086e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.003981960629880451
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.675577489531543
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 2.201218635477146e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4561101323649178
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16648305785572926
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.3909729864130081e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09371794579548298
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6701908195920684
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.8191825858364383e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03389075235929121
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9939589275603945
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.4280374656228617e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03375549043098049
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9952318812267268
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.5185198818831074e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019825575533702344
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1646269443049193
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.132004953865342e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019489834437146913
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.170063606839576
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.596905281153087e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006535638555716789
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5178562979067107
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.848680518980532e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006530818369531295
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.51809114550074
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.355584906291393e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 17
+    resolved_nonzero = 17
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 17
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.692384375
+L = 16.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9946989553189334
+step = 8
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 9.950136770937202e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.010816625
+tau_imag = 0.5
+elapsed_seconds = 52.620805978775024
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7707343035809074
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.950136770937202e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.45633334785293755
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1668326198808668
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.0349905983447477e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09467949342059818
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6674468966703887
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.695006159753993e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019926685624020717
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.163512996414471
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.791176876520228e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019516063781998105
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.170140816027268
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.22098654519943e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006804126159153552
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5055467104429265
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.207357784310714e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006772584294444454
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5070257293059197
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.3959077079331537e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004213843175970929
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6580662027580486
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.6792737099466414e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45623258370846154
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1669029144697411
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.606904814255406e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09419422600444215
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.669082547796016
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.114712906139545e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033351715036021565
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.999567687885821
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.07903838373014e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03299302022285557
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0030096254323366
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.957645766985266e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019886658007671334
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1641530426469677
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.5244582538278155e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01953931307241026
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1697618423516736
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.43226326463849e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006802164957112224
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5056384724076746
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.006912122917773e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006769208732241522
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5071844194942514
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.580378996727367e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.285979125
+L = 22.627416997969522
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9959693960586806
+step = 9
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.3367793695803815e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.09258575
+tau_imag = 0.5
+elapsed_seconds = 54.408780097961426
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7704779995088142
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.3367793695803815e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4564244274279045
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16666322468687444
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.0128512475770649e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09453873633946518
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6678146002046517
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.5362757244540178e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.020006029885615763
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.162142193788531
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.706251117140448e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01967696716112222
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1674213474349509
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.405135386872624e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006746351637778978
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.508155181976714
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.9638936429671616e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006562499494237271
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5169501827465173
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.5315910766571805e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004217429472491201
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6576895423297213
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.8727848766003852e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45621618538953157
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1668084855918848
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.357329719266797e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09418577214760894
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.669005247075432
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.076805732135405e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033609124162557624
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9970145285021833
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.5442649586479373e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03355826419645366
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9974965848545747
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.3387591409401186e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019924018291510606
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1634497373094987
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.45825965473609e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01968611321640372
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.167273428123751
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.0574493566147105e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006770625987794128
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5070119125105725
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.5776522966827545e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006746134723440497
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.508165416706852
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.543969598014834e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.270251708
+L = 32.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9973477055794365
+step = 10
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.017625131160777e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.056191334
+tau_imag = 0.5
+elapsed_seconds = 55.75452017784119
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7702000299282363
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.017625131160777e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4562683756989793
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16665721447050502
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.102307013211171e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09456586543057023
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.667608411116828
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.110955057316724e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.01984003882669379
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1646793855378321
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.470409985442158e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019528629250312658
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1697152081413538
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.685729001035293e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006764121038031926
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5072030199414612
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.822707960425723e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0066822459322203025
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.511079454039241
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.1235685830348134e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004159787347026952
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.661955218735643
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.7933202653260865e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4560769657966146
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16679077719584368
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.024489583581857e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09428056940811712
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.668570172598857
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.1135213447860395e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03338223033549005
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9990558528105209
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.338437561077703e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.033255355756996854
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0002679459791783
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.5139238536721773e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.0198135492024238
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1651046641045288
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.791564217634416e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019627855400743067
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1681019513569426
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.206289995860593e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0067856499204122685
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5061915103169954
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.560538772028601e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0067611932155131746
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5073408289194705
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.656764878205561e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.300698125
+L = 45.254833995939045
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9955266208133976
+step = 11
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 9.591626459422998e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.596046666
+tau_imag = 0.5
+elapsed_seconds = 57.62435007095337
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7705673171762483
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 7.8079113716547555e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4564366207861665
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1666916191031259
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.106509254806765e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0946254695369536
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.667559603213459
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.189867047439063e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019907280298536896
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1637541569765324
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.0732265058360838e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01970261046472472
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1670436894678586
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 7.451729209791171e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006829317308749293
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5043014249232924
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.489795961250618e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.00673336094110526
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5088056046363436
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.82426356517777e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004240400045820836
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6559974438277856
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.552208276470486e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45606082478616755
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16695379975761684
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 9.591626459422998e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09437133175253225
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6684156454050543
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.3443033354223802e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0334881242846654
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9981994764712437
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.0264377016122104e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03333234770503313
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.999683611907154
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.328701478628668e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.020012192931063023
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1620810484757234
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 5.6650549032567925e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0196364843888491
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1681138006937755
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.0335154781805133e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006862811042988502
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5027441202113663
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 8.315516300148939e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006829919087929171
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5042733776361945
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 5.124102456108041e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.291071708
+L = 64.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9974883160733325
+step = 12
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 7.374260122118183e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.0460995
+tau_imag = 0.5
+elapsed_seconds = 58.97457408905029
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7701716780458912
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 7.374260122118183e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4564944803073484
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16648779696784197
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 9.65866829633467e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09443279375931919
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6680449299357722
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.81618050018942e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019935912832322777
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.163133187907702
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 6.829772050152033e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01953835346877281
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1695450286602267
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 6.651901325277424e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.00672749523586876
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.508919543601459
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.7344087947285122e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0066693229625536124
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5116839203070018
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.455992757843411e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004186604669530471
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6598980069900253
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.5772551384417743e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.45591520884390285
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16689197474141293
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.046027103154945e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09425638192707238
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6686401272638755
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.290623902907004e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033597402523987095
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.996998986094242
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.0325675457452928e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03342908543250152
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9985976706886096
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.573864328808434e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019913248170683108
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1634952726524372
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.466383833281487e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019599802000385694
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1685455083230443
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.987678525248333e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006807756145527511
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5051444913702197
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.818001496591722e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006724595169661059
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5090567891493216
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.325680468745058e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.731189917
+L = 90.50966799187809
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9948988472963597
+step = 13
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 2.092124494517558e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.122312417
+tau_imag = 0.5
+elapsed_seconds = 60.391579151153564
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7706939708790412
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.533949646070574e-17
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.092124494517558e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.45693244823837315
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16639834096349165
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.510502685152282e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09440187670486276
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6683649499041872
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.0434441254270976e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.01988054500854936
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1642342459290178
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.703692542082895e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01975528655328507
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1662461193173104
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.503802307411679e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006725415709474593
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5092337401882374
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.088453065980028e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006710072335518036
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5099607624928388
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.1004894915242477e-13
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004209182894312428
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6584017733455068
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.4489020893560703e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4559622026774629
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16707495544478204
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.033509274403395e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09429318778545247
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6687316448305918
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.910598229242594e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033700149420095867
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9962428117733025
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.64742238513396e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03352091676359011
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9979402457751735
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.51515642603381e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.02000424646951504
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1622597828439962
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.7334045941749727e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01961095126693857
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1685802796022409
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.185054713139827e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006789754768595945
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5062030846255259
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.663197883200843e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.00670174695587493
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.510355943926385
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.457424658177119e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.273663666
+L = 128.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9956682194385669
+step = 14
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.2274063463095174e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.153301542
+tau_imag = 0.5
+elapsed_seconds = 62.27991199493408
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.770538752441307
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.2274063463095174e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4570045539658676
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1662840000361599
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.068355560382178e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0943837973542307
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6683618024314976
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.7303387601249071e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019925581538472056
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.163449861611639
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.464096882437267e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01962649744250758
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1682639316487229
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.3913762060406661e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006709567000939183
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5099206209219336
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.124741909194873e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006581805234164545
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5160402427836592
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.1625836875542595e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004187919652769356
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6599497184991583
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.431201437511091e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4555263966401308
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16731522533614485
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.0004043426703514e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09428646937787616
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6686902109333843
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.2284147742386635e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033483889853173555
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9982279280677303
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.575607592932275e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03339711246892803
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9990539358679695
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.48351419146835e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01986735403972649
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1643814039297613
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.364289852116247e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019534745524354455
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1697554877818483
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.656035419241564e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006780939356983579
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5065525133217983
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 6.1659467742102135e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006702292815288267
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5102659041959001
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.199016095802633e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.273721
+L = 181.01933598375618
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.995928487937094
+step = 15
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.1402900118652837e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.098675083
+tau_imag = 0.5
+elapsed_seconds = 63.65572500228882
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7704862511575563
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.1402900118652837e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4574627134439203
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16594335654165146
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.1380261651070944e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09427938471172873
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6686924405306309
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.3644296578230457e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.01997106611479839
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1627023874509042
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.356027716530802e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019522601474436387
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1699317421014814
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.1843769745629795e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006669439754271364
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.511808331861068
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.3417814115059434e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006528584991291054
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5186028585894713
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.428066067478062e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004232862283139873
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6565302881313506
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.989475571634632e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4551348513103517
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1675672555449111
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.66185766198311e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09424107824966746
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.668821798644388
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.3712522663338935e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03355338102792087
+    lambda_imag = 7.368300662687172e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9975455480023705
+    phase = 0.0021959899696317236
+    converged = 16
+    requested = 8
+    residual = 4.641516884981514e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03355338102792087
+    lambda_imag = -7.368300662687172e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9975455480023705
+    phase = -0.0021959899696317236
+    converged = 16
+    requested = 8
+    residual = 4.641516884981514e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.020001729131895664
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.162214038145508
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.292473988842142e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019690873665788065
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.167199873494505
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.568672957123737e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006813509256157075
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5050055927640575
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.0997938707585754e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006665661830593256
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5119886905153324
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.445609762269212e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.780617792
+L = 256.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9969397335153197
+step = 16
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.0885610800592832e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.064441042
+tau_imag = 0.5
+elapsed_seconds = 65.00005912780762
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7702822969502634
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.0885610800592832e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4581442820530463
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1653851926541055
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.138982926961385e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09435626682790985
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6683487033233417
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.771539551427883e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019918584181372354
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.163455704067947
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.191237733759338e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019585606213418365
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1688218532393344
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.1581400815717987e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.00668065232403932
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5111893725528804
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.0538227369652215e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006571188005695934
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5164481692738314
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.13018408515718e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004182585692522111
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6602494340240739
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.823726828072879e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4544203740020622
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.16798306518763423
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.0441106985547603e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09430731256693242
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6685138928701493
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.1521491732176223e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033612308218624494
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9969035124824949
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.966905872254211e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.033465451853837126
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9982972950834171
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.6942474842551127e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01999923555072013
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1621694533006153
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.500745725972127e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019640548998776746
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1679301602810832
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.869860996565558e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006800512928855864
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5055290575686942
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.435790917138742e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006678977574674179
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5112691785485015
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.7242420352741672e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.283400125
+L = 362.03867196751236
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9948073113227631
+step = 17
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 9.350584556696578e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.159959667
+tau_imag = 0.5
+elapsed_seconds = 66.9447500705719
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7707124400583236
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.350584556696578e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4594423202607911
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16466231755796473
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.94281735073226e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09435344151246791
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6685359364877209
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.816149334085352e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019942951119237294
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1632442468884008
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.9057307591567127e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01956245391677429
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.169376054243173
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.7155907401195474e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006693564827210082
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5107524322672856
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.075203751320977e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0065709033659286315
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5166396594388432
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.9274463518274778e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0041858043131781306
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6601822814093314
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.9476157132181445e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4534770740279193
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1688222113798816
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.69733973781543e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09432497140147257
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6686319974808085
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.7651545282680606e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0335530018415924
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9976433441281135
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.789090544117037e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.033537239626740496
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9977929118982696
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.6791644690178895e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01999912422722491
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.162348926991105
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.9001420513652e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019703000336762443
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.167097333323693
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 9.86841528081715e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0067964726181906025
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5058959294162926
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.055929458278938e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0066861605953867165
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.511104732535807
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.6996289566962474e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.325348875
+L = 512.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9955657571574295
+step = 18
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 7.266393993181943e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 2.640283042
+tau_imag = 0.5
+elapsed_seconds = 69.87327218055725
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7705594220834365
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.526387333930807e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4608029780118508
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16365781878083407
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.142400584211363e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09413999263968388
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6691936375182364
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.733634128551436e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019907914648117385
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1637407527661496
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.0952518582372618e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01951086742521703
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1701533471734644
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.4186022700762024e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0066689100426661155
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5118638417800692
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.3628973291895e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006570917260825329
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5165757825187924
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.0712432957998317e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004178202658810555
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.660697671656205
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.2399062659847453e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4513913637488685
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.17022641066466093
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 7.266393993181943e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09413792529000893
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6692006277999114
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.406828314746565e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03350476087819357
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.99803812093884
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.2877992068698705e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03334046781864862
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9996028163227484
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.904488700288002e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019954651724234686
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1629943442154638
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.883487389254416e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019521727479401632
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1699762202000157
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.044279101136383e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006714909505002183
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5096758055139432
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 6.5846858065350524e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006663483380692559
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.512122964084025
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 4.990336373473654e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 1.969710916
+L = 724.0773439350247
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9949606934015861
+step = 19
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 6.525913009747042e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.249148708
+tau_imag = 0.5
+elapsed_seconds = 71.45373201370239
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7706814924639764
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.963920216788409e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.46330279146269565
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16198610612561115
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.36219681593862e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09417431646469447
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6691280235683265
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.7227844209869107e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019862277315647277
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1645217128580614
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.328665340208417e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01941943801054339
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1716988994769153
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.84206383062662e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0067273309738834575
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.509137950936956
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.4153430599628348e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.00670518678488817
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.51018745197478
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.887307126739601e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004214006988020849
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6580320172782126
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.61286977016649e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4484594454718799
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.1723510917681848
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 6.525913009747042e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09425283382266027
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.668862744889686
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.785971120037404e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03336077739559482
+    lambda_imag = 9.033962538742941e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9994582295782567
+    phase = 0.0027079526203987727
+    converged = 14
+    requested = 8
+    residual = 2.176131970017572e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03336077739559482
+    lambda_imag = -9.033962538742941e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9994582295782567
+    phase = -0.0027079526203987727
+    converged = 14
+    requested = 8
+    residual = 2.176131970017572e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.02002486967667888
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1619266391815883
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 7.50737194672785e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01984865497478357
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1647400973527016
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 6.610904695316126e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0067779021274424886
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5067540789592224
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.1821825621820845e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006736907616043935
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5086851454745729
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.802547845044863e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.441992959
+L = 1024.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9945081756252747
+step = 20
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.0037671734421759e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.263243666
+tau_imag = 0.5
+elapsed_seconds = 74.69319415092468
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7707727996431869
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.0037671734421759e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.46723456050618245
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1593339112268225
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.946341094933783e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09416699789456855
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6691904711654107
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.6634628032727776e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019806523043391613
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1654541887146472
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.67150156695525e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.019553703817727846
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1695433910453814
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.657849253430498e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006757277737835995
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5077618463948028
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.438558505339362e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006726448340642474
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.509217426099558
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.0300629383118474e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0041865276431481925
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6601522084400082
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.2625355444161267e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4439636700968889
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.17559593915955146
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.299454438049253e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09424358181905886
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6689317020276306
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.7571185427574823e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03352698718379759
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9979151631145822
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.0145256972412935e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.033392485841698176
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9991947059026626
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.4876531634206522e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.02018547337961771
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1594216192225844
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.0679716202223047e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019831694999919602
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1650499079931587
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.3680476992864615e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006774903674860331
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5069326359356983
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 6.7762257684165456e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006729182217575646
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5090880794942614
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.05983522313312e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.833433917
+L = 1448.1546878700494
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9869310872777389
+step = 21
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 8.208054459703272e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.209110167
+tau_imag = 0.5
+elapsed_seconds = 76.36211609840393
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7723032814769706
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 8.208054459703272e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4726397892732727
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.1563040868711126
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.6332979051119687e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09387371899170872
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6708148040859188
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.424249186032846e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019743754352386948
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.167095967814677
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.121959390836532e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01937304170288281
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1731294391683882
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.14312145660187e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006837663379783999
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5046289521342553
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.242983979926672e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006759673089899588
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.508280454410681
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.042697013549728e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0042161286932154325
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6585409260012276
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.9199482035411043e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.4364955433333856
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.18162735345622721
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.66540730881068e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.0940732167191901
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.670139058854559
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.9273858887869204e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033385212082905694
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.9998954737219754
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.253783720089064e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.0331953348335732
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0017110181197404
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.4139820188879292e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.020162209775253508
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1604201045298628
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.654691563463415e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019977629411975808
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.163347578568083
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.0570535903028223e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006793274448026353
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5067021016035715
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.203631904481885e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006761631850654808
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5081882306319618
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.051929335939632e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.292069875
+L = 2048.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9698305896452306
+step = 22
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 7.74576832125483e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.226092208
+tau_imag = 0.5
+elapsed_seconds = 78.42732119560242
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7757685569498308
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.74576832125483e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.4775466540634823
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.15444152627386232
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.654565078612829e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09284383541332938
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6757513038131533
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.8497121044937046e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.019431138836930976
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1736013407602073
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.42245311683145e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01917824483318281
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1777713017980813
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 4.634530087824011e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0067902077085430605
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5082708725675225
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.231717321755816e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006657941645459252
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5145323962888395
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.3561892666916986e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0041513134067477295
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6648974050284875
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.4368945871869255e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.42373546574048165
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.19249626926781258
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.185456458549901e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09313988532304582
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6747379281017053
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 1.058920353994115e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03329792455778622
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0021538442593856
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 3.1646582420593923e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03323431570772719
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0027624914929916
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.0178758599682124e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.02010094776292857
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1628137893154191
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 5.700719348497947e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01985676102688671
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1667043036681473
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 2.4607086596674694e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006747922415220403
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5102593112296263
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 7.834162860859771e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.006656579409822403
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5145975301483652
+    phase = 0.0
+    converged = 15
+    requested = 8
+    residual = 9.532062946776026e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 15
+    resolved_nonzero = 15
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 15
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.298959791
+L = 2896.309375740099
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.9092484877058964
+step = 23
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.5124537732791864e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.137729625
+tau_imag = 0.5
+elapsed_seconds = 79.86271119117737
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.7881706139157956
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.5124537732791864e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.47260586202617466
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.16280048672244815
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.0762872160492783e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.09031751419827502
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.68958118480698
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.7228010699122126e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.018839703080852987
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1884889240152205
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.2962688181498021e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01868075773608086
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.1911858086564142
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.0998226229451427e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.006634329264809567
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5207117968869852
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.8303518276522904e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006508275832669497
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5268179354739073
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.179866665964624e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004083032364987642
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6752250284444712
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.3325655485651342e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.40120105567508363
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.21493935357714086
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 1.1490440927462122e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.09086190554788985
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.6876683221841778
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 2.030959987809714e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03317341462881644
+    lambda_imag = 2.7164154923842885e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0083947235221968
+    phase = 0.0008188529627237976
+    converged = 17
+    requested = 8
+    residual = 3.1424493689346285e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03317341462881644
+    lambda_imag = -2.7164154923842885e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0083947235221968
+    phase = -0.0008188529627237976
+    converged = 17
+    requested = 8
+    residual = 3.1424493689346285e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.01968637257437803
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1744959768875458
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 2.901267867719357e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.019457910945118912
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1782115856254565
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 2.6134368092203947e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006578593467678599
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5233972527592439
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 9.210055991016206e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0065007930550452725
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.527184117308617
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 7.921308695717653e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 17
+    resolved_nonzero = 17
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 17
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.74413
+L = 4096.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.7376774451685336
+step = 24
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 9.594944329505572e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.360328834
+tau_imag = 0.5
+elapsed_seconds = 81.52841901779175
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.8243801539856898
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 7.344426565603921e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.42622195677683045
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.2099799726770582
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.364597265461425e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.08268850204751468
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.7319698855693292
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.0991222560882838e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.017593436569250137
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.2245718300742083
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.546881761568635e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.017258315999833507
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.2306935008802553
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 6.024640749819567e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0062021251499660155
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5564525115669348
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 6.277792670528668e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.005983423607296062
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5678795454568804
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.7943096936869276e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.003810101103572674
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.711544634579654
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.6381635651610047e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.35786951337194006
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.26561793182170085
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 9.594944329505572e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.08356029000212405
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.7286315001915666
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.4819980195570842e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03303849874907012
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0239896192538545
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.3672754344826044e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03274496500811304
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0268303122322149
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.0835108720290757e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.017824852746053995
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.2204122217714797
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.240131026619432e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01763633570828138
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.2237966205892254
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 5.4961350827194405e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.006101768062640836
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5616452356804744
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.0578940769479469e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.005970047517654725
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5685919315586214
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 6.4335096655476335e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.274080708
+L = 5792.618751480198
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.4587167014401126
+step = 25
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 2.330681836017326e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.106995042
+tau_imag = 0.5
+elapsed_seconds = 83.38512301445007
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.886839064072003
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.533949646070574e-17
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.330681836017326e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.2942850799711805
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.35113227325099705
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.188556402156752e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.06352876114884094
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.8391192249337768
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.97336784990319e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.013966301059097234
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.321309483539895
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.6852843601957083e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.013811286216477732
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.3248622232832556
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 1.642874000351834e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.005068181337764615
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6439691755451955
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 3.1410523195818295e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.004662757385779088
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.6705082801058098
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 8.013205111595778e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.003002893553769841
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.8105743846610494
+    phase = 0.0
+    converged = 16
+    requested = 8
+    residual = 2.2286320404655234e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.27730834763053086
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.370045897143077
+    phase = 0.0
+    converged = 19
+    requested = 8
+    residual = 1.1429785277847287e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.06359188081738981
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.8388031218076102
+    phase = 0.0
+    converged = 19
+    requested = 8
+    residual = 1.138710503754183e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.03118365434563767
+    lambda_imag = 9.92829711844588e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0656265053589078
+    phase = 0.0031838037524293357
+    converged = 19
+    requested = 8
+    residual = 2.2351511506359385e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.03118365434563767
+    lambda_imag = -9.92829711844588e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0656265053589078
+    phase = -0.0031838037524293357
+    converged = 19
+    requested = 8
+    residual = 2.2351511506359385e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.012570248388662253
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.3548321548520417
+    phase = 0.0
+    converged = 19
+    requested = 8
+    residual = 3.0196301094175245e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.01246395330815882
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.3575352550921553
+    phase = 0.0
+    converged = 19
+    requested = 8
+    residual = 3.305403645972659e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.004820968798202823
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.6598869423984142
+    phase = 0.0
+    converged = 19
+    requested = 8
+    residual = 1.510627243002558e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.004667015713513208
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.6702177118580976
+    phase = 0.0
+    converged = 19
+    requested = 8
+    residual = 1.3505857613200366e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 16
+    resolved_nonzero = 16
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 16
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 19
+    resolved_nonzero = 19
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 19
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.275061
+L = 8192.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.22234671121032404
+step = 26
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 7.255100056339601e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.930826792
+tau_imag = 0.5
+elapsed_seconds = 84.59586000442505
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9434515820484762
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 7.173517164294735e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.11622071405571076
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 0.6665580762314823
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.4414887866556594e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.033277831972828846
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.064636299522323
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.8921421904150466e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.008474035250983258
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5000475089056013
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.0297397916645832e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.008282016585659208
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5073432747433009
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.0685551532733047e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0028600482574249286
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.8457856213685824
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.351717604017735e-13
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0024213432920215995
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.898789320688999
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.4623871294159965e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0016708302973600733
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.016882854607631
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.547231798324993e-14
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.17046352691178018
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.5446357562363172
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 7.255100056339601e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.02996693350815319
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.0979941924636538
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 1.5268851183817616e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.026089771695312975
+    lambda_imag = 2.7513061522825526e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.142096235014857
+    phase = 0.0010545531653248306
+    converged = 17
+    requested = 8
+    residual = 2.8559199234462376e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.026089771695312975
+    lambda_imag = -2.7513061522825526e-5
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.142096235014857
+    phase = -0.0010545531653248306
+    converged = 17
+    requested = 8
+    residual = 2.8559199234462376e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.005370274943428516
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.6452374667665381
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 4.36043009571403e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.005301494007644472
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.649340620629944
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 4.199437915725942e-15
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0027117969276620065
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.8627283048066157
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 8.002966143825646e-15
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.002435567195039889
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.8969249165963702
+    phase = 0.0
+    converged = 17
+    requested = 8
+    residual = 9.010303307801211e-15
+
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 17
+    resolved_nonzero = 17
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 17
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.295400166
+L = 11585.237502960395
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.08611877208629438
+step = 27
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 2.0615196276949347e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 1.437544167
+tau_imag = 0.5
+elapsed_seconds = 86.31490802764893
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9777064163340344
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.0615196276949347e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.018642485989291434
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.2604327501715937
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.9538823989188903e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.008230619277663399
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.5206771550984652
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 6.359643351368355e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.0033126832960882545
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.8103718527045458
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 4.4966683029731815e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.0032629180501925156
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.8151899891368444
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 6.844723114129658e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0009315283022946334
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.2142075405786077
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.7188383449249715e-13
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0005948431472399644
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.356978698363335
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 4.3673635370398036e-13
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0005086583363962329
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.40680094574018
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.3084470450130746e-13
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.08152164214033496
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 0.7907902705348282
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 8.212107233031043e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.0178070511972165
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.2750268304397614
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 1.944188773632753e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.01760353638424852
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.2786857073269222
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 1.4209148954063876e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.005564542587995499
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.6452784368293702
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 3.3620075341767436e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.0012345753325251913
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.124553728791758
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 1.0154771564207376e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0010677032514983178
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.1707778001875244
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 3.132617814357457e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.0010615587988752131
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.1726149112597017
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 5.121694252226453e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0010580479088810203
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.1736694012388216
+    phase = 0.0
+    converged = 20
+    requested = 8
+    residual = 3.047031735928274e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 20
+    resolved_nonzero = 20
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 20
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.276527167
+L = 16384.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.023205952373040614
+step = 28
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.1668264194821033e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.703189583
+tau_imag = 0.5
+elapsed_seconds = 87.31982207298279
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9939431132196807
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.2348841014632477e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.0019950367917473213
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 1.9770282680060616
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 9.932301494492273e-14
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0007308169485018564
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.2966924848292725
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.7086196594794533e-13
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.0006997744872192078
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.31050869167348
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 5.708412431368932e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.00019887082756536812
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.7109751921073286
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.2621535567679003e-13
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.00015005887238173446
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.800620107175908
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.9267573603901907e-12
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.00014498039077643452
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.8115792626698304
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 4.1899899608236504e-13
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.00012370755166006477
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.862088093390697
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 5.008810400520119e-12
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.02896466498496995
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.1254174956570162
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.1668264194821033e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.008805323237904656
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5044355026298237
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.2782675357610077e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.008749493020292745
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.506460174363078
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.3762171960263114e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.0007795741611106874
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.276134502148999
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.313824776226672e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.0007094862039404894
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.3061214489133084
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 2.6177837880622263e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 0.0002947939682293337
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.5856816748675477
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.833496990620248e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 0.00010752638761309814
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.906710059877128
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 7.951058699178963e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 0.0001056488211094152
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.912317310724078
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 9.545793826695006e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.685869375
+L = 23170.47500592079
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.0034879292993091567
+step = 29
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 2.1887552433749025e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.768887917
+tau_imag = 0.5
+elapsed_seconds = 88.37093806266785
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9990872790281643
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 7.446471096369015e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.00012519234880103142
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 2.8599335005945825
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 6.450598667458822e-12
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 6.848339983938979e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.0519571120923894
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 8.374590121772479e-13
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 6.451468378798224e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.070959742557702
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.671329929055818e-12
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 2.060891219711406e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.434205193571266
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 1.8102763595395053e-11
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 1.576724886932065e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.5194449780923596
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 3.2428016004457705e-11
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 1.3276275230457587e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.5741803706811446
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 2.4919073877354455e-11
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 3.7351281372411303e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 3.9778598542282126
+    phase = 0.0
+    converged = 14
+    requested = 8
+    residual = 5.797723606673192e-11
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.0066994700372776834
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.5930816845886748
+    phase = 0.0
+    converged = 23
+    requested = 8
+    residual = 2.1887552433749025e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.0027131058812186453
+    lambda_imag = 2.3286456909877217e-6
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.8808128118927436
+    phase = 0.0008582949656675654
+    converged = 23
+    requested = 8
+    residual = 1.2142847407442828e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0027131058812186453
+    lambda_imag = -2.3286456909877217e-6
+    sector = "Irrep[ℤ₂](1)"
+    x = 1.8808128118927436
+    phase = -0.0008582949656675654
+    converged = 23
+    requested = 8
+    residual = 1.2142847407442828e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 0.0003341524860220368
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.547434014812951
+    phase = 0.0
+    converged = 23
+    requested = 8
+    residual = 6.734546410977437e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 0.00031907276908181705
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.562133005371422
+    phase = 0.0
+    converged = 23
+    requested = 8
+    residual = 2.0631669538166165e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 2.7507300297640093e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.342300273525055
+    phase = 0.0
+    converged = 23
+    requested = 8
+    residual = 8.623005302230207e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 2.426990789244445e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.3821571945224003
+    phase = 0.0
+    converged = 23
+    requested = 8
+    residual = 1.2055494959365778e-13
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 7.518939232899305e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.7551565885449043
+    phase = 0.0
+    converged = 23
+    requested = 8
+    residual = 8.529672881122273e-13
+
+    [[measurements.sector_diagnostics]]
+    returned = 14
+    resolved_nonzero = 14
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 14
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 23
+    resolved_nonzero = 23
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 23
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.301109084
+L = 32768.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 0.0002229088964703038
+step = 30
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 8.716644244032374e-16
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.732595625
+tau_imag = 0.5
+elapsed_seconds = 89.79710817337036
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999416442901298
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 4.60143062353453e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 2.039242341844483e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.1707742879288885
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 5.7452105504305956e-11
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 1.7310001645359084e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.222938583124575
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.7365511977419019e-10
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 9.328411114870428e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.419724045329788
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 3.172179882129735e-10
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 6.709748371637441e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.524608187991521
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 1.6031024827590204e-10
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = -1.9077779847859444e-7
+    lambda_imag = 2.709621019481775e-7
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.749159264732026
+    phase = 2.184252344236573
+    converged = 18
+    requested = 8
+    residual = 3.703525192864547e-10
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = -1.9077779847859444e-7
+    lambda_imag = -2.709621019481775e-7
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.749159264732026
+    phase = -2.184252344236573
+    converged = 18
+    requested = 8
+    residual = 3.703525192864547e-10
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 3.133914414067606e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 4.76693069730773
+    phase = 0.0
+    converged = 18
+    requested = 8
+    residual = 6.25674346458223e-10
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.0008416831166732384
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.2536494650408883
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 8.716644244032374e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 0.00043316429269265634
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.46509842923572
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 9.147334857086004e-16
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 0.0004321034893865246
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 2.4658789144353435
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 1.2249775496282525e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 7.897609507855077e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.0068529021494306
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 9.281713870263999e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 7.696851804816704e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.015048977784081
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 8.147666019472564e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 8.477548267356259e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.717232690438828
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 9.212114249869814e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 7.839531989031182e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.74213794070797
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 1.2108034253762365e-13
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 1.4576496008224884e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.277647806804886
+    phase = 0.0
+    converged = 24
+    requested = 8
+    residual = 4.986446208921632e-13
+
+    [[measurements.sector_diagnostics]]
+    returned = 18
+    resolved_nonzero = 18
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 18
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 24
+    resolved_nonzero = 24
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 24
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.295631083
+L = 46340.95001184158
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 4.114062912281706e-6
+step = 31
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.898110729933694e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.296427917
+tau_imag = 0.5
+elapsed_seconds = 90.40282702445984
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999989229414282
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 2.9355423254957585e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = -9.698693863147012e-8
+    lambda_imag = 5.130933760398196e-8
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.101013545248012
+    phase = 2.654988939464718
+    converged = 25
+    requested = 8
+    residual = 6.214338199700344e-10
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = -9.698693863147012e-8
+    lambda_imag = -5.130933760398196e-8
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.101013545248012
+    phase = -2.654988939464718
+    converged = 25
+    requested = 8
+    residual = 6.214338199700344e-10
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = -9.439767569691018e-8
+    lambda_imag = 5.356049435204813e-8
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.1044811507078585
+    phase = 2.62549471728855
+    converged = 25
+    requested = 8
+    residual = 7.682600983739479e-11
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = -9.439767569691018e-8
+    lambda_imag = -5.356049435204813e-8
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.1044811507078585
+    phase = -2.62549471728855
+    converged = 25
+    requested = 8
+    residual = 7.682600983739479e-11
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = -4.0587956420806714e-8
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.417568492757819
+    phase = 3.141592653589793
+    converged = 25
+    requested = 8
+    residual = 3.2458100345561333e-10
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = -3.662606705049267e-8
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.450262477194385
+    phase = 3.141592653589793
+    converged = 25
+    requested = 8
+    residual = 3.0854003709386175e-9
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 3.415230235583305e-8
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.47252195079656
+    phase = 0.0
+    converged = 25
+    requested = 8
+    residual = 1.5192906740946345e-9
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 4.515853953465248e-5
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.184795479615536
+    phase = 0.0
+    converged = 31
+    requested = 8
+    residual = 1.898110729933694e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 2.8014565490154086e-5
+    lambda_imag = 9.58590526075797e-8
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.336772208119167
+    phase = 0.0034217442538733863
+    converged = 31
+    requested = 8
+    residual = 1.776230221769048e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 2.8014565490154086e-5
+    lambda_imag = -9.58590526075797e-8
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.336772208119167
+    phase = -0.0034217442538733863
+    converged = 31
+    requested = 8
+    residual = 1.776230221769048e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 7.638262629256621e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.7504350841511243
+    phase = 0.0
+    converged = 31
+    requested = 8
+    residual = 7.792807350158178e-15
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 7.425005131577478e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 3.7594486005686987
+    phase = 0.0
+    converged = 31
+    requested = 8
+    residual = 9.809200664275087e-15
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 1.1773787207205286e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.345636255854583
+    phase = 0.0
+    converged = 31
+    requested = 8
+    residual = 3.428288328525915e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = 1.0410820726551633e-6
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.384797894925304
+    phase = 0.0
+    converged = 31
+    requested = 8
+    residual = 3.8792962282665884e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 1.1247623401612147e-7
+    lambda_imag = 1.5589470850469346e-8
+    sector = "Irrep[ℤ₂](1)"
+    x = 5.090096128861294
+    phase = 0.13772490089715406
+    converged = 31
+    requested = 8
+    residual = 5.723108237672974e-13
+
+    [[measurements.sector_diagnostics]]
+    returned = 25
+    resolved_nonzero = 25
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 25
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 31
+    resolved_nonzero = 31
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 31
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.745902541
+L = 65536.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 2.3759819844133356e-8
+step = 32
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 2.6810538834061043e-15
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.200432292
+tau_imag = 0.5
+elapsed_seconds = 90.90759801864624
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999999937796937
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 26
+    requested = 8
+    residual = 4.714922195673259e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = -6.6517514266824e-9
+    lambda_imag = 4.277506386471945e-9
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.938179090503753
+    phase = 2.570108339952135
+    converged = 26
+    requested = 8
+    residual = 6.381897204200794e-9
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = -6.6517514266824e-9
+    lambda_imag = -4.277506386471945e-9
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.938179090503753
+    phase = -2.570108339952135
+    converged = 26
+    requested = 8
+    residual = 6.381897204200794e-9
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = -6.444117830044855e-9
+    lambda_imag = 4.052355547059174e-9
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.950322906903614
+    phase = 2.5802326963949787
+    converged = 26
+    requested = 8
+    residual = 6.770126853669314e-9
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = -6.444117830044855e-9
+    lambda_imag = -4.052355547059174e-9
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.950322906903614
+    phase = -2.5802326963949787
+    converged = 26
+    requested = 8
+    residual = 6.770126853669314e-9
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = -4.584023413362468e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.1117690486574245
+    phase = 3.141592653589793
+    converged = 26
+    requested = 8
+    residual = 9.770217317980257e-9
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = -4.487387924247539e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.118551057329886
+    phase = 3.141592653589793
+    converged = 26
+    requested = 8
+    residual = 2.408162057238153e-9
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = 3.244821489282577e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.2217504458305015
+    phase = 0.0
+    converged = 26
+    requested = 8
+    residual = 3.473730279677928e-9
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 7.023377527759173e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.51008548065746
+    phase = 0.0
+    converged = 33
+    requested = 8
+    residual = 2.6810538834061043e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 5.208706371141159e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.605232349444651
+    phase = 0.0
+    converged = 33
+    requested = 8
+    residual = 8.651308489933883e-15
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 4.6881244625749527e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.638750038767596
+    phase = 0.0
+    converged = 33
+    requested = 8
+    residual = 2.0309071102105552e-14
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 2.0979728814542822e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.89469060961169
+    phase = 0.0
+    converged = 33
+    requested = 8
+    residual = 4.556434766944763e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 1.551736039272697e-7
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 4.990691997358255
+    phase = 0.0
+    converged = 33
+    requested = 8
+    residual = 4.536612777803247e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = -8.499635376585838e-8
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 5.182294226918558
+    phase = 3.141592653589793
+    converged = 33
+    requested = 8
+    residual = 9.011840680238632e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = -6.00799522004896e-8
+    lambda_imag = 1.2903090057142772e-8
+    sector = "Irrep[ℤ₂](1)"
+    x = 5.285549537850652
+    phase = 2.930040817233808
+    converged = 33
+    requested = 8
+    residual = 8.478232404603288e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = -6.00799522004896e-8
+    lambda_imag = -1.2903090057142772e-8
+    sector = "Irrep[ℤ₂](1)"
+    x = 5.285549537850652
+    phase = -2.930040817233808
+    converged = 33
+    requested = 8
+    residual = 8.478232404603288e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 26
+    resolved_nonzero = 26
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 26
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 33
+    resolved_nonzero = 33
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 33
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.428358
+L = 92681.90002368316
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 1.0971726244125629e-10
+step = 33
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 1.3843539380212967e-14
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.195313375
+tau_imag = 0.5
+elapsed_seconds = 91.85637307167053
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999999999712761
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 32
+    requested = 8
+    residual = 7.85772784888657e-16
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 6.59205730028243e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.996130762028048
+    phase = 0.0
+    converged = 32
+    requested = 8
+    residual = 1.6465505258503744e-9
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = 6.581407044032221e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 5.996645445562284
+    phase = 0.0
+    converged = 32
+    requested = 8
+    residual = 1.9705644089884964e-10
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 7.60157140574416e-10
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.68371054283098
+    phase = 0.0
+    converged = 32
+    requested = 8
+    residual = 2.0303345778261665e-8
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 7.460938926008923e-10
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.689654573200689
+    phase = 0.0
+    converged = 32
+    requested = 8
+    residual = 5.986781738356661e-9
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = -5.424707799199956e-10
+    lambda_imag = 2.443799108600944e-10
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.761697930877733
+    phase = 2.7183278710314305
+    converged = 32
+    requested = 8
+    residual = 1.0031833280122143e-8
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = -5.424707799199956e-10
+    lambda_imag = -2.443799108600944e-10
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.761697930877733
+    phase = -2.7183278710314305
+    converged = 32
+    requested = 8
+    residual = 1.0031833280122143e-8
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = -5.426044520841705e-10
+    lambda_imag = 2.1853659864010944e-10
+    sector = "Irrep[ℤ₂](0)"
+    x = 6.767102080045462
+    phase = 2.758713626153808
+    converged = 32
+    requested = 8
+    residual = 1.5444111667364512e-8
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 3.8172574555571356e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.170034041035331
+    phase = 0.0
+    converged = 35
+    requested = 8
+    residual = 1.3843539380212967e-14
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = 3.5816315354256366e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.190314769786241
+    phase = 0.0
+    converged = 35
+    requested = 8
+    residual = 2.8816719054732004e-14
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = -3.1216632362694176e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.2340672544579
+    phase = 3.141592653589793
+    converged = 35
+    requested = 8
+    residual = 7.577605996266253e-15
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = -3.055255176152218e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.240911818404177
+    phase = 3.141592653589793
+    converged = 35
+    requested = 8
+    residual = 1.8151135440787335e-14
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = 2.730443247895933e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.276689581795852
+    phase = 0.0
+    converged = 35
+    requested = 8
+    residual = 1.1254280684110425e-14
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 2.4598947456887943e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.309903752653259
+    phase = 0.0
+    converged = 35
+    requested = 8
+    residual = 1.4587052033557485e-14
+    [[measurements.spectra]]
+    rank = 7
+    lambda_real = -1.6155916506198775e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.4437267438434755
+    phase = 3.141592653589793
+    converged = 35
+    requested = 8
+    residual = 1.6496479206532023e-14
+    [[measurements.spectra]]
+    rank = 8
+    lambda_real = -1.5482081895481042e-9
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 6.457287693947384
+    phase = 3.141592653589793
+    converged = 35
+    requested = 8
+    residual = 1.1373418515685279e-14
+
+    [[measurements.sector_diagnostics]]
+    returned = 32
+    resolved_nonzero = 32
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 32
+    vector_dimension = 32768
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 35
+    resolved_nonzero = 35
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 35
+    vector_dimension = 32768
+    requested = 8
+[[measurements]]
+measurement_status = "partial_convergence"
+measurement_seconds = 0.085299083
+L = 131072.0
+actual_dimensions_A = [16, 16, 16, 16]
+central_charge = 6.754437958594407e-11
+step = 34
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 0.04024259968769215
+actual_dimensions_B = [16, 16, 16, 16]
+rg_seconds = 0.298464292
+tau_imag = 0.5
+elapsed_seconds = 92.59127116203308
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999999999823169
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 7
+    requested = 8
+    residual = 1.0703832765804095e-15
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = -1.075207005708152e-10
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 7.306274318283643
+    phase = 3.141592653589793
+    converged = 7
+    requested = 8
+    residual = 5.226293402447021e-5
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = -5.458727168044673e-11
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 7.522051069459845
+    phase = 3.141592653589793
+    converged = 7
+    requested = 8
+    residual = 4.685392523586222e-5
+    [[measurements.spectra]]
+    rank = 4
+    lambda_real = 4.648575188220875e-11
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 7.573189106557195
+    phase = 0.0
+    converged = 7
+    requested = 8
+    residual = 0.0021008781596083695
+    [[measurements.spectra]]
+    rank = 5
+    lambda_real = -1.4591394952617856e-11
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 7.942019191842088
+    phase = 3.141592653589793
+    converged = 7
+    requested = 8
+    residual = 0.0010832821698330544
+    [[measurements.spectra]]
+    rank = 6
+    lambda_real = 3.0353060677644586e-12
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = 8.44180381569482
+    phase = 0.0
+    converged = 7
+    requested = 8
+    residual = 0.011173649595247453
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.784339081251449e-11
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](1)"
+    x = 7.877974857934961
+    phase = 0.0
+    converged = 3
+    requested = 8
+    residual = 0.04024259968769215
+    [[measurements.spectra]]
+    rank = 2
+    lambda_real = -2.816299360023705e-12
+    lambda_imag = 2.662328404893054e-12
+    sector = "Irrep[ℤ₂](1)"
+    x = 8.364020476984113
+    phase = 2.384291021648515
+    converged = 3
+    requested = 8
+    residual = 0.15202574008315892
+    [[measurements.spectra]]
+    rank = 3
+    lambda_real = -2.816299360023705e-12
+    lambda_imag = -2.662328404893054e-12
+    sector = "Irrep[ℤ₂](1)"
+    x = 8.364020476984113
+    phase = -2.384291021648515
+    converged = 3
+    requested = 8
+    residual = 0.15202574008315892
+
+    [[measurements.sector_diagnostics]]
+    returned = 7
+    resolved_nonzero = 6
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 7
+    vector_dimension = 32776
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 3
+    resolved_nonzero = 3
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 3
+    vector_dimension = 32760
+    requested = 8
+[[measurements]]
+measurement_status = "partial_convergence"
+measurement_seconds = 0.010921459
+L = 185363.80004736633
+actual_dimensions_A = [14, 16, 14, 16]
+central_charge = 8.48147915056938e-16
+step = 35
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 2.220456654561922e-16
+actual_dimensions_B = [16, 14, 16, 14]
+rg_seconds = 0.115523
+tau_imag = 0.5
+elapsed_seconds = 92.79903602600098
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 0.9999999999999998
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 2
+    requested = 8
+    residual = 2.220456654561922e-16
+
+    [[measurements.sector_diagnostics]]
+    returned = 2
+    resolved_nonzero = 1
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 2
+    vector_dimension = 25088
+    requested = 8
+    [[measurements.sector_diagnostics]]
+    returned = 1
+    resolved_nonzero = 0
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](1)"
+    converged = 1
+    vector_dimension = 25088
+    requested = 8
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.001567833
+L = 262144.0
+actual_dimensions_A = [1, 1, 1, 1]
+central_charge = -0.0
+step = 36
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 0.0
+actual_dimensions_B = [1, 1, 1, 1]
+rg_seconds = 0.041231625
+tau_imag = 0.5
+elapsed_seconds = 92.85899114608765
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.0
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 1
+    requested = 1
+    residual = 0.0
+
+    [[measurements.sector_diagnostics]]
+    returned = 1
+    resolved_nonzero = 1
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 1
+    vector_dimension = 1
+    requested = 1
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.000525334
+L = 370727.60009473265
+actual_dimensions_A = [1, 1, 1, 1]
+central_charge = -0.0
+step = 37
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 0.0
+actual_dimensions_B = [1, 1, 1, 1]
+rg_seconds = 0.01168175
+tau_imag = 0.5
+elapsed_seconds = 92.87890315055847
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.0
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 1
+    requested = 1
+    residual = 0.0
+
+    [[measurements.sector_diagnostics]]
+    returned = 1
+    resolved_nonzero = 1
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 1
+    vector_dimension = 1
+    requested = 1
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.000503916
+L = 524288.0
+actual_dimensions_A = [1, 1, 1, 1]
+central_charge = -0.0
+step = 38
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 0.0
+actual_dimensions_B = [1, 1, 1, 1]
+rg_seconds = 0.004177833
+tau_imag = 0.5
+elapsed_seconds = 92.89024209976196
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.0
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 1
+    requested = 1
+    residual = 0.0
+
+    [[measurements.sector_diagnostics]]
+    returned = 1
+    resolved_nonzero = 1
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 1
+    vector_dimension = 1
+    requested = 1
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.000565917
+L = 741455.2001894653
+actual_dimensions_A = [1, 1, 1, 1]
+central_charge = -0.0
+step = 39
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 0.0
+actual_dimensions_B = [1, 1, 1, 1]
+rg_seconds = 0.005466542
+tau_imag = 0.5
+elapsed_seconds = 92.90298414230347
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.0
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 1
+    requested = 1
+    residual = 0.0
+
+    [[measurements.sector_diagnostics]]
+    returned = 1
+    resolved_nonzero = 1
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 1
+    vector_dimension = 1
+    requested = 1
+[[measurements]]
+measurement_status = "ok"
+measurement_seconds = 0.000534708
+L = 1.048576e6
+actual_dimensions_A = [1, 1, 1, 1]
+central_charge = -0.0
+step = 40
+shape = [1.4142135623730951, 2.8284271247461903, 0.0]
+leading_max_residual = 0.0
+actual_dimensions_B = [1, 1, 1, 1]
+rg_seconds = 0.004227291
+tau_imag = 0.5
+elapsed_seconds = 92.91452503204346
+geometry_convention = "TNRKit-0.7-fixed-tau"
+initial_vector = "local-MersenneTwister-2140-plus-sector-index"
+
+    [[measurements.spectra]]
+    rank = 1
+    lambda_real = 1.0
+    lambda_imag = 0.0
+    sector = "Irrep[ℤ₂](0)"
+    x = -0.0
+    phase = 0.0
+    converged = 1
+    requested = 1
+    residual = 0.0
+
+    [[measurements.sector_diagnostics]]
+    returned = 1
+    resolved_nonzero = 1
+    null_threshold_absolute = 1.0e-12
+    sector = "Irrep[ℤ₂](0)"
+    converged = 1
+    vector_dimension = 1
+    requested = 1
+
+[config]
+steps = 40
+internal = "C"
+chi = 16
+rotation_constraint = "none"
+variant = "cho_symmetry_baseline_20261024_v1"
+id = "baseline_C_K1p5_chi16"
+arrow_field = 0.0
+staggering = 0.0
+transverse_field = 0.0
+K = 1.5

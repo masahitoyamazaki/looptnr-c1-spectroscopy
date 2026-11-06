@@ -70,7 +70,7 @@ stored spectra:
 - `yamamoto_conly_scan/`: $C$-only scan at $\chi=16$ over 17 values of $K$ and its fit code (Y. Yamamoto; Sec. V C)
 - `fushio_trotter_injection/`: Trotter injection of the dimerization read with a wider tube (R. Fushio; Sec. VI)
 
-The $C$-only runs with a transverse field (K. Cho; Sec. V C) will be added.
+The $C$-only runs with a transverse field (K. Cho; Sec. V C) are in `runs/additional/data/cho_transverse_field_20261024/` (`result.toml` and `config.toml` of each run) and are analyzed by `runs/additional/analysis/v01_signature.py`.
 
 ## Licenses
 

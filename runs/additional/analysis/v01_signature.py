@@ -6,7 +6,7 @@ import re, sys, os, math, numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "..", "..", "..", "external", "yamamoto_conly_scan", "finite_bonddim", "src"))
 import types; sys.modules['usb_stage3_ingest']=types.SimpleNamespace(memory=lambda: {})
 import conly_cpt_fit as Y
-R=sys.argv[1]
+R=sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "data", "cho_transverse_field_20261024")  # result.toml/config.toml extracted from the archive
 def parse(path):
     meas=[]; cur=None; sp=None
     for line in open(path, encoding="utf-8"):
@@ -35,10 +35,10 @@ base=series("baseline_C_K1p5_chi16")
 c=Y.coefficients(K)
 print(f"r1 = 2^(2-1/4K) = {c['r_1']:.3f}, r2 = {c['r_2']:.3f}, b_S/b_M = {c['beta_split']/c['beta_mean']:.3f}")
 runs={"cal_C_transverse_field_0":-2e-6,"cal_C_transverse_field_1":-1e-6,"cal_C_transverse_field_2":1e-6,"cal_C_transverse_field_3":2e-6}
-print(" h_t     | dM(n)=M-M0 and dS(n)=S-S0 at n=10,12,14,16,18,20 | dS/dM | growth of dM per step (n=10-18)")
+print(" h_t     | dM(n)=M-M0 and dS(n)=S-S0 at n=10,12,14,16,18,20 | dS/dM median (all) | dS/dM where |dM|>1e-2 | growth of dM per step (n=10-18)")
 for r,h in runs.items():
     s=series(r+"_K1p5_chi16"); ns=[n for n in (10,12,14,16,18,20) if n in s and n in base]
     dM=[s[n]["M"]-base[n]["M"] for n in ns]; dS=[s[n]["S"]-base[n]["S"] for n in ns]
     nn=np.array([n for n in range(10,19) if n in s and n in base]); y=np.array([abs(s[n]["M"]-base[n]["M"]) for n in nn])
     g=math.exp(np.polyfit(nn,np.log(y+1e-30),1)[0]) if len(nn)>3 else float('nan')
-    print(f"{h:+.0e} | " + " ".join(f"{a:+.1e}/{b:+.1e}" for a,b in zip(dM,dS)) + f" | {np.median([b/a for a,b in zip(dM,dS) if a]):+.2f} | {g:.3f}")
+    print(f"{h:+.0e} | " + " ".join(f"{a:+.1e}/{b:+.1e}" for a,b in zip(dM,dS)) + f" | {np.median([b/a for a,b in zip(dM,dS) if a]):+.2f} | " + ",".join(f"{b/a:.2f}" for a,b in zip(dM,dS) if abs(a)>1e-2) + f" | {g:.3f}")

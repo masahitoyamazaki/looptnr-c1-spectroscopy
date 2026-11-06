@@ -1,0 +1,10 @@
+id = "cal_C_transverse_field_2_K1p5_chi16"
+internal = "C"
+K = 1.5
+chi = 16
+steps = 30
+rotation_constraint = "none"
+variant = "cho_cal_C_transverse_field_2_20261024_v1"
+arrow_field = 0.0
+transverse_field = 1e-06
+staggering = 0.0

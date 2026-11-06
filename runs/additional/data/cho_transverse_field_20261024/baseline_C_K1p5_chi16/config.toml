@@ -1,0 +1,10 @@
+id = "baseline_C_K1p5_chi16"
+internal = "C"
+K = 1.5
+chi = 16
+steps = 40
+rotation_constraint = "none"
+variant = "cho_symmetry_baseline_20261024_v1"
+arrow_field = 0.0
+transverse_field = 0.0
+staggering = 0.0

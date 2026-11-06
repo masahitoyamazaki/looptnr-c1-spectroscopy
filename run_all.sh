@@ -14,7 +14,7 @@ cd ../../additional/analysis
 $PY b7.py ../data
 $PY b8.py
 $PY b9.py ../data
-for s in jj.py wide_tube.py cho_ab_chi24.py b7_joint_fit.py b7_v01_ratio.py; do $PY $s; done
+for s in jj.py wide_tube.py cho_ab_chi24.py b7_joint_fit.py b7_v01_ratio.py v01_signature.py; do $PY $s; done
 for s in b1_b2.py b3_b4.py c7.py b9_validation.py; do $PY $s ../data; done
 $PY a2_sv.py
 echo "done: figures and tables are in runs/main/analysis and runs/additional/analysis"
