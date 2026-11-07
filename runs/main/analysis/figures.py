@@ -1,4 +1,4 @@
-"""Figures for main_en.tex from the single-environment baseline.
+"""Figures for main_en.tex from the single-environment baseline (chi=96 rows of o2_fits.csv: runs B5 in runs/additional).
 Usage: python3 figures.py DATA_DIR_BATCH2   (needs o2_fits.csv from analyze.py)"""
 import csv, math, os, sys
 import numpy as np
@@ -16,8 +16,8 @@ fig, ax = plt.subplots(figsize=(3.4, 2.6))
 for K, mk in zip(("0.75", "1.0", "1.25", "1.5", "1.75"), "osD^v"):
     pts = sorted((int(r["chi"]), float(r["gd2_n12"])) for r in rows if float(r["K"]) == float(K))
     ax.plot([p[0] for p in pts], [p[1] for p in pts], mk + "-", ms=4, lw=0.8, label=f"$K={float(K):g}$")
-chi = np.array([16, 64]); ax.plot(chi, 1e-6 * (chi / 16.0) ** -6, "k--", lw=0.8, label=r"$\propto\chi^{-6}$ (guide)")
-ax.set_xscale("log"); ax.set_yscale("log"); ax.set_xticks([16, 24, 32, 40, 48, 64]); ax.set_xticklabels([16, 24, 32, 40, 48, 64])
+chi = np.array([16, 96]); ax.plot(chi, 1e-6 * (chi / 16.0) ** -6, "k--", lw=0.8, label=r"$\propto\chi^{-6}$ (guide)")
+ax.set_xscale("log"); ax.set_yscale("log"); ax.set_xticks([16, 24, 32, 40, 48, 64, 96]); ax.set_xticklabels([16, 24, 32, 40, 48, 64, 96])
 ax.minorticks_off(); ax.set_xlabel(r"$\chi$"); ax.set_ylabel(r"$g_{\rm d}^2$ at $n=12$")
 ax.legend(fontsize=7, ncol=2, frameon=False); fig.tight_layout()
 fig.savefig(os.path.join(HERE, "fig_seed_vs_chi.pdf")); fig.savefig(os.path.join(HERE, "fig_seed_vs_chi.png"), dpi=200)
