@@ -7,7 +7,7 @@ Data and code for the two papers
 > (arXiv: to be added).
 >
 > **Paper II.** R. Fushio, K. Cho, A. Otsuki, Y. Yamamoto, and M. Yamazaki,
-> *A single truncation seed sets the correlation length of loop tensor network renormalization: prediction, signed readout, and compensation*
+> *Truncation seed in loop tensor network renormalization: correlation length, signed readout, and compensation*
 > (arXiv: to be added; author list provisional).
 
 Paper I identifies the perturbations by which finite-bond-dimension truncation errors of loop tensor network
