@@ -116,10 +116,10 @@ def fig_terms():
         nn = np.array([m for m in sorted(X) if 1 <= m < stop], float)
         bg = coef["c0"] + coef["c1"] * (nn - (ns + ne) / 2) / 10
         ax.semilogy(nn, np.abs(np.array([X[int(m)] for m in nn]) - bg), "k.", ms=3.5)
-        terms = [("A", math.exp(lr) if lr else None, ne, "C3", r"$Ar^{n}$ (dimerization)"),
-                 ("B", rates.get("B"), ns, "C1", r"$B(2^{2-4K})^n$ (umklapp$^2$)"),
-                 ("C", -0.5, ns, "C0", r"$C(-1/2)^n$ (dim. 4, spin $\pm4$)"),
-                 ("D", 0.5, ns, "C2", r"$D(1/2)^n$ (dim. 4, $T\bar T$)")]
+        terms = [("A", math.exp(lr) if lr else None, ne, "C3", r"$A\,r^{\,n-n_e}$ (dimerization)"),
+                 ("B", rates.get("B"), ns, "C1", r"$A_{\rm u}(2^{2-4K})^{n-n_s}$ (umklapp$^2$)"),
+                 ("C", -0.5, ns, "C0", r"$A_4(-1/2)^{n-n_s}$ (dim. 4, spin $\pm4$)"),
+                 ("D", 0.5, ns, "C2", r"$A_0(1/2)^{n-n_s}$ (dim. 4, $T\bar T$)")]
         if K > 2:
             terms[0] = ("A", 2.0 ** (2 - K), ns, "C3", None)
         grid = np.arange(1, stop, 0.25)
@@ -143,7 +143,7 @@ def fig_terms():
     for ax in axes[1]:
         ax.set_xlabel("RG step $n$")
     for ax in axes[:, 0]:
-        ax.set_ylabel(r"$|X-c_0-c_1t|$")
+        ax.set_ylabel(r"$|X-\beta_0-\beta_1 n|$")
     fig.tight_layout()
     save(fig, "fig_o2_terms_se")
 

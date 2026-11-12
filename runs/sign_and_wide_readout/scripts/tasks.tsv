@@ -1,0 +1,17 @@
+# machine node threads tag sym K chi nsteps env   (followup C, 2026-11-10: sign of the seed at chi=48,64)
+ws	0	3	S_K1.0_chi48_abp3e-06	CU1	1.0	48	80	STAGGER_AB=3e-06
+ws	0	3	S_K1.0_chi48_abm3e-06	CU1	1.0	48	80	STAGGER_AB=-3e-06
+ws	0	3	S_K1.0_chi48_abp6e-06	CU1	1.0	48	80	STAGGER_AB=6e-06
+ws	0	3	S_K1.0_chi48_abm6e-06	CU1	1.0	48	80	STAGGER_AB=-6e-06
+ws	0	3	S_K1.0_chi64_abp1.5e-06	CU1	1.0	64	80	STAGGER_AB=1.5e-06
+ws	0	3	S_K1.0_chi64_abm1.5e-06	CU1	1.0	64	80	STAGGER_AB=-1.5e-06
+ws	0	3	S_K1.0_chi64_abp3e-06	CU1	1.0	64	80	STAGGER_AB=3e-06
+ws	0	3	S_K1.0_chi64_abm3e-06	CU1	1.0	64	80	STAGGER_AB=-3e-06
+ws	0	3	S_K1.5_chi48_abp4e-05	CU1	1.5	48	80	STAGGER_AB=4e-05
+ws	0	3	S_K1.5_chi48_abm4e-05	CU1	1.5	48	80	STAGGER_AB=-4e-05
+ws	0	3	S_K1.5_chi48_abp8e-05	CU1	1.5	48	80	STAGGER_AB=8e-05
+ws	0	3	S_K1.5_chi48_abm8e-05	CU1	1.5	48	80	STAGGER_AB=-8e-05
+ws	0	3	S_K1.5_chi64_abp1e-05	CU1	1.5	64	80	STAGGER_AB=1e-05
+ws	0	3	S_K1.5_chi64_abm1e-05	CU1	1.5	64	80	STAGGER_AB=-1e-05
+ws	0	3	S_K1.5_chi64_abp2e-05	CU1	1.5	64	80	STAGGER_AB=2e-05
+ws	0	3	S_K1.5_chi64_abm2e-05	CU1	1.5	64	80	STAGGER_AB=-2e-05

@@ -1,4 +1,4 @@
-"""Figures for main_en.tex from the single-environment baseline (chi=96 rows of o2_fits.csv: runs B5 in runs/additional).
+"""Figures for main_en.tex from the single-environment baseline (chi=96 rows of o2_fits.csv: runs B5 of followup_B_20261106).
 Usage: python3 figures.py DATA_DIR_BATCH2   (needs o2_fits.csv from analyze.py)"""
 import csv, math, os, sys
 import numpy as np

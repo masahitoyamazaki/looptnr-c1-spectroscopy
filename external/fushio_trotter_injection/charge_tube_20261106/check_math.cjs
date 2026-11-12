@@ -1,6 +1,5 @@
 const fs=require('fs'),vm=require('vm');
-const extension=process.env.VSCODE_MARKDOWN_MATH_EXTENSION;
-if (!extension) throw Error('Set VSCODE_MARKDOWN_MATH_EXTENSION to the installed markdown-math extension.js');
+const extension='/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-math/dist/extension.js';
 const fakeVSCode={workspace:{getConfiguration:()=>({get:(_,def)=>def}),onDidChangeConfiguration:()=>({dispose(){}})},commands:{executeCommand(){}}};
 const sandbox={module:{exports:{}},require:n=>n==='vscode'?fakeVSCode:require(n),console};
 vm.runInNewContext(fs.readFileSync(extension,'utf8'),sandbox,{filename:extension});

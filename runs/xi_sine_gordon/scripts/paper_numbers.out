@@ -1,0 +1,52 @@
+== runs per K (protocol |X|<=0.02, r fixed; duplicates merged)
+K=0.75: N=37, median=1.0040, range=0.999-1.010, range chi!=16 = 0.999-1.010, xi_meas 1.6e+03-4.46e+05
+   sources: {'this plan': 7, 'Yamazaki chi scan': 6, 'Yamazaki B9': 24}
+K=1.0: N=66, median=1.0051, range=0.913-1.029, range chi!=16 = 0.999-1.029, xi_meas 3.77e+03-5.95e+06
+   sources: {'Yamazaki chi scan': 6, 'Yamazaki B2': 21, 'Yamazaki B5': 1, 'Yamazaki B9': 38}
+K=1.25: N=30, median=1.0080, range=0.998-1.034, range chi!=16 = 0.998-1.023, xi_meas 2.94e+04-6.03e+08
+   sources: {'Yamazaki chi scan': 6, 'Yamazaki B9': 24}
+K=1.5: N=76, median=1.0063, range=0.948-1.066, range chi!=16 = 0.948-1.054, xi_meas 2.89e+05-1.61e+11
+   sources: {'Yamazaki chi scan': 6, 'Yamazaki B2': 21, 'Yamazaki B5': 1, 'Yamazaki B9': 48}
+K=1.75: N=24, median=1.0317, range=0.821-1.109, range chi!=16 = 0.969-1.109, xi_meas 5.37e+07-2.07e+16
+   sources: {'Yamazaki chi scan': 1, 'Yamazaki B9': 23}
+total runs: 233
+== cut 0.1, r fixed
+K=0.75: 1.010-1.023
+K=1.0: 1.006-1.027
+K=1.25: 0.993-1.009
+K=1.5: 0.930-0.980
+K=1.75: 0.515-0.775
+== K=1.75: ratio vs end of window
+ends <=69: 12 runs, mean 0.998, ends 35-69
+ends >=80: 7 runs, mean 1.067, ends 80-89
+== repeated runs of the same condition (different batches)
+K=0.75 chi=32: xi = [17578.512, 17584.523], spread 3.42e-04
+K=0.75 chi=40: xi = [26412.277, 26412.444, 26413.109], spread 3.15e-05
+K=1.0 chi=32: xi = [91985.84, 92000.068], spread 1.55e-04
+K=1.0 chi=40: xi = [118972.136, 118977.581], spread 4.58e-05
+K=1.25 chi=32: xi = [2235012.131, 2235097.68], spread 3.83e-05
+K=1.25 chi=40: xi = [3050903.521, 3053698.301], spread 9.16e-04
+K=1.5 chi=32: xi = [86309267.624, 86521292.228], spread 2.46e-03
+K=1.5 chi=40: xi = [219459660.28, 220897568.881], spread 6.55e-03
+== L/xi at n_e (cut 0.1, r free) and second-order estimate
+K=0.75: 1.39-1.88  estimate 1.35
+K=1.0: 0.84-1.19  estimate 0.84
+K=1.25: 0.51-0.69  estimate 0.50
+K=1.5: 0.25-0.35  estimate 0.26
+K=1.75: 0.08-0.11  estimate 0.13
+== saved runs K=0.6, 0.9
+saved K0.75 chi40 1.0049 xi=26412.8
+saved K0.6 chi40 1.0043 xi=23102.8
+saved K0.9 chi40 1.0011 xi=64219.9
+== cross-check with Yamamoto (common chi scan)
+20 common runs: max |g/h-1| = 0.0209, max |pred_O/pred_Y-1| = 0.0273, max |meas_O/meas_Y-1| = 4.64e-04
+Yamamoto only, K=0.6 (B8), measured/predicted: ['0.9915', '0.9964', '0.9910', '0.9861']
+Yamamoto K=0.5: ['0.9898', '0.9898', '0.9909', '0.9863'] no-log: ['1.374', '1.338', '1.394', '1.350']
+== chi != 16 variants
+cut 0.1, K=0.75: 1.010-1.023  (chi=16 runs: [1.014])
+cut 0.1, K=1.0: 1.006-1.027  (chi=16 runs: [1.021])
+cut 0.1, K=1.25: 0.996-1.009  (chi=16 runs: [0.993])
+cut 0.1, K=1.5: 0.936-0.980  (chi=16 runs: [0.93])
+cut 0.1, K=1.75: 0.694-0.775  (chi=16 runs: [0.515])
+K=1.75 chi!=16 ends<=69: 11 runs mean 1.014 ends 56-69
+K=1.75 runs: [(16.0, 0.0, 35.0, 0.821), (32.0, -0.0001, 56.0, 0.993), (32.0, -5e-05, 58.0, 1.029), (32.0, 0.0, 63.0, 1.04), (32.0, 2.5e-05, 68.0, 1.015), (32.0, 5e-05, 69.0, 1.047), (32.0, 7.5e-05, 74.0, 1.035), (32.0, 9e-05, 81.0, 1.051), (32.0, 0.0001, 87.0, 1.109), (32.0, 0.00011, 86.0, 1.088), (32.0, 0.000125, 85.0, 1.026), (32.0, 0.00015, 77.0, 1.053), (32.0, 0.0002, 68.0, 1.034), (40.0, -0.0001, 56.0, 1.004), (40.0, -5e-05, 60.0, 0.997), (40.0, 0.0, 63.0, 1.014), (40.0, 2.5e-05, 66.0, 1.008), (40.0, 5e-05, 70.0, 1.022), (40.0, 7.5e-05, 75.0, 1.046), (40.0, 9e-05, 80.0, 1.07), (40.0, 0.0001, 83.0, 1.052), (40.0, 0.00011, 89.0, 1.075), (40.0, 0.00015, 77.0, 0.994), (40.0, 0.0002, 68.0, 0.969)]

@@ -77,9 +77,13 @@ def figure(S):
                    label=rf"$3/(x_s-1/2)$, $\chi={chi}$")
     n0 = 15; y0 = 1 / (0.5 - S[64][n0]["xt"]); g = 4 * (0.5 - S[64][n0]["xt"])
     nn = np.arange(6, 25)
+    # Both reference lines pass through the chi = 64 triplet point at n0; the dashed one uses g_hat fixed at n0.
     ax[1].plot(nn, y0 + 4 * L2 * (nn - n0), "k:", lw=0.9, label=r"slope $4\ln\sqrt{2}$")
-    ax[1].plot(nn, y0 + 4 * L2 * (1 + g / 2) * (nn - n0), "k--", lw=0.9, label=r"slope $4\ln\sqrt{2}\,(1+g/2)$")
-    ax[1].set_xlabel("RG step $n$  ($\\propto\\ln L$)"); ax[1].legend(fontsize=5.5, frameon=False)
+    ax[1].plot(nn, y0 + 4 * L2 * (1 + g / 2) * (nn - n0), "k--", lw=0.9,
+               label=rf"slope $4\ln\sqrt{{2}}\,(1+\hat g/2)$, $\hat g={g:.2f}$")
+    ax[1].set_xlabel("RG step $n$  ($\\propto\\ln L$)"); ax[1].set_ylabel(r"$4/\hat g$ estimators")
+    ax[1].xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(5))
+    ax[1].legend(fontsize=5.5, frameon=False)
     ax[1].set_title(r"(b) logarithmic approach", fontsize=8.5)
     fig.tight_layout()
     for ext in ("pdf", "png"):

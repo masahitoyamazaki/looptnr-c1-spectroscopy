@@ -1,0 +1,24 @@
+K=1.5 chi=40 n_cal=24: delta0=3.163597e-03  two-ctor delta0=3.163597e-03
+   mu=+1.000e-07  slope=   621.268
+   mu=+1.000e-06  slope=   -25.113
+   mu=+1.000e-05  slope=  -133.257
+   mu=-1.000e-05  slope=  -151.798
+   mu=+2.000e-05  slope=  -145.577
+   mu=-2.000e-05  slope=  -145.305
+   mu=+2.126e-05  slope=  -135.689
+   mu=+5.000e-05  slope=  -147.735
+   mu=-5.000e-05  slope=  -150.244
+   mu=+1.000e-04  slope=  -151.163
+   mu=+2.500e-04  slope=  -149.403
+   mu=-2.500e-04  slope=  -148.599
+K=1.5 chi=24 n_cal=24: delta0=-1.530909e-02  two-ctor delta0=-1.530909e-02
+   mu=-1.000e-05  slope=  -163.095
+   mu=-5.000e-05  slope=  -147.877
+   mu=-1.015e-04  slope=  -158.589
+   mu=-2.500e-04  slope=  -148.291
+   mu=+2.500e-04  slope=  -152.987
+K=1.0 chi=40 n_cal=16: delta0=1.345459e-03  two-ctor delta0=1.345459e-03
+   mu=+1.000e-06  slope=  -321.416
+   mu=+4.119e-06  slope=  -326.305
+   mu=+2.500e-05  slope=  -325.972
+   mu=-2.500e-05  slope=  -327.378

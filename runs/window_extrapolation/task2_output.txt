@@ -1,0 +1,13 @@
+chi window  r      r/2^1.5 | ghat_flow n12..ne (mean)   <2^(3/2-3g/4)>  r/<.> | lin: ghat range, r/<.> | direct: r/<.> | last5(flow) r/<.> | linbg-logcol rho/2^1.5
+ 24 12-19  2.6301 0.9299 | 0.1477..0.1070 (0.1254) 2.6499 0.9925 | 0.1469..0.1045 0.9916 | 0.1474..-0.0920 0.9708 | 0.9879 | 0.9821   (flow rms 9.7e-04, 4/g slope 1.580)
+ 32 12-28  2.8422 1.0049 | 0.1487..0.0796 (0.1073) 2.6752 1.0625 | 0.1487..0.0792 1.0624 | 0.1482..-0.1355 1.0507 | 1.0500 | 1.0477   (flow rms 2.7e-04, 4/g slope 1.476)
+ 40 12-26  2.8104 0.9936 | 0.1489..0.0845 (0.1109) 2.6700 1.0525 | 0.1490..0.0837 1.0523 | 0.1488..-0.1258 1.0395 | 1.0413 | 1.0384   (flow rms 2.9e-04, 4/g slope 1.497)
+ 48 12-29  2.8961 1.0239 | 0.1488..0.0774 (0.1057) 2.6773 1.0817 | 0.1489..0.0766 1.0815 | 0.1486..-0.1260 1.0709 | 1.0686 | 1.0661   (flow rms 2.2e-04, 4/g slope 1.490)
+ 64 12-26  3.1631 1.1183 | 0.1487..0.0844 (0.1108) 2.6702 1.1846 | 0.1488..0.0835 1.1843 | 0.1485..-0.0293 1.1767 | 1.1719 | 1.1687   (flow rms 3.8e-04, 4/g slope 1.502)
+
+Background-model check (rate/2^1.5; 'logcol' = per-step factor rho*2^(-3 ghat_flow/4), value is rho/2^1.5):
+ 24 linbg: plain 0.9299 logcol 0.9821 rms 2.1e-04 | ghatbg: plain 0.8910 logcol 0.9407 rms 6.8e-05 | freeghatbg: plain 0.8759 logcol 0.9235 rms 3.4e-05 | free ghat coef 0.708 | ghatbg plain r/<expect> 0.9510
+ 32 linbg: plain 1.0049 logcol 1.0477 rms 1.2e-03 | ghatbg: plain 0.9063 logcol 0.9446 rms 1.5e-04 | freeghatbg: plain 0.8974 logcol 0.9350 rms 1.0e-04 | free ghat coef 0.551 | ghatbg plain r/<expect> 0.9583
+ 40 linbg: plain 0.9936 logcol 1.0384 rms 9.5e-04 | ghatbg: plain 0.9054 logcol 0.9459 rms 1.3e-04 | freeghatbg: plain 0.8965 logcol 0.9363 rms 8.8e-05 | free ghat coef 0.556 | ghatbg plain r/<expect> 0.9591
+ 48 linbg: plain 1.0239 logcol 1.0661 rms 1.3e-03 | ghatbg: plain 0.9101 logcol 0.9475 rms 1.2e-04 | freeghatbg: plain 0.9039 logcol 0.9407 rms 8.9e-05 | free ghat coef 0.531 | ghatbg plain r/<expect> 0.9614
+ 64 linbg: plain 1.1183 logcol 1.1687 rms 9.2e-04 | ghatbg: plain 0.9296 logcol 0.9711 rms 4.5e-05 | freeghatbg: plain 0.9226 logcol 0.9635 rms 2.6e-05 | free ghat coef 0.522 | ghatbg plain r/<expect> 0.9846
