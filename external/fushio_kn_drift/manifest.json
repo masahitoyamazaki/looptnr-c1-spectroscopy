@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-12",
+  "reference_commit": "94c89d4e9ebd09245bb22dd2758c57d3200c0bfc",
+  "python": "3.10.8",
+  "numpy": "2.2.6",
+  "matplotlib": "3.10.3",
+  "inputs": {
+    "Yamazaki/runs/cpu_baseline_20261106/analysis/o2_fits.csv": "d703a5f293d81b4b90ba751d9998153171deb7d2a9050a8689a173fca51605b7",
+    "Yamazaki/runs/cpu_baseline_20261106/analysis/drift_summary.csv": "f918edc56ea0ee257cf4384dd0fa53209c52a0919bd1d2891d4ad161c7db5aae",
+    "Yamazaki/runs/cpu_baseline_20261106/analysis/drift.py": "ef86d33ccb7cf1bbf928f2c5ec1f9ee283273060faa6337f06f6e44c75219f7f",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.2500_chi24/levels.csv.gz": "907c8383408473ecc57ec72d3989094bb54004d766bb8a72348c303bb50a2fea",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.2500_chi32/levels.csv.gz": "e421a0df63c727ce4ae89d0caafc845d4ddcea9bf837717f04f5e16cd16f407e",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.2500_chi40/levels.csv.gz": "558571c9fc0181f87c3ed78df3557b8056bc3e3c4370fc84f2b7be09e8fcf40e",
+    "Yamazaki/runs/followup_B_20261106/data/W1_K1.2500_chi40/levels_wide.csv.gz": "698ff6e5fa561aed72be6f9778bd58720820c1cf33619c50c11d9edf8fb213f1",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.2500_chi48/levels.csv.gz": "118fe1d5ccfb572ca7f6e8a7ac27691d3df25fbffbf2bb628ed6b7bf013c53c3",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.2500_chi64/levels.csv.gz": "9fa1c7f3abe41b0294bea8b22b3dee9793425b542b33cab159bedb625719dfc8",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.5000_chi24/levels.csv.gz": "44f9a883227dba87c97fd1b00276c5a66c70e7ff5e8bea53206389fabd55d729",
+    "Yamazaki/runs/followup_B_20261106/data/W1_K1.5000_chi24/levels_wide.csv.gz": "076c85b829b45affc23b1b029c192d7ec3529a9ce185ea3661a36c8cb2cbb5b9",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.5000_chi32/levels.csv.gz": "f144c2b9799d9a1440c7df971c9b2ad3dfb30d1ac2a87c164877bdd5b94cc5ff",
+    "Yamazaki/runs/followup_B_20261106/data/W1_K1.5000_chi32/levels_wide.csv.gz": "82e891c798bb28cd820bde09451335974e96260c4e30739c1769e341963d417c",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.5000_chi40/levels.csv.gz": "f5f137edef13f234a6ee78626a1a6bdadbcbb4940d4a09bcac0537d9e09dffa8",
+    "Yamazaki/runs/followup_B_20261106/data/W1_K1.5000_chi40/levels_wide.csv.gz": "a0d02b3da563f02600f822bb92887578eaa436cdc83c10fdfe1c87b032680d88",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.5000_chi48/levels.csv.gz": "e00e9885e33bc11e7adbda87c72d0902f730ab17ca6249c2d620e1d8e285947d",
+    "Yamazaki/runs/followup_B_20261106/data/W1_K1.5000_chi48/levels_wide.csv.gz": "c8ffc864e5e17bf75d81760c86122738d0fe89d9439a1c520f357cda54691cc1",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K1.5000_chi64/levels.csv.gz": "0093d5dc761bdcf20f3a4db179e2245b5d1bc957b486d4271088e50325266c0b",
+    "Yamazaki/runs/followup_B_20261106/data/W1_K1.5000_chi64/levels_wide.csv.gz": "a8b96e2a0c353f2de64a527fc01fb7716d956d5f217148ebbd199d50b32288b3",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K2.5000_chi24/levels.csv.gz": "82d46dc51e123f51006418000521abda8b5abdf0191e16f3e904c33e41cd1242",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K2.5000_chi32/levels.csv.gz": "789ead9f48dc1f16d169baa9e3f298fcbe1b38c513d26a44c2f6f11f030c5c2b",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K2.5000_chi40/levels.csv.gz": "ba05ac81e07f9fc3a0d86130772cb03db66de3877987e6d20b625cec2fd9e445",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K2.5000_chi48/levels.csv.gz": "cbaf0e335db743c049ba3872b30486e82d2e6b93e6fd783eef3cb8ea2760d933",
+    "Yamazaki/runs/cpu_baseline_20261106/data/CU1_K2.5000_chi64/levels.csv.gz": "8592a7c3cefe1d071704717862535b284602d4add1c18e18058eda7dd7075e13"
+  },
+  "script_sha256": "0d9532a3198649b16a713c61cd9f353b2730fff34b4efd36883c3a0c82a303f9",
+  "input_hashes_unchanged": true,
+  "standard_runs": 15,
+  "wide_runs": 6,
+  "caveats": [
+    "Deterministic sensitivity study; no statistical confidence interval or physical-convergence claim.",
+    "Three estimators satisfy K_em^2=K_e*K_m; shared biases can remain.",
+    "Level assignment follows the manuscript by proximity; selected ranks are recorded.",
+    "Wide readout has an additional truncation and no per-level residual/convergence fields."
+  ]
+}
