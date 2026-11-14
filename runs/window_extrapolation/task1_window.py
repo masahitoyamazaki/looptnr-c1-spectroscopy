@@ -151,7 +151,7 @@ def figure(rows, ext):
     mk = {32: "^", 40: "o", 48: "v", 64: "D", 96: "*"}
     off = dict(zip(chis, (-0.010, -0.0085, -0.007, -0.0055, -0.004)))
     fig, axes = plt.subplots(1, 2, figsize=(7.0, 3.1))
-    for ax, key, lab in ((axes[0], "rate_ratio", r"$r/2^{2-K}$"),
+    for ax, key, lab in ((axes[0], "rate_ratio", r"$r_{\rm d}/2^{2-K}$"),
                          (axes[1], "amp_ratio", r"$(A_J/A)/[\alpha_J/(4K\alpha_{0,1})]$")):
         for e in ext:
             if e["chi"] not in chis:

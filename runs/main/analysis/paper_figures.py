@@ -116,7 +116,7 @@ def fig_terms():
         nn = np.array([m for m in sorted(X) if 1 <= m < stop], float)
         bg = coef["c0"] + coef["c1"] * (nn - (ns + ne) / 2) / 10
         ax.semilogy(nn, np.abs(np.array([X[int(m)] for m in nn]) - bg), "k.", ms=3.5)
-        terms = [("A", math.exp(lr) if lr else None, ne, "C3", r"$A\,r^{\,n-n_e}$ (dimerization)"),
+        terms = [("A", math.exp(lr) if lr else None, ne, "C3", r"$A\,r_{\rm d}^{\,n-n_e}$ (dimerization)"),
                  ("B", rates.get("B"), ns, "C1", r"$A_{\rm u}(2^{2-4K})^{n-n_s}$ (umklapp$^2$)"),
                  ("C", -0.5, ns, "C0", r"$A_4(-1/2)^{n-n_s}$ (dim. 4, spin $\pm4$)"),
                  ("D", 0.5, ns, "C2", r"$A_0(1/2)^{n-n_s}$ (dim. 4, $T\bar T$)")]
@@ -149,7 +149,7 @@ def fig_terms():
 
 
 def fig_rate_and_ratio(o2):
-    for key, ylabel, name, ylim in (("r", r"$r/2^{2-K}$", "fig_o2_rate_se", (0.95, 1.05)),
+    for key, ylabel, name, ylim in (("r", r"$r_{\rm d}/2^{2-K}$", "fig_o2_rate_se", (0.95, 1.05)),
                                     ("q", r"$(A_J/A)/[\alpha_J/(4K\alpha_{0,1})]$", "fig_o2_amp_se", (0.95, 1.08))):
         fig, ax = plt.subplots(figsize=(3.4, 2.6))
         ax.axhspan(0.97, 1.03, color="0.92", zorder=0)
@@ -249,7 +249,7 @@ def fig_u1_gamma(u1):
             else:
                 ax.plot(K + dx, f["gamma"], MK[chi], color=COL[chi], ms=3.5, mfc="none")
         ax.plot([], [], MK[chi], color=COL[chi], ms=3.5, mfc="white" if chi != 40 else COL[chi], label=rf"$\chi={chi}$")
-    ax.set_xlabel("$K$"); ax.set_ylabel(r"growth factor $\gamma$"); ax.set_ylim(1.400, 1.425)
+    ax.set_xlabel("$K$"); ax.set_ylabel(r"growth factor $r_J$"); ax.set_ylim(1.400, 1.425)
     ax.set_yticks([1.40, 1.405, 1.41, math.sqrt(2), 1.42, 1.425]); ax.set_yticklabels(["1.400", "1.405", "1.410", r"$\sqrt{2}$", "1.420", "1.425"])
     ax.legend(fontsize=6.5, ncol=3, frameon=False, loc="lower right")
     fig.tight_layout()

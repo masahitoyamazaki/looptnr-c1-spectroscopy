@@ -7,8 +7,10 @@ Output: protocol_factor.csv
 """
 import csv, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
-MAIN = os.path.join(HERE, "..", "main", "analysis", "o2_fits.csv")
-SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "..", "TNR", "Otsuki", "sixvertex", "data", "sixvertex_sg_xi_predict.csv")
+MAIN = os.path.join(HERE, "..", "main", "analysis", "o2_fits.csv")  # public repository layout
+if not os.path.exists(MAIN):  # collaboration repository layout (TNR/Yamazaki/runs/seed_refit_20261112)
+    MAIN = os.path.join(HERE, "..", "main", "analysis", "o2_fits.csv")
+SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "..", "..", "Otsuki", "sixvertex", "data", "sixvertex_sg_xi_predict.csv")
 main = {(round(float(r["K"]), 3), int(r["chi"])): float(r["gd2_n12"])
         for r in csv.DictReader(open(MAIN)) if r["gd2_n12"] not in ("", "nan")}
 rows = []

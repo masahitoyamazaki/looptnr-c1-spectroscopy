@@ -130,7 +130,7 @@ def panel_c(ax):
                 color=BLUE, zorder=3, label=r"$|X(n)|$")
     ng = np.arange(12, n_e + 3.01, 0.25)
     ax.semilogy(ng, np.abs(c[2]) * r ** (ng - n_e), "-", color=ORANGE, lw=1.4, zorder=2,
-                label=r"growth term $\propto r^{\,n}$")
+                label=r"growth term $\propto r_{\rm d}^{\,n}$")
     seed = abs(c[2]) * r ** (12 - n_e)
     ax.plot([12], [seed], "D", ms=5, mfc=ORANGE, mec="white", mew=0.6, zorder=4)
     ax.annotate("seed", (12, seed), xytext=(15.5, seed * 12),

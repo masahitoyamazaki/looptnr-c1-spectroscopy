@@ -113,7 +113,7 @@ def figure(out, rows):
         ax[1].plot(*zip(*pts), mk, ms=4, label=rf"$\chi={chi}$")
     ax[1].axhline(1, color="k", lw=0.8, ls="--")
     ax[1].axhspan(0.97, 1.03, color="0.9", zorder=0)
-    ax[1].set_xlabel("$K$"); ax[1].set_ylabel(r"$\rho/2^{1-1/(2K)}$"); ax[1].set_ylim(0.8, 1.2)
+    ax[1].set_xlabel("$K$"); ax[1].set_ylabel(r"$r_{0,2}/2^{1-1/(2K)}$"); ax[1].set_ylim(0.8, 1.2)
     ax[1].legend(fontsize=7); ax[1].set_title(r"(b) growth factor of the splitting", fontsize=9)
     fig.tight_layout()
     for ext in ("pdf", "png"):

@@ -43,7 +43,7 @@ for k, (grp, title) in enumerate((("K1.5_chi40", r"(a) $K=1.5$, $\chi=40$"), ("K
                    color=col, lw=1.2 if suf == "zero" else 0.8, ms=3, label=lab)
     ax[k].axhline(0, color="0.6", lw=0.5)
     ax[k].set_xlabel("RG step $n$"); ax[k].set_title(title, fontsize=8.5)
-ax[0].set_ylabel(r"$10^4\,\hat g_{\rm d}^{(\pi)}(n)/\gamma^{n}$")
+ax[0].set_ylabel(r"$10^4\,\hat g_{\rm d}^{(\pi)}(n)/r_{\rm d}^{\,n/2}$")
 for grp, mk, lab in (("K1_chi40", "s", r"$K=1$, $\chi=40$"), ("K1.25_chi40", "^", r"$K=1.25$, $\chi=40$"),
                      ("K1.5_chi24", "o", r"$K=1.5$, $\chi=24$"), ("K1.5_chi32", "D", r"$K=1.5$, $\chi=32$"),
                      ("K1.5_chi40", "v", r"$K=1.5$, $\chi=40$")):
@@ -55,7 +55,7 @@ for grp, mk, lab in (("K1_chi40", "s", r"$K=1$, $\chi=40$"), ("K1.25_chi40", "^"
     ref = rows[-1][1]
     ax[2].plot([a for a, _ in rows], [b / ref for _, b in rows], mk + "-", ms=3, lw=0.8, label=lab)
 ax[2].axhline(1, color="0.6", lw=0.5)
-ax[2].set_xlabel("RG step $n$"); ax[2].set_ylabel(r"$s(n)/\gamma^n$ (normalized at $n_{\rm cal}$)")
+ax[2].set_xlabel("RG step $n$"); ax[2].set_ylabel(r"$s(n)/r_{\rm d}^{\,n/2}$ (normalized at $n_{\rm cal}$)")
 ax[2].set_title(r"(c) linear response, $\epsilon/4$", fontsize=8.5); ax[2].legend(fontsize=5.3, frameon=False)
 h, l = ax[0].get_legend_handles_labels()
 fig.legend(h, [r"$\mu=$"+x for x in l], loc="lower center", ncol=7, fontsize=6.5, frameon=False)
