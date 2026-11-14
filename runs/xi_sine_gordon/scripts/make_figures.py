@@ -66,6 +66,7 @@ def fig_collapse():
     Ks = (1.0, 1.25, 1.5, 1.75)
     fig, axes = plt.subplots(2, 4, figsize=(W2, 3.9), sharex="col")
     cmap = plt.get_cmap("Blues")
+    cmap_e = plt.get_cmap("Oranges")
     for j, K in enumerate(Ks):
         axX, axM = axes[0, j], axes[1, j]
         sel = sorted([r for r in runs(ROWS, K) if r["source"] == "Yamazaki B9" and r["chi"] == 40],
@@ -73,24 +74,27 @@ def fig_collapse():
         x0 = 10 ** math.floor(math.log10(min(ell(12) / r["xi_pred_end"] for r in sel)) + 0.3)
         t = np.logspace(math.log10(x0) - 0.5, 1.6, 300)
         for i, r in enumerate(sel):
-            c = cmap(0.35 + 0.6 * i / max(len(sel) - 1, 1))
+            shade = 0.35 + 0.6 * i / max(len(sel) - 1, 1)
             used = {int(q["n"]) for q in steps if q["run"] == r["run"] and q["cut"] == CUT and q["rate"] == "fixed"}
             pts = [v for v in levels if v["run"] == r["run"] and v["n"] >= 12]
             Lx = np.array([v["ell"] / r["xi_pred_end"] for v in pts])
             inside = np.array([int(v["n"]) in used for v in pts])
-            for ax, ys, ls in ((axX, [abs(v["X"]) for v in pts], "-"), (axM, [v["ratio_C_odd"] for v in pts], "-"),
-                               (axM, [v["ratio_C_even"] for v in pts], "--")):
+            # top: charged level (blue shades); bottom: C-odd (blue circles) and C-even (orange squares)
+            for ax, ys, c, mk in ((axX, [abs(v["X"]) for v in pts], cmap(shade), "o"),
+                                  (axM, [v["ratio_C_odd"] for v in pts], cmap(shade), "o"),
+                                  (axM, [v["ratio_C_even"] for v in pts], cmap_e(shade), "s")):
                 ys = np.array(ys)
-                ax.plot(Lx, ys, ls, color=c, lw=0.5)
+                ax.plot(Lx, ys, "-", color=c, lw=0.5)
                 ax.plot(Lx[~inside], ys[~inside], ".", ms=2.2, color=c)
-                ax.plot(Lx[inside], ys[inside], "o", ms=2.2, mfc="white", mec=c, mew=0.5)
+                ax.plot(Lx[inside], ys[inside], mk, ms=2.2, mfc="white", mec=c, mew=0.5)
         weak = 4 * K * alpha01(K) * 2 * kappa_K(K) ** 2 * (t / (2 * math.pi)) ** (2 * (2 - K))
         axX.plot(t, weak, "k--", lw=0.7)
         axX.plot(t, 4 * K * t / (2 * math.pi), "k:", lw=0.7)
         axX.axhline(CUT, color="0.5", lw=0.6, ls="-.")
         axX.set(yscale="log", ylim=(1e-6, 30), title=f"$K={K:g}$ ({len(sel)} runs)")
-        axM.axhline(4 * K * K, color="0.5", lw=0.6, ls=":")
-        axM.axhline(2, color="C3", lw=0.6, ls=":")
+        axM.axhline(4 * K * K, color="C1", lw=0.6, ls=":")   # C-even e = +-1
+        axM.axhline(4 * K, color="C0", lw=0.6, ls=":")       # C-odd current level (x = 1)
+        axM.axhline(2, color="0.5", lw=0.6, ls=":")           # two-soliton threshold
         axM.set(yscale="log", ylim=(1.5, 16))
         for ax in (axX, axM):
             ax.set_xscale("log")
