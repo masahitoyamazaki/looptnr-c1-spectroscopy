@@ -35,6 +35,7 @@ included because of their size; they are available from the authors upon request
 | `runs/signed_readout/` | Paper II: runs with the $\pi$-twisted readout, one-shot and refined compensation (`tw_run.jl`, `iterate.py`), exact diagonalization with a twist (`ed/`) |
 | `runs/step_injection/` | Paper II: per-step injection of the seed, steps 5–11 replaced by $\chi=64$ or 80 sweeps, read with the twisted readout (`si_run.jl`, `analyze.py`) |
 | `runs/xi_sine_gordon/`, `runs/seed_refit/`, `runs/coupling_consistency/` | Paper II: correlation length versus the sine-Gordon prediction, refit of the compensation scans, three readouts of the coupling |
+| `runs/seed_refit/protocol_factor.py`, `protocol_factor.csv` | Paper I, Sec. III A: seed of the main fits versus the fixed-rate protocol of Paper II |
 | `runs/sign_and_wide_readout/`, `runs/width_check/` | Paper II: sign of the seed at $\chi=48$, 64; readout with wider cylinders |
 | `runs/conly_correlation_length/` | Paper II, appendix on the $C$-only runs: first-breather gap predicted from the $V_{0,\pm2}$ seed |
 | `runs/compensation_drift/` | Paper II: drift of $K_n$ with and without compensation |
