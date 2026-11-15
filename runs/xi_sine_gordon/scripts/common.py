@@ -22,9 +22,9 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 PAPER = HERE.parent
-TNR = HERE.parents[3]
-OTS = TNR / "Otsuki" / "sixvertex" / "data"
-YAM = TNR / "Yamamoto" / "finite_bonddim" / "data" / "report10_correlation_20261109"
+ROOT = HERE.parents[2]
+OTS = ROOT / "external" / "otsuki_sg_xi"
+YAM = ROOT / "external" / "yamamoto_xi_report10"
 FIG = PAPER / "figures"
 
 KS = (0.75, 1.0, 1.25, 1.5, 1.75)

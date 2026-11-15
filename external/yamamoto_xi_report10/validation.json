@@ -1,0 +1,44 @@
+[
+  {
+    "name": "free_fermion_mass_coefficient",
+    "error": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "alpha_K1_exact",
+    "error": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "SU2_triplet_alpha",
+    "error": -1.4210854715202004e-14,
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  {
+    "name": "alpha_K0p6_saved_table",
+    "error": -1.023863660520874e-09,
+    "tolerance": 1e-07,
+    "passed": true
+  },
+  {
+    "name": "1D_Ising_transfer_xi",
+    "error": 0.0,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "SG_matching_at_unit_radius",
+    "error": 2.220446049250313e-16,
+    "tolerance": 1e-12,
+    "passed": true
+  },
+  {
+    "name": "all_saved_x_vs_raw_lambda",
+    "error": 8.881784197001252e-16,
+    "tolerance": 1e-12,
+    "passed": true
+  }
+]

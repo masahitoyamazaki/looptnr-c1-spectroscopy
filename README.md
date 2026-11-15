@@ -87,6 +87,8 @@ stored spectra:
 - `cho_ab_chi24/`: alternating $a$/$b$ runs at $K=1.5$, $\chi=24$ (K. Cho; Paper II)
 - `yamamoto_conly_scan/`: $C$-only scan at $\chi=16$ over 17 values of $K$ and its fit code (Y. Yamamoto; Paper I, Sec. V C)
 - `fushio_trotter_injection/`: Trotter injection of the dimerization read with a wider tube (R. Fushio; Paper II)
+- `otsuki_sg_xi/`: per-run tables of the correlation-length analysis (window fits, measured and predicted $\xi$, levels per step) and the levels of the saved runs used for the mass ratios (A. Otsuki; Paper II, Sec. III), read by `runs/xi_sine_gordon/`
+- `yamamoto_xi_report10/`: the second, independent analysis of the correlation length and the BKT point (Y. Yamamoto; Paper II, Sec. III and Apps. D and E), read by `runs/xi_sine_gordon/`
 - `fushio_kn_drift/`: slopes of the drift of $K$ from three level combinations, $K_n$, $x_e/x_J$, and $x_J/4x_{0,1}$, read from the stored spectra of `runs/main/` (R. Fushio; Paper I, Sec. IV F)
 
 The $C$-only runs with a transverse field (K. Cho; Paper I, Sec. V C) are in `runs/additional/data/cho_transverse_field_20261024/` (`result.toml` and `config.toml` of each run) and are analyzed by `runs/additional/analysis/v01_signature.py`.
