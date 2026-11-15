@@ -2,7 +2,7 @@
 
 Data and code for the two papers
 
-> **Paper I.** A. Otsuki, K. Cho, R. Fushio, Y. Yamamoto, and M. Yamazaki,
+> **Paper I.** A. Otsuki, Y. Yamamoto, K. Cho, R. Fushio, and M. Yamazaki,
 > *Symmetry-resolved spectroscopy of truncation-induced perturbations in loop tensor network renormalization of the six-vertex model*
 > (arXiv: to be added).
 >
