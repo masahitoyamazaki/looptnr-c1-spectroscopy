@@ -6,6 +6,9 @@ export MPLBACKEND=Agg
 cd "$(dirname "$0")/runs/main/analysis"
 $PY analyze.py ../data
 $PY drift.py ../data
+$PY drift_table.py
+$PY induced_drift.py
+$PY synthetic_flow.py
 $PY paper_figures.py
 $PY figures.py ../data
 $PY checks.py
