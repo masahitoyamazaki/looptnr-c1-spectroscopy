@@ -39,6 +39,7 @@ included because of their size; they are available from the authors upon request
 | `runs/sign_and_wide_readout/`, `runs/width_check/` | Paper II: sign of the seed at $\chi=48$, 64; readout with wider cylinders |
 | `runs/conly_correlation_length/` | Paper II, appendix on the $C$-only runs: first-breather gap predicted from the $V_{0,\pm2}$ seed |
 | `runs/compensation_drift/` | Paper II: drift of $K_n$ with and without compensation |
+| `runs/midrg_compensation/` | Paper II, Sec. VI: corrections during the RG with four constraints (K. Cho's projected-gradient code in `cho_src/`), $K=0.5$, $1$, $1.5$, $\chi=24$--$40$, up to step 160 |
 | `runs/window_extrapolation/` | Paper I, Appendix E: dependence on the fit window |
 
 ## Reproducing the figures and tables
