@@ -171,7 +171,7 @@ def figure(rows, ext):
         ax.set_xlim(-0.012, 0.104)
         ax.set_xlabel(r"upper cut $X_{\max}$  ($n_s=12$)")
         ax.set_ylabel(lab)
-        ax.text(-0.007, 0.012, "extrap.", transform=ax.get_xaxis_transform(), ha="center", fontsize=6, color="0.4")
+        ax.text(-0.007, 1.01, "extrap.", transform=ax.get_xaxis_transform(), ha="center", va="bottom", fontsize=6, color="0.4")
     axes[0].set_ylim(0.94, 1.06); axes[1].set_ylim(0.92, 1.12)
     hK = [Line2D([], [], color=col[K], lw=1.2, label=f"$K={K:g}$") for K in Ks]
     hc = [Line2D([], [], color="k", marker=mk[c], ls="none", mfc="none", ms=4, label=rf"$\chi={c}$") for c in chis]
