@@ -105,7 +105,7 @@ def figure(out, rows):
             n = np.arange(f["n1"], f["n2"] + 1)
             p1 = 2 ** (1 - 1 / (2 * K))
             ax[0].semilogy(n, 4 * K * abs(s[f["n2"]]["D"]) * p1 ** (n - f["n2"]), "-", lw=1, color=col)
-    ax[0].set_xlabel("RG step $n$"); ax[0].set_ylabel(r"$4K\,|x_{\rm even}-x_{\rm odd}|$")
+    ax[0].set_xlabel("RG step $n$"); ax[0].set_ylabel(r"$8K\,|\Delta x|$")
     ax[0].set_ylim(1e-16, 1); ax[0].legend(fontsize=6, ncol=2, loc="lower right")
     ax[0].set_title(r"(a) $C$ only, $\chi=40$", fontsize=9)
     for j, (chi, mk) in enumerate(((24, "^"), (32, "s"), (40, "o"))):
