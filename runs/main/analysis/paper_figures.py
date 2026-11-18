@@ -215,17 +215,22 @@ def u1_with_ranges(K, chi):
 
 
 def fig_u1_flows(u1):
+    with plt.rc_context({"text.usetex": True}):  # \underline is not available in mathtext
+        _fig_u1_flows(u1)
+
+
+def _fig_u1_flows(u1):
     fig, axes = plt.subplots(1, 3, figsize=(7.0, 2.4), sharey=True)
     for ax, K, lab in zip(axes, (0.75, 1.5, 2.5), "abc"):
         lev, good = u1_window(K, 40)
         f = u1[(K, 40)]
         ns_plot = 15
         n = [m for m, *_ in good]
-        ax.semilogy(n, [abs(e - 1 / (4 * K)) for _, e, _ in good], "s-", color="C0", ms=3, lw=0.7, label=r"$|E_1-1/(4K)|$")
-        ax.semilogy(n, [abs(o) for *_, o in good], "o", color="C3", ms=3.2, label=r"$|\mathcal{O}_1|$")
+        ax.semilogy(n, [abs(e - 1 / (4 * K)) for _, e, _ in good], "s-", color="C0", ms=3, lw=0.7, label=r"$|\underline{x}_1-1/(4K)|$")
+        ax.semilogy(n, [abs(o) for *_, o in good], "o", color="C3", ms=3.2, label=r"$|\Delta x_1|$")
         tt = np.arange(f["n_s"] - f["ne"], 1)
         u, v = f["uv"]; w = math.radians(f["omega"])
-        ax.semilogy(f["ne"] + tt, np.abs(f["gamma"] ** tt * (u * np.cos(w * tt) + v * np.sin(w * tt))), "-", color="C3", lw=0.8, label=r"fit to $\mathcal{O}_1$")
+        ax.semilogy(f["ne"] + tt, np.abs(f["gamma"] ** tt * (u * np.cos(w * tt) + v * np.sin(w * tt))), "-", color="C3", lw=0.8, label=r"fit to $\Delta x_1$")
         ax.axvspan(f["n_s"], f["ne"], color="#f6eeee", zorder=0)
         ax.set_title(f"({lab}) $K={K:g}$", fontsize=8.5, loc="left")
         ax.set_xlabel("RG step $n$"); ax.set_xlim(ns_plot - 0.5, f["ne"] + 0.5)
