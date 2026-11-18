@@ -54,8 +54,8 @@ def lattice(ax, center, a, angle_deg, n=3, label_size=6.5, lw=0.8):
 
 
 def panel_a(ax):
-    ax.set_xlim(0, 11)
-    ax.set_ylim(0, 6)
+    ax.set_xlim(0, 11.2)
+    ax.set_ylim(-0.75, 6.25)
     ax.set_aspect("equal")
     ax.axis("off")
     e1, _ = lattice(ax, (2.0, 3.2), 0.75, 0, n=2)
@@ -68,7 +68,8 @@ def panel_a(ax):
     p0 = np.array((2.0, 3.2))
     ax.add_patch(FancyArrowPatch(tuple(p0), tuple(p0 + e1), arrowstyle="-|>", mutation_scale=7,
                                  color=ORANGE, lw=1.3, zorder=4))
-    ax.text(2.0 + 0.38, 3.2 + 0.2, r"$T_1$", color=INK, fontsize=7, ha="center", va="bottom")
+    ax.text(2.0 + 0.38, 3.2 + 0.2, r"$T_1$", color=INK, fontsize=7, ha="center", va="bottom", zorder=5,
+            bbox=dict(boxstyle="round,pad=0.05", facecolor="white", edgecolor="none", alpha=0.85))
     # direction of the same tensor leg before (x) and after (x') the step: rotated by 135 deg
     ax.add_patch(FancyArrowPatch((1.6, 5.35), (2.4, 5.35), arrowstyle="-|>", mutation_scale=7,
                                  color=INK, lw=1.0, zorder=4))
@@ -79,8 +80,8 @@ def panel_a(ax):
     ax.add_patch(FancyArrowPatch(tuple(q0), tuple(q1), arrowstyle="-|>", mutation_scale=7,
                                  color=INK, lw=1.0, zorder=4))
     ax.text(q1[0] - 0.05, q1[1] + 0.05, r"$\hat x'$", fontsize=7, ha="right", va="bottom")
-    ax.text(2.0, 0.9, r"$T_A$ (filled)" + "\n" + r"$T_B$ (open)", ha="center", fontsize=6.5, color=MUTED)
-    ax.text(8.1, 0.0, r"after $n$ steps, $T_1$ is a shift" + "\n" + r"by $2^{-n/2}$ of a lattice vector", ha="center", fontsize=6.5,
+    ax.text(2.0, 1.45, r"$T_A$ (filled)" + "\n" + r"$T_B$ (open)", ha="center", va="top", fontsize=6.5, color=MUTED)
+    ax.text(8.1, 0.05, r"after $n$ steps, $T_1$ is a shift" + "\n" + r"by $2^{-n/2}$ of a lattice vector", ha="center", va="top", fontsize=6.5,
             color=MUTED)
     ax.text(0.05, 5.85, "(a)", fontsize=8.5, va="top")
 
@@ -95,7 +96,7 @@ def panel_b(ax):
     ax.plot([x0, x1], [yc + h / 2] * 2, color=INK, lw=0.9)
     ax.plot([x0, x1], [yc - h / 2] * 2, color=INK, lw=0.9)
     ax.add_patch(Ellipse((x0, yc), 0.8, h, facecolor="#eef3fb", edgecolor=INK, lw=0.9))
-    ax.add_patch(Ellipse((x1, yc), 0.8, h, facecolor="none", edgecolor=INK, lw=0.9))
+    ax.add_patch(Ellipse((x1, yc), 0.8, h, facecolor="#dfe9f7", edgecolor=INK, lw=0.9))
     for xx in np.linspace(x0 + 0.6, x1 - 0.6, 4):
         ax.add_patch(Ellipse((xx, yc), 0.8, h, facecolor="none", edgecolor=GRID, lw=0.6,
                              linestyle=(0, (2, 2))))
@@ -103,7 +104,8 @@ def panel_b(ax):
                                  arrowstyle="<|-|>", mutation_scale=7, color=INK, lw=0.8))
     ax.text((x0 + x1) / 2, yc - h / 2 - 0.6, "transfer length\n" + r"$\sqrt{2}\,a_n$", ha="center",
             va="top", fontsize=7)
-    ax.add_patch(FancyArrowPatch((x1 + 0.75, yc - h / 2), (x1 + 0.75, yc + h / 2),
+    ax.add_patch(FancyArrowPatch((x1 + 0.2, yc - h / 2 - 0.15), (x1 + 0.2, yc + h / 2 + 0.15),
+                                 connectionstyle="arc3,rad=0.35",
                                  arrowstyle="<|-|>", mutation_scale=7, color=INK, lw=0.8))
     ax.text(x1 + 0.9, yc, "circum-\nference\n" + r"$2\sqrt{2}\,a_n$", ha="left", va="center",
             fontsize=7)

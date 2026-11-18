@@ -96,7 +96,7 @@ stored spectra:
 - `yamamoto_xi_report10/`: the second, independent analysis of the correlation length and the BKT point (Y. Yamamoto; Paper II, Sec. III and Apps. D and E), read by `runs/xi_sine_gordon/`
 - `cho_midrg_interval/`: corrections during the RG at the BKT point, every four versus every two steps (K. Cho; Paper II, Sec. VI)
 - `fushio_kn_drift/`: slopes of the drift of $K$ from three level combinations, $K_n$, $x_e/x_J$, and $x_J/4x_{0,1}$, read from the stored spectra of `runs/main/` (R. Fushio; Paper I, Sec. IV F and App. D)
-- `otsuki_ff_kappa/`: exact lowest charged level of the dimerized XX chain (free fermions, $K=1$) and the coefficient $\kappa=0.2345$ of the fourth-order shift, with its script (A. Otsuki; Paper I, Sec. IV B and App. D)
+- `otsuki_ff_kappa/`: exact lowest charged level of the dimerized XX chain (free fermions, $K=1$) and the coefficient $\kappa=0.2345$ of the fourth-order shift, and the fits with a $\kappa X_g^2$ term of the rate deficit for $K\le1$, with their scripts (A. Otsuki; Paper I, Sec. IV B and App. D)
 
 The $C$-only runs with a transverse field (K. Cho; Paper I, Sec. V C) are in `runs/additional/data/cho_transverse_field_20261024/` (`result.toml` and `config.toml` of each run) and are analyzed by `runs/additional/analysis/v01_signature.py`.
 
