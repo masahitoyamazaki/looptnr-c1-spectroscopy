@@ -1,5 +1,9 @@
 # looptnr-c1-spectroscopy
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24361530.svg)](https://doi.org/10.5281/zenodo.24361530)
+
+Archived at Zenodo: [10.5281/zenodo.24361530](https://doi.org/10.5281/zenodo.24361530) (all versions; v1.0: [10.5281/zenodo.24361531](https://doi.org/10.5281/zenodo.24361531)).
+
 Data and code for the two papers
 
 > **Paper I.** A. Otsuki, Y. Yamamoto, K. Cho, R. Fushio, and M. Yamazaki,
@@ -103,7 +107,7 @@ The $C$-only runs with a transverse field (K. Cho; Paper I, Sec. V C) are in `ru
 ## Licenses
 
 Code: MIT License (`LICENSE`).  Data (spectra and derived tables): Creative Commons Attribution 4.0 International
-(`LICENSE-DATA`).  If you use the data, please cite the papers.
+(`LICENSE-DATA`).  If you use the data, please cite the papers and the Zenodo record (doi:10.5281/zenodo.24361530).
 
 ## Use of AI tools
 
