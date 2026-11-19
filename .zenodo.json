@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "looptnr-c1-spectroscopy: transfer-matrix spectra, run scripts, and analysis for loop tensor network renormalization on the c=1 critical line of the six-vertex model",
+  "creators": [
+    {
+      "name": "Otsuki, Akira"
+    },
+    {
+      "name": "Yamamoto, Yuta"
+    },
+    {
+      "name": "Cho, Kokin"
+    },
+    {
+      "name": "Fushio, Rikuto"
+    },
+    {
+      "name": "Yamazaki, Masahito",
+      "orcid": "0000-0001-7164-8187"
+    }
+  ],
+  "description": "Transfer-matrix spectra of all loop tensor network renormalization (LoopTNR) runs on the c=1 critical line of the six-vertex model used in two companion papers, together with the run scripts, the Julia environment, and the analysis scripts that produce the figures, tables, and quoted numbers. Code: MIT License. Data: CC BY 4.0.",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "tensor network renormalization",
+    "LoopTNR",
+    "six-vertex model",
+    "compact boson",
+    "conformal perturbation theory",
+    "sine-Gordon"
+  ]
+}
