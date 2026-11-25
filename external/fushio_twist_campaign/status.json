@@ -1,0 +1,55 @@
+{
+  "updated_at_utc": "2026-11-10T05:17:24.801769+00:00",
+  "planned_groups": 21,
+  "calibration_jobs": 147,
+  "conditional_prediction_jobs": 19,
+  "conditional_sensitivity_jobs": 6,
+  "started_jobs": 153,
+  "terminal_jobs": 152,
+  "failed_jobs": 0,
+  "controller": {
+    "pid": 73162,
+    "status": "running",
+    "started_at": "2026-11-09T13:03:19.611319+00:00",
+    "alive": true
+  },
+  "controller_error": null,
+  "launch_failures": [],
+  "measurements": 4515,
+  "twist_measurements": 1077,
+  "new_checkpoints": 4424,
+  "running": [
+    {
+      "id": "K1.5_chi64_plus1",
+      "group": "K1.5_chi64",
+      "kind": "calibration",
+      "status": "running",
+      "saved": 21,
+      "measured": 21,
+      "n_e": null,
+      "reused": false,
+      "source": "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K1.5_chi64_plus1.toml"
+    }
+  ],
+  "prediction_status": {
+    "K0.75_chi24": "frozen",
+    "K0.75_chi32": "frozen",
+    "K0.75_chi40": "frozen",
+    "K1.25_chi24": "frozen",
+    "K1.25_chi32": "frozen",
+    "K1.25_chi40": "frozen",
+    "K1.5_chi24": "frozen",
+    "K1.5_chi32": "frozen",
+    "K1.5_chi40": "frozen",
+    "K1.5_chi48": "frozen",
+    "K1.75_chi24": "held",
+    "K1.75_chi32": "frozen",
+    "K1.75_chi40": "frozen",
+    "K1_chi24": "frozen",
+    "K1_chi32": "frozen",
+    "K1_chi40": "frozen",
+    "K1_chi48": "frozen",
+    "K1_chi64": "frozen"
+  },
+  "scope": "Launch/saved progress only; terminal status is not physical convergence. Drive archival pending for this active campaign."
+}

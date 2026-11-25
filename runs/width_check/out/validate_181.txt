@@ -1,0 +1,6 @@
+# validate_181.jl  checkpoint: cpu_baseline_20261106/out/CU1_K1.0000_chi16/step_024.jls  (K = 1, chi = 16)
+# full: TNRKit CFTData(shape = [1,8,1], trunc = truncrank(16)); restricted: read181(TA, TB, 16, 3) of width_read_181.jl
+# 2026-11-25T00:23:53+09:00  julia 1.13.3  env ~/tnr_cpu (TNRKit 0.7.0)
+full  x12 = [1.3789856867086743, 1.727012331795629]  (338.9 s)
+mine  x12 = [1.3789856867086798, 1.727012331795621]  (14.9 s)  info=(2, 3, 1)
+rel diff  = 4.025505976334703e-15

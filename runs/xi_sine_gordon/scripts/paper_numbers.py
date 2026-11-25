@@ -49,8 +49,10 @@ for K in KS:
             print(f"K={K} chi={chi:.0f}: xi = {xs}, spread {xs[-1] / xs[0] - 1:.2e}")
 
 print("== L/xi at n_e (cut 0.1, r free) and second-order estimate")
+# The column L_over_xi_at_n_e of the Otsuki table is taken at the first step with |X| > 0.1, i.e., at n_e + 1;
+# divide by sqrt(2) for n_e, the last step with |X| <= 0.1 (Fushio 1b R-05).
 for K in KS:
-    ne = sorted(r["L_over_xi_at_n_e"] for r in runs(rows, K, 0.1, "free")
+    ne = sorted(r["L_over_xi_at_n_e"] / math.sqrt(2) for r in runs(rows, K, 0.1, "free")
                 if isinstance(r["L_over_xi_at_n_e"], float) and r["L_over_xi_at_n_e"] == r["L_over_xi_at_n_e"])
     est = 2 * math.pi * (math.sqrt(0.1 / (4 * K * alpha01(K))) / (math.sqrt(2) * kappa_K(K))) ** (1 / (2 - K))
     print(f"K={K}: {ne[0]:.2f}-{ne[-1]:.2f}  estimate {est:.2f}")

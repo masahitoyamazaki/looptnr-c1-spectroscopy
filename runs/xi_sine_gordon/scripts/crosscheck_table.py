@@ -1,10 +1,12 @@
 """Table of the two independent analyses (Otsuki: |X|<=0.02, last two steps; Yamamoto: |X|<=0.05, median of the
-last three converged steps) on the common chi scan, written to tables/crosscheck.tex.
-Usage (from paper2_draft/): ~/miniforge3/bin/python scripts/crosscheck_table.py
+last three converged steps) on the common chi scan (Table VII of paper 1b), written to tables/xi_crosscheck.tex, the file
+that main_1b.tex inputs: research_note/paper/tables/ in the project tree, ../tables/ next to this folder elsewhere
+(e.g. in the public repository).
+Usage: python scripts/crosscheck_table.py
 """
 import math
 
-from common import PAPER, YAM, predict_rows, read
+from common import HERE, PAPER, YAM, predict_rows, read
 
 
 def sci(x, d=2):
@@ -25,6 +27,8 @@ for (K, chi), y in sorted(Y.items()):
     g = math.sqrt(o["g2_12"])
     lines.append(f"      {K:g} & {chi} & {sci(g)} & {sci(y['h12'])} & {sci(o['xi_meas'], 3)} & "
                  f"{o['xi_pred_end'] / o['xi_meas']:.3f} & {y['xi_pred'] / y['xi_measured']:.3f} \\\\")
-(PAPER / "tables").mkdir(exist_ok=True)
-(PAPER / "tables" / "crosscheck.tex").write_text("\n".join(lines) + "\n")
-print(len(lines), "rows")
+TEX = HERE.parents[3] / "research_note" / "paper" / "tables"   # the manuscript's tables (project tree only)
+out = TEX if TEX.is_dir() else PAPER / "tables"
+out.mkdir(exist_ok=True)
+(out / "xi_crosscheck.tex").write_text("\n".join(lines) + "\n")
+print(len(lines), "rows ->", out / "xi_crosscheck.tex")

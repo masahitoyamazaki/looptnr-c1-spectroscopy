@@ -1,0 +1,32 @@
+{
+  "group": "K0.75_chi24",
+  "created_at": "2026-11-09T15:51:01.669567+00:00",
+  "calibration_step": 12,
+  "source_sha256": {
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_zero.toml": "7d9bf0bb9d611cb143a145927a7d47784b89a57c22edcfe37d46a2dee743f08b",
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_plus0.toml": "2e68d392fe6b3363c8d65b7e8bc8fb9f50cdf3797c4386bfb40a472edd250160",
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_minus0.toml": "068d1db24929c2bcbf8956b23b11b5066e1e5e2e30241beaa1c2e6c38e936d78",
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_plus1.toml": "b8de2f676a30f1124d1947d20370bc9c7652aa06cc0066ab7b6c05ba08b16cf6",
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_minus1.toml": "3b8688ba15d03813943332a580a4a087992db773fdcf47ede9499fc51af80e37",
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_plus2.toml": "d5d7870b053b65dd8a546ae2d1876f50fbc0b62575e13a5152da01de7cf28e6d",
+    "Fushio/docs/six_vertex/dimerization_injection/support/twist_campaign_20261109/data/K0.75_chi24_minus2.toml": "3c58ff4b4adf356cb732c5575bbcca41fed19508eb2759cfa03e3c297cb44f61"
+  },
+  "protocol_sha256": "a8c2407b1cfdc2cfc98e103885c1b524aee64b5b51d47e5059c289dff13fda70",
+  "status": "frozen",
+  "reasons": [],
+  "slopes": [
+    -145.49890100671453,
+    -145.4989119470368,
+    -145.49891468079167
+  ],
+  "even_response": [
+    -2.475983876260024e-09,
+    -6.189788265276164e-10,
+    -1.5476354919830015e-10
+  ],
+  "slope_relative_difference": 1.878883350373091e-08,
+  "even_fraction": 4.2546997560176733e-07,
+  "input_h": -1.9680630068134898e-05,
+  "delta_zero": -0.0028635103151477825,
+  "slope": -145.49891468079167
+}

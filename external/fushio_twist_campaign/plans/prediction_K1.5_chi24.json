@@ -1,0 +1,23 @@
+[
+  {
+    "id": "K1.5_chi24_predicted",
+    "state": "missing",
+    "candidates": [],
+    "related_reservations": [],
+    "reuse": false
+  },
+  {
+    "id": "K1.5_chi24_sensitivity0.9",
+    "state": "missing",
+    "candidates": [],
+    "related_reservations": [],
+    "reuse": false
+  },
+  {
+    "id": "K1.5_chi24_sensitivity1.1",
+    "state": "missing",
+    "candidates": [],
+    "related_reservations": [],
+    "reuse": false
+  }
+]

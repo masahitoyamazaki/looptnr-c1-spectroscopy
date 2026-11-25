@@ -7,6 +7,9 @@ Usage (from paper2_draft/): ~/miniforge3/bin/python scripts/make_figures.py
 import csv
 import math
 
+import matplotlib
+import matplotlib.lines
+import matplotlib.ticker
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import minimize
@@ -35,7 +38,11 @@ def fig_xi_vs_g():
         ax.plot(gs, [xi_from_g(K, 12, v) for v in gs], "--", lw=0.7, color=KCOL[K])
         ax.plot(g, [r["xi_meas"] for r in sel], KMARK[K], color=KCOL[K], mfc="none", mew=0.7, label=f"$K={K:g}$")
     ax.set(xscale="log", yscale="log", xlabel=r"$|g_{\rm d}(12)|$", ylabel=r"measured $\xi/a_0$")
-    ax.legend(fontsize=7, loc="upper right")
+    leg = ax.legend(fontsize=7, loc="upper right")
+    ax.add_artist(leg)
+    ax.legend(handles=[matplotlib.lines.Line2D([], [], color="0.3", marker="o", ls="none", mfc="none", mew=0.7, label="measured"),
+                       matplotlib.lines.Line2D([], [], color="0.3", ls="--", lw=0.7, label="prediction, no free parameter")],
+              fontsize=6.5, loc="lower left")
     fig.tight_layout()
     save(fig, "fig_xi_vs_g")
 
@@ -54,7 +61,7 @@ def fig_ratio():
         ax.axhline(1, color="k", lw=0.6)
         ax.set(xscale="log", xlabel=r"measured $\xi/a_0$", title=title)
     axes[0].set_ylabel(r"$\xi_{\rm pred}/\xi$")
-    axes[0].set_ylim(0.5, 1.15)
+    axes[0].set_ylim(0.45, 1.15)
     axes[1].legend(fontsize=6.5, loc="lower left", ncol=2)
     fig.tight_layout()
     save(fig, "fig_ratio")
@@ -89,19 +96,37 @@ def fig_collapse():
                 ax.plot(Lx[inside], ys[inside], mk, ms=2.2, mfc="white", mec=c, mew=0.5)
         weak = 4 * K * alpha01(K) * 2 * kappa_K(K) ** 2 * (t / (2 * math.pi)) ** (2 * (2 - K))
         axX.plot(t, weak, "k--", lw=0.7)
-        axX.plot(t, 4 * K * t / (2 * math.pi), "k:", lw=0.7)
-        axX.axhline(CUT, color="0.5", lw=0.6, ls="-.")
+        # gapped phase (Otsuki R-17): x_{0,1} = L/(2 pi xi_pred), so |X| = 4K x_{0,1} - 1; drawn only where it exceeds
+        # 0.3, since the -1 makes the curve plunge where 4K x_{0,1} -> 1
+        gap = 4 * K * t / (2 * math.pi) - 1
+        on = gap > 0.3
+        axX.plot(t[on], gap[on], "k:", lw=0.7)
+        axX.axhline(CUT, color="0.5", lw=0.6, ls="-.", zorder=1)
+        axX.axhline(0.1, color="C3", lw=0.6, ls=(0, (1, 1.5)), zorder=1)   # breakdown threshold |X| = 0.1 (Sec. II B)
         axX.set(yscale="log", ylim=(1e-6, 30), title=f"$K={K:g}$ ({len(sel)} runs)")
         axM.axhline(4 * K * K, color="C1", lw=0.6, ls=":")   # C-even e = +-1
         axM.axhline(4 * K, color="C0", lw=0.6, ls=":")       # C-odd current level (x = 1)
         axM.axhline(2, color="0.5", lw=0.6, ls=":")           # two-soliton threshold
         axM.set(yscale="log", ylim=(1.5, 16))
+        axM.set_yticks([2, 5, 10]); axM.set_yticklabels(["2", "5", "10"]); axM.yaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
         for ax in (axX, axM):
             ax.set_xscale("log")
             ax.set_xlim(x0, 40)
         axM.set_xlabel(r"$L/\xi_{\rm pred}$")
     axes[0, 0].set_ylabel(r"$|X|$")
     axes[1, 0].set_ylabel("mass ratio")
+    L2 = matplotlib.lines.Line2D
+    leg = axes[0, 0].legend(handles=[L2([], [], color="k", ls="--", lw=0.7, label="second order"),
+                               L2([], [], color="k", ls=":", lw=0.7, label="gapped"),
+                               L2([], [], color="0.5", ls="-.", lw=0.6, label=rf"$|X|={CUT:g}$"),
+                               L2([], [], color="C3", ls=(0, (1, 1.5)), lw=0.6, label=r"$|X|=0.1$")],
+                      fontsize=6, loc="upper left", handlelength=1.8,
+                      frameon=True, framealpha=1, edgecolor="none", borderpad=0.3)
+    leg.set_zorder(1.5)   # opaque box over the |X| lines (zorder 1), under the data (zorder 2)
+    axes[1, 1].legend(handles=[L2([], [], color="C0", marker="o", ls="none", ms=2.5, label=r"$C$-odd"),
+                               L2([], [], color="C1", marker="s", ls="none", ms=2.5, label=r"$C$-even"),
+                               L2([], [], color="0.3", ls=":", lw=0.6, label=r"CFT, $2M$")],
+                      fontsize=6, loc="upper right", handlelength=1.5)
     fig.tight_layout(h_pad=0.3, w_pad=0.4)
     save(fig, "fig_collapse")
 
@@ -124,7 +149,13 @@ TUBES = {"std": (lambda n: ell(n), lambda n: ell(n) / 2, 1e-7),
          "wide": (lambda n: 2 * math.sqrt(10) * math.sqrt(2) ** n, lambda n: 4 / math.sqrt(10) * math.sqrt(2) ** n, 1e-4)}
 
 
-def mass_series(tags, floor):
+DROP = 0.02   # noise cut of App. A (Otsuki's sixvertex_sg_xi_predict.py, usable_steps)
+
+
+def mass_series(tags, floor, height):
+    """Steps before a used level falls below the floor or reaches the noise.  Noise cut of App. A (Otsuki R-21): in the
+    gapped phase q(n) = E(n)/E(n-1), E = -ln(ratio)/height, rises towards 1; the series stops at the first step n >= 12
+    where q of a used level falls below its value at n-1 by more than DROP."""
     data = {}
     for tag in tags:
         data.update(phase_levels(tag))
@@ -134,6 +165,11 @@ def mass_series(tags, floor):
     for n in sorted(data):
         if not all(len(data[n].get(s, [])) > i and top(n, s, i) > floor for s, i in used):
             break
+        if n >= 12 and len(ns) >= 2 and ns[-1] == n - 1 and ns[-2] == n - 2:
+            E = lambda m, s, i: -math.log(top(m, s, i)) / height(m)
+            q = lambda m, s, i: E(m, s, i) / E(m - 1, s, i)
+            if any(q(n, s, i) < q(n - 1, s, i) - DROP for s, i in used):
+                break
         ns.append(n)
     return ns, (lambda n, sec, i: -math.log(top(n, sec, i)))
 
@@ -145,7 +181,7 @@ def fig_mass():
         xi = None
         for tube, tags in tubes.items():
             Lf, hf, floor = TUBES[tube]
-            ns, x = mass_series(tags, floor)
+            ns, x = mass_series(tags, floor, hf)
             if tube == "std":
                 xi = sum(hf(n) / x(n, "(1;2)", 0) for n in ns[-2:]) / 2
             filled = tube == "std"
@@ -157,7 +193,13 @@ def fig_mass():
         ax.axhline(4 * K * K, color="0.5", ls=":", lw=0.8)
         ax.axvline(xi, color="0.5", ls="--", lw=0.7)
         ax.set(xscale="log", xlabel=r"$L/a_0$", title=f"({lab}) $K={K:g}$")
+        ax.xaxis.set_minor_locator(matplotlib.ticker.LogLocator(subs="auto")); ax.xaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
         print(f"mass K={K}: xi={xi:.4g}")
+    h = [matplotlib.lines.Line2D([], [], color="C0", marker="o", ls="-", lw=0.7, ms=2.5, label=r"$C$-odd"),
+         matplotlib.lines.Line2D([], [], color="C1", marker="s", ls="-", lw=0.7, ms=2.5, label=r"$C$-even"),
+         matplotlib.lines.Line2D([], [], color="0.3", marker="o", ls="-", lw=0.7, ms=2.5, label="standard tube"),
+         matplotlib.lines.Line2D([], [], color="0.3", marker="o", ls="--", lw=0.7, ms=2.5, mfc="white", label="wide tube")]
+    axes[1].legend(handles=h, fontsize=6.5, loc="upper left", ncol=2)
     axes[0].set_ylabel(r"mass ratio to the $|m|=1$ soliton")
     fig.tight_layout()
     save(fig, "fig_mass")
@@ -168,14 +210,16 @@ def fig_mu():
     sel = runs(ROWS, K)
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(W2, 2.6))
     gs = np.logspace(-6.5, -3, 100)
-    a1.plot(gs, [xi_from_g(K, 12, g) for g in gs], "k--", lw=0.7)
-    groups = (("this plan", 40, "C0", "o", r"$a/b$, $\chi=40$ (separate)"),
-              ("Yamazaki B9", 40, "C1", "^", r"$a/b$, $\chi=40$"),
-              ("Yamazaki B9", 32, "C2", "s", r"$a/b$, $\chi=32$"),
-              ("Yamazaki chi scan", None, "C3", "D", r"$\mu=0$, $\chi=16$--$64$"))
+    groups = ((("this plan", "Yamazaki B9"), 40, "C0", "o", r"$a/b$, $\chi=40$"),
+              (("Yamazaki B9",), 32, "C2", "s", r"$a/b$, $\chi=32$"),
+              (("Yamazaki chi scan",), None, "C3", "D", r"$\mu=0$, $\chi=16$–$64$"))
+    gall = []
     for src, chi, c, m, lab in groups:
-        q = [r for r in sel if r["source"] == src and (chi is None or r["chi"] == chi)]
+        q = [r for r in sel if r["source"] in src and (chi is None or r["chi"] == chi)]
+        gall += [math.sqrt(r["g2_12"]) for r in q]
         a1.plot([math.sqrt(r["g2_12"]) for r in q], [r["xi_meas"] for r in q], m, color=c, mfc="none", mew=0.7, label=lab)
+    gs = np.logspace(math.log10(min(gall)) - 0.2, math.log10(max(gall)) + 0.1, 100)
+    a1.plot(gs, [xi_from_g(K, 12, g) for g in gs], "k--", lw=0.7, label="prediction, no free parameter")
     a1.set(xscale="log", yscale="log", xlabel=r"$|g_{\rm d}(12)|$", ylabel=r"measured $\xi/a_0$", title=r"(a) $K=0.75$")
     a1.legend(fontsize=6.5, loc="upper right")
     pts = [r for r in sel if r["chi"] == 40 and r["source"] in ("this plan", "Yamazaki B9")]
@@ -186,11 +230,14 @@ def fig_mu():
     kf, gf = res.x[0], res.x[1] * 1e-5
     print(f"mu fit K=0.75 chi=40: kappa={kf:.3g}, g_seed={gf:.3g}, mu*={-gf / kf:.3g}, {len(pts)} runs")
     ml = np.linspace(-6e-5, 6e-5, 2001)
-    a2.plot(ml * 1e6, [xi_from_g(K, 12, gf + kf * m) for m in ml], "k--", lw=0.7, label="fit, present protocol")
-    a2.plot(ml * 1e6, [xi_from_g(K, 12, -4.5e-5 + 29.4 * m) for m in ml], ":", color="0.5", lw=0.8, label="Ref. [Paper 1], Table VI")
-    for src, chi, c, m, lab in groups[:2]:
-        q = [r for r in pts if r["source"] == src]
-        a2.plot([r["mu"] * 1e6 for r in q], [r["xi_meas"] for r in q], m, color=c, mfc="none", mew=0.7, label=lab)
+    a2.plot(ml * 1e6, [xi_from_g(K, 12, gf + kf * m) for m in ml], "k--", lw=0.7,
+            label=r"prediction with fitted $|g_{\rm seed}+\rho\mu|$")
+    src, chi, c, m, lab = groups[0]
+    a2.plot([r["mu"] * 1e6 for r in pts], [r["xi_meas"] for r in pts], m, color=c, mfc="none", mew=0.7, label=lab)
+    mstar = -gf / kf
+    a2.axvline(mstar * 1e6, color="0.5", lw=0.6, ls=":")
+    a2.annotate(rf"$\mu^*={mstar * 1e6:.2f}\times10^{{-6}}$", xy=(mstar * 1e6, 1.4e3), xytext=(4, 0),
+                textcoords="offset points", fontsize=6.5, color="0.3")
     a2.set(yscale="log", ylim=(1e3, 2e6), xlabel=r"$\mu\ [10^{-6}]$", ylabel=r"measured $\xi/a_0$", title=r"(b) $K=0.75$, $\chi=40$")
     a2.legend(fontsize=6.5, loc="upper left")
     fig.tight_layout()
@@ -208,12 +255,13 @@ def fig_bkt():
         a1.plot([r["step"] for r in pp], [r["xi_m"] for r in pp], "-", color=c, lw=0.8, label=rf"$\chi={chi}$")
         a1.axhline(comp[(0.5, chi)]["xi_pred"], color=c, ls=":", lw=0.7)
     a1.set(yscale="log", xlabel="RG step $n$", ylabel=r"$\xi_m/a_0$", title=r"(a) $K=1/2$")
+    a1.plot([], [], ":", color="0.3", lw=0.7, label=r"predicted $\xi$ (seed)")
     a1.legend(fontsize=6.5, loc="lower right")
     rr = [comp[(0.5, c)] for c in chis]
-    a2.plot(chis, [r["xi_measured"] / r["xi_no_log"] for r in rr], "s-", color="0.5", lw=0.7, ms=3, label="without logarithmic running")
-    a2.plot(chis, [r["xi_measured"] / r["xi_pred"] for r in rr], "o-", color="C0", lw=0.7, ms=3, label="with two-loop running")
+    a2.plot(chis, [r["xi_no_log"] / r["xi_measured"] for r in rr], "s-", color="0.5", lw=0.7, ms=3, label="without logarithmic running")
+    a2.plot(chis, [r["xi_pred"] / r["xi_measured"] for r in rr], "o-", color="C0", lw=0.7, ms=3, label="with two-loop running")
     a2.axhline(1, color="k", lw=0.6)
-    a2.set(xlabel=r"bond dimension $\chi$", ylabel=r"$\xi/\xi_{\rm pred}$", xticks=chis, title="(b) effect of the logarithm")
+    a2.set(xlabel=r"bond dimension $\chi$", ylabel=r"$\xi_{\rm pred}/\xi$", xticks=chis, title="(b) effect of the logarithm")
     a2.legend(fontsize=6.5, loc="center right")
     fig.tight_layout()
     save(fig, "fig_bkt")
@@ -229,7 +277,11 @@ def fig_xi_vs_chi():
         ax.plot(chi, [r["xi_meas"] for r in rs], KMARK[K], color=KCOL[K], mfc="none", mew=0.7, label=f"$K={K:g}$")
         ax.plot(chi, [r["xi_pred_end"] for r in rs], "-", lw=0.6, color=KCOL[K])
     ax.set(yscale="log", xticks=[16, 24, 32, 40, 48, 64, 96], xlabel=r"bond dimension $\chi$", ylabel=r"$\xi/a_0$")
-    ax.legend(fontsize=6.5, loc="lower right", ncol=2)
+    leg = ax.legend(fontsize=6.5, loc="lower right", ncol=2)
+    ax.add_artist(leg)
+    ax.legend(handles=[matplotlib.lines.Line2D([], [], color="0.3", marker="o", ls="none", mfc="none", mew=0.7, label="symbols: measured"),
+                       matplotlib.lines.Line2D([], [], color="0.3", ls="-", lw=0.6, label="lines: predicted from the seed")],
+              fontsize=6.5, loc="upper left")
     fig.tight_layout()
     save(fig, "fig_xi_vs_chi")
 

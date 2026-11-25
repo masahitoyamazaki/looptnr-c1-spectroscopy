@@ -7,14 +7,56 @@ step before |X| > 0.1).  If the response is linear, g_d(12; h) = g_seed + c h, s
 minimum at h* = -g_seed/c cancels the truncation seed at n = 12.  Spectra fix only g_d^2, so (g_seed, c) is
 determined up to a common sign; we report c > 0, i.e. the sign of g_seed relative to the direction of h.
 Prints the fit and n_e(h), writes b9.csv and fig_b9.pdf/png.
+
+2026-11-25: the parabola is fitted with a global search (global_fit, copied from
+seed_refit_20261112/refit_b9.py); the earlier fit from four starting values landed in local minima for
+(K,chi)=(0.75,32), (1,40), (1.25,32), (1.5,32), (1.75,32).  The raw run directories are on Miyabi-C;
+`python3 b9.py --from-csv` refits the per-run g2 and n_e stored in b9.csv (old outputs: old_20261125_localmin/).
 """
 import csv, glob, math, os, sys
 import numpy as np
-from scipy.optimize import least_squares
+from scipy.optimize import least_squares, minimize_scalar
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from b1_b2 import seed   # noqa: E402
+
+
+def global_fit(mu, g2):
+    """Global least squares of ln g2 = 2 ln|g_seed + rho*mu| (rho>0).
+    2026-11-25 fix: the earlier version ran least_squares from 8 starting values only and landed in local
+    minima for (K,chi)=(1.75,32), (1.25,40) and in several jackknife samples (see
+    Yamazaki/runs/sec4_check_20261125/local_minima.txt).  Now: with g2 = rho^2 (mu-mu*)^2 the optimal ln rho at
+    fixed mu* is the mean residual, so the cost is profiled over mu* on a dense grid (|mu*| <= 3 max|mu|),
+    the 40 best grid minima are refined by bounded 1D minimization, and the best one is polished with
+    least_squares in (g_seed, rho) (same residual and bounds as before; gives the Jacobian for the errors)."""
+    lg = np.log(g2)
+
+    def prof(ms):
+        d = lg - 2 * np.log(np.abs(mu - ms) + 1e-300)
+        c = d.mean()
+        return float(np.sum((d - c) ** 2)), c
+
+    span = 3 * np.max(np.abs(mu)) + 1e-6
+    grid = np.linspace(-span, span, 600001)
+    h = grid[1] - grid[0]
+    Cc = []
+    for chunk in np.array_split(grid, 60):
+        D = lg[None, :] - 2 * np.log(np.abs(mu[None, :] - chunk[:, None]) + 1e-300)
+        Cc.append(np.sum((D - D.mean(1, keepdims=True)) ** 2, 1))
+    Cc = np.nan_to_num(np.concatenate(Cc), nan=np.inf)
+    loc = np.flatnonzero((Cc[1:-1] <= Cc[:-2]) & (Cc[1:-1] <= Cc[2:])) + 1
+    cand = sorted(zip(Cc[loc], grid[loc]))
+    best = None
+    for _, m0 in cand[:40]:
+        r = minimize_scalar(lambda m: prof(m)[0], bounds=(m0 - h, m0 + h), method="bounded", options={"xatol": 1e-17})
+        if best is None or r.fun < best.fun:
+            best = r
+    rho = math.exp(prof(best.x)[1] / 2)
+    f = lambda p: 2 * np.log(np.abs(p[0] + p[1] * mu) + 1e-30) - np.log(g2)
+    res = least_squares(f, [-rho * best.x, rho], bounds=([-1, 0], [1, 1e4]), x_scale=[abs(rho * best.x) + 1e-12, rho])
+    assert 2 * res.cost <= best.fun * (1 + 1e-6) + 1e-12, (2 * res.cost, best.fun)
+    return res
 
 
 def parse(name):
@@ -25,10 +67,16 @@ def parse(name):
 
 def main(out):
     runs = {}
-    for d in sorted(glob.glob(os.path.join(out, "B9_K*_chi*_ab*"))):
-        K, chi, h = parse(os.path.basename(d))
-        f = seed(d, K)
-        runs.setdefault((K, chi), []).append((h, f))
+    if out == "--from-csv":
+        for r in csv.DictReader(open(os.path.join(HERE, "old_20261125_localmin", "b9.csv"))):
+            K, chi, h = float(r["K"]), int(r["chi"]), float(r["h"])
+            runs.setdefault((K, chi), []).append((h, dict(g2=float(r["g2_n12"]), ne=int(r["n_e"]),
+                                                           r=float(r["r_over_pred"]) * 2 ** (2 - K))))
+    else:
+        for d in sorted(glob.glob(os.path.join(out, "B9_K*_chi*_ab*"))):
+            K, chi, h = parse(os.path.basename(d))
+            f = seed(d, K)
+            runs.setdefault((K, chi), []).append((h, f))
     rows, fits = [], {}
     for (K, chi), pts in sorted(runs.items()):
         pts = sorted(pts)
@@ -38,16 +86,8 @@ def main(out):
             continue
         hs = np.array([h for h, _ in ok]); g2 = np.array([f["g2"] for _, f in ok])
         h0 = [f for h, f in ok if h == 0]
-        best = None
-        for s0 in (1, -1):
-            for sc in (1, -1):
-                p0 = [s0 * math.sqrt(h0[0]["g2"] if h0 else g2.min()), sc * math.sqrt(g2.max()) / max(abs(hs).max(), 1e-12)]
-                r = least_squares(lambda p: np.log((p[0] + p[1] * hs) ** 2 + 1e-40) - np.log(g2), p0)
-                if best is None or r.cost < best.cost:
-                    best = r
+        best = global_fit(hs, g2)  # 2026-11-25: global search (was: least_squares from 4 starts)
         g0, c = best.x
-        if c < 0:
-            g0, c = -g0, -c
         hstar = -g0 / c
         rms = math.sqrt(2 * best.cost / len(hs))
         fits[(K, chi)] = (g0, c, hstar, rms)

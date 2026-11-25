@@ -1,0 +1,24 @@
+{
+  "runs": [
+    {
+      "id": "K1.25_chi24_predicted",
+      "group": "K1.25_chi24",
+      "K": 1.25,
+      "chi": 24,
+      "h": -4.2316769338993295e-05,
+      "a": 0.999957683230661,
+      "b": 1.000042316769339,
+      "c": 1.175570504585,
+      "steps": 120,
+      "label": "predicted",
+      "kind": "prediction",
+      "variant": "twist_campaign_20261109_K1.25_chi24_predicted",
+      "stop_at_threshold": true,
+      "params_repr": "LoopParameters{KrylovKit.GMRES{KrylovKit.ModifiedGramSchmidt2, Float64}}(TNRKit.MultipleCrit(TNRKit.stopcrit[maxiter(20), convcrit(1.0e-9, TNRKit.var\"#LoopParameters##0#LoopParameters##1\"())]), true, MatrixAlgebraKit.TruncationByValue{Float64, Int64, typeof(abs)}(0.0, 1.0e-14, 2, abs, false), false, KrylovKit.GMRES{KrylovKit.ModifiedGramSchmidt2, Float64}(KrylovKit.ModifiedGramSchmidt2(), 250, 128, 1.0e-10, 0), false, 0.8, 1.0e-5, 1.0e-7)",
+      "checkpoint_path": "local_tnr_data/Six_vertex/symmetry=CU1Irrep/a=0.999957683230661_b=1.000042316769339/c=1.175570504585/LoopTNR/chi=24/RGsteps=120_init=true/variant=twist_campaign_20261109_K1.25_chi24_predicted",
+      "prediction_sha256": "f8242a6f813ffcaf3e949d1e9bb0d7233f17697834e13825ab61ec2044046aac",
+      "reservation_key": "5326a88019bd1044205bb50a4328fb3d30269aca6cdec34a795729bb5a6e7501"
+    }
+  ],
+  "prediction_sha256": "f8242a6f813ffcaf3e949d1e9bb0d7233f17697834e13825ab61ec2044046aac"
+}

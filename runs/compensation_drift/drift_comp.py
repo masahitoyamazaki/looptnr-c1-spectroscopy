@@ -11,8 +11,8 @@ sys.path.insert(0, os.path.join(HERE, "..", "main", "analysis"))
 import drift  # noqa
 BASE = os.path.join(HERE, "..", "main", "data")
 B9 = os.path.join(HERE, "..", "additional", "data")
-MUSTAR = {(0.75,32):2.6e-6,(0.75,40):1.5e-6,(1.0,32):5.4e-6,(1.0,40):4.2e-6,(1.25,32):7.2e-6,(1.25,40):5.9e-6,
-          (1.5,32):3.6e-5,(1.5,40):2.2e-5,(1.75,32):1.3e-4,(1.75,40):1.2e-4}
+MUSTAR = {(0.75,32):2.6e-6,(0.75,40):1.5e-6,(1.0,32):5.4e-6,(1.0,40):4.2e-6,(1.25,32):7.2e-6,(1.25,40):6.1e-6,
+          (1.5,32):3.6e-5,(1.5,40):2.2e-5,(1.75,32):1.17e-4,(1.75,40):1.2e-4}  # 2026-11-25: mu* from the global refit of refit_b9.py
 
 def fitdrift(steps, K):
     X = {r["n"]: r["X"] for r in steps}
